@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-13T14:12:38.794Z",
+  "generado": "2026-09-13T14:33:58.789Z",
   "partidos": [
     {
       "id": "fd-555009",
@@ -90,7 +90,7 @@
       "torneo": "Eredivisie",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-13T12:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "SC Heerenveen",
       "vis": "Telstar 1963",
       "cuotas": {
@@ -178,7 +178,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-1"
+        "txt": "0-3"
       }
     },
     {
@@ -219,7 +219,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 5",
       "inicioUTC": "2026-09-13T14:15:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Levante UD",
       "vis": "FC Barcelona",
       "cuotas": {
@@ -234,6 +234,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-1"
       }
     },
     {
@@ -283,22 +286,6 @@
       }
     },
     {
-      "id": "fd-565800",
-      "dep": "Fútbol",
-      "torneo": "Bundesliga",
-      "ronda": "Jornada 3",
-      "inicioUTC": "2026-09-13T15:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "SV 07 Elversberg",
-      "vis": "FC Bayern München",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-560580",
       "dep": "Fútbol",
       "torneo": "Premier League",
@@ -318,9 +305,25 @@
         "estadio": "Old Trafford",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 6,
-        "temp_c": 21
+        "viento_kmh": 5,
+        "temp_c": 22
       },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-565800",
+      "dep": "Fútbol",
+      "torneo": "Bundesliga",
+      "ronda": "Jornada 3",
+      "inicioUTC": "2026-09-13T15:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "SV 07 Elversberg",
+      "vis": "FC Bayern München",
+      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -514,7 +517,7 @@
         "estadio": "Reale Arena",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 10,
+        "viento_kmh": 11,
         "temp_c": 25
       },
       "lesiones": {
@@ -667,8 +670,8 @@
         "estadio": "San Siro",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 9,
-        "temp_c": 26
+        "viento_kmh": 7,
+        "temp_c": 27
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -719,8 +722,8 @@
         "estadio": "Estadio de la Cerámica",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 18,
-        "temp_c": 30
+        "viento_kmh": 17,
+        "temp_c": 29
       },
       "lesiones": {
         "cobertura": "sin confirmar",
