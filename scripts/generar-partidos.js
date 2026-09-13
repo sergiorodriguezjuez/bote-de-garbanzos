@@ -208,7 +208,13 @@ async function main(){
   const anterior = leerJSON(SALIDA, { partidos: [] });
   const anteriorPorId = Object.fromEntries((anterior.partidos || []).map(p => [p.id, p]));
 
-  const [partidosFD, mapaElo] = await Promise.all([obtenerPartidosFD(), obtenerMapaElo()]);
+  const [partidosFD, mapaElo] = await Promise.all([
+    obtenerPartidosFD(),
+    obtenerMapaElo().catch(e => {
+      console.warn(`clubelo.com no respondió (${e.message}); esta pasada no tendrá Elo ni simulación, se reintentará en la próxima.`);
+      return {};
+    }),
+  ]);
 
   const sinElo = new Set();
   const sinEstadio = new Set();
