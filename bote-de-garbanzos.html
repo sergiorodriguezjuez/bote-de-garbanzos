@@ -237,29 +237,56 @@ function bancaActual(){
     .reduce((s, h) => s + h.pnl, 0);
 }
 
-function apuestaPendiente(partidoId){
-  return cartera.historial.find(h => h.partidoId === partidoId && h.estado === 'pendiente') || null;
+function apuestaPendiente(partidoId, mercadoId){
+  return cartera.historial.find(h =>
+    h.partidoId === partidoId && (h.mercado || '1x2') === mercadoId && h.estado === 'pendiente') || null;
 }
 
+// Un partido puede tener valor en varios mercados a la vez (quién gana Y más/menos goles), así que
+// cada uno se trata y se liquida por separado. "campoCuota" dice qué clave de p.cuotas mirar para
+// cada posible resultado; "resultados" da la lista de resultados con su probabilidad (0-100) del modelo.
+const MERCADOS = [
+  {
+    id: '1x2',
+    nombre: 'Resultado',
+    resultados: p => resultados(p),
+    campoCuota: r => r.clase === 'emp' ? 'empate' : r.clase,
+  },
+  {
+    id: 'goles25',
+    nombre: 'Más/menos de 2.5 goles',
+    resultados: p => (p.sim && p.sim.pMasDe25 != null) ? [
+      { clase: 'masDe25', etq: 'Más de 2.5', equipo: 'Más de 2.5', pct: p.sim.pMasDe25 * 100 },
+      { clase: 'menosDe25', etq: 'Menos de 2.5', equipo: 'Menos de 2.5', pct: p.sim.pMenosDe25 * 100 },
+    ] : [],
+    campoCuota: r => r.clase,
+  },
+];
+
 // Valor esperado de apostar a un resultado concreto: prob. del modelo * cuota - 1.
-function valorApuesta(p, r){
+function valorApuesta(p, mercado, r){
   if(!p.cuotas) return null;
-  const campo = r.clase === 'emp' ? 'empate' : r.clase;
-  const cuota = p.cuotas[campo];
+  const cuota = p.cuotas[mercado.campoCuota(r)];
   if(!cuota) return null;
   const prob = r.pct / 100;
   return { equipo: r.equipo, cuota, prob, edge: prob * cuota - 1 };
 }
 
-// El mejor resultado con value bet de un partido, si lo hay (por encima del umbral).
-function mejorValor(p){
+// El mejor resultado con value bet de un partido en un mercado dado, si lo hay (por encima del umbral).
+function mejorValor(p, mercado){
   if(!p.cuotas || !p.sim) return null;
   let mejor = null;
-  for(const r of resultados(p)){
-    const v = valorApuesta(p, r);
+  for(const r of mercado.resultados(p)){
+    const v = valorApuesta(p, mercado, r);
     if(v && v.edge > CONFIG_APUESTAS.umbralEdge && (!mejor || v.edge > mejor.edge)) mejor = v;
   }
   return mejor;
+}
+
+// Si el mercado tiene cuotas para este partido (haya o no valor); para decidir si se muestra el bloque.
+function mercadoDisponible(p, mercado){
+  if(!p.cuotas) return false;
+  return mercado.resultados(p).some(r => valorApuesta(p, mercado, r) != null);
 }
 
 // Fracción de la banca a jugar (Kelly fraccionado, con tope de seguridad).
@@ -272,13 +299,15 @@ function kellyFraccion(prob, cuota){
   return Math.min(fStar * CONFIG_APUESTAS.fraccionKelly, CONFIG_APUESTAS.apuestaMaxPct);
 }
 
-function registrarApuesta(p, valor){
-  if(apuestaPendiente(p.id)) return;
+function registrarApuesta(p, mercado, valor){
+  if(apuestaPendiente(p.id, mercado.id)) return;
   const stake = +(bancaActual() * kellyFraccion(valor.prob, valor.cuota)).toFixed(2);
   if(stake <= 0) return;
   cartera.historial.unshift({
-    id: p.id + '-' + Date.now(),
+    id: p.id + '-' + mercado.id + '-' + Date.now(),
     partidoId: p.id,
+    mercado: mercado.id,
+    mercadoNombre: mercado.nombre,
     fecha: new Date().toISOString(),
     partido: `${p.loc} · ${p.vis}`,
     seleccion: valor.equipo,
@@ -293,16 +322,41 @@ function registrarApuesta(p, valor){
   pintar();
 }
 
-// Se llama al marcar (o desmarcar) el ganador de un partido: liquida la apuesta pendiente si la hay.
+// Se llama al marcar (o desmarcar) el ganador de un partido: liquida la apuesta de "1x2" pendiente
+// si la hay (el mercado de goles se liquida solo, ver resolverGoles(), a partir del marcador final).
 function resolverApuestas(partidoId, ganador){
   let cambiado = false;
   for(const h of cartera.historial){
-    if(h.partidoId !== partidoId) continue;
+    if(h.partidoId !== partidoId || (h.mercado || '1x2') !== '1x2') continue;
     if(ganador == null){
       if(h.estado !== 'pendiente'){ h.estado = 'pendiente'; h.pnl = 0; cambiado = true; }
     }else if(h.estado === 'pendiente'){
       if(h.seleccion === ganador){ h.estado = 'ganada'; h.pnl = +(h.stake * (h.cuota - 1)).toFixed(2); }
       else{ h.estado = 'perdida'; h.pnl = -h.stake; }
+      cambiado = true;
+    }
+  }
+  if(cambiado) guardarCartera();
+}
+
+function golesTotales(p){
+  const m = p.marcador && p.marcador.txt && p.marcador.txt.match(/(\d+)\s*-\s*(\d+)/);
+  return m ? Number(m[1]) + Number(m[2]) : null;
+}
+
+// El mercado de goles no tiene botón manual: se liquida solo en cuanto el partido está FINALIZADO
+// y sabemos el marcador. Se llama en cada pintado, así que revisa todos los partidos terminados.
+function resolverGoles(){
+  let cambiado = false;
+  for(const p of TODOS){
+    if(estadoActual(p) !== 'FINALIZADO') continue;
+    const total = golesTotales(p);
+    if(total == null) continue;
+    for(const h of cartera.historial){
+      if(h.partidoId !== p.id || h.mercado !== 'goles25' || h.estado !== 'pendiente') continue;
+      const gano = (h.seleccion === 'Más de 2.5' && total > 2.5) || (h.seleccion === 'Menos de 2.5' && total < 2.5);
+      h.estado = gano ? 'ganada' : 'perdida';
+      h.pnl = gano ? +(h.stake * (h.cuota - 1)).toFixed(2) : -h.stake;
       cambiado = true;
     }
   }
@@ -352,6 +406,7 @@ function pintarCartera(){
   const filas = cartera.historial.slice(0, 20).map(h => `
     <tr>
       <td>${h.partido}</td>
+      <td>${h.mercadoNombre || 'Resultado'}</td>
       <td>${h.seleccion}</td>
       <td>${h.cuota.toFixed(2)}</td>
       <td>${(h.edge * 100).toFixed(1)}%</td>
@@ -360,7 +415,7 @@ function pintarCartera(){
       <td class="${h.pnl > 0 ? 'ganada' : h.pnl < 0 ? 'perdida' : 'pendiente'}">${h.pnl > 0 ? '+' : ''}${h.pnl.toFixed(2)}€</td>
     </tr>`).join('');
   tabla.innerHTML = `<table class="historial">
-    <thead><tr><th>Partido</th><th>A qué</th><th>Cuota</th><th>Edge</th><th>Apostado</th><th>Estado</th><th>P/L</th></tr></thead>
+    <thead><tr><th>Partido</th><th>Mercado</th><th>A qué</th><th>Cuota</th><th>Edge</th><th>Apostado</th><th>Estado</th><th>P/L</th></tr></thead>
     <tbody>${filas}</tbody>
   </table>`;
 }
@@ -515,6 +570,7 @@ function pintar(){
     racha.textContent = `${resueltos} partidos resueltos. Empate.`;
   }
 
+  resolverGoles();
   pintarCartera();
 
   const lista = document.getElementById('lista');
@@ -591,8 +647,12 @@ function filaPartido(p){
   const res = resultados(p);
   const top = res.reduce((a, b) => b.pct > a.pct ? b : a);
   const conf = top.pct;
-  const pendiente = apuestaPendiente(p.id);
-  const mejor = pendiente ? null : mejorValor(p);
+  const bloquesMercado = MERCADOS
+    .filter(m => mercadoDisponible(p, m) || apuestaPendiente(p.id, m.id))
+    .map(m => {
+      const pendiente = apuestaPendiente(p.id, m.id);
+      return { mercado: m, pendiente, mejor: pendiente ? null : mejorValor(p, m) };
+    });
 
   const clase = conf >= 85 ? 'alta' : (conf >= 60 ? 'media' : 'baja');
   const etiqueta = conf >= 85 ? 'casi seguro' : (conf >= 60 ? 'favorito claro' : 'repartido');
@@ -637,11 +697,13 @@ function filaPartido(p){
     <div class="pcts" style="justify-content:flex-start"><span>${repartoTxt}</span></div>
     ${aviso ? `<div class="pcts" style="justify-content:flex-start"><span>${aviso}</span></div>` : ''}
     ${bloqueMeta(p)}
-    ${bloqueValor(p, mejor, pendiente)}
+    ${bloquesMercado.map(b => bloqueValor(p, b.mercado, b.mejor, b.pendiente)).join('')}
   `;
 
-  const btnApostar = div.querySelector('.btn-apostar');
-  if(btnApostar) btnApostar.addEventListener('click', () => registrarApuesta(p, mejor));
+  div.querySelectorAll('.btn-apostar').forEach(btn => {
+    const b = bloquesMercado.find(x => x.mercado.id === btn.dataset.mercado);
+    if(b && b.mejor) btn.addEventListener('click', () => registrarApuesta(p, b.mercado, b.mejor));
+  });
 
   const ctr = document.createElement('div');
   ctr.className = 'controles';
@@ -702,20 +764,20 @@ function bloqueMeta(p){
   return partes.length ? `<div class="meta-partido">${partes.join('')}</div>` : '';
 }
 
-// Value bet detectada (o apuesta ya registrada) para este partido, contra la cartera de prueba.
-function bloqueValor(p, mejor, pendiente){
-  if(!p.cuotas) return '';
+// Value bet detectada (o apuesta ya registrada) para un mercado de este partido, contra la cartera.
+function bloqueValor(p, mercado, mejor, pendiente){
+  const etiqueta = mercado.nombre;
   if(pendiente){
-    return `<div class="meta-fila valor"><span class="meta-tag">Apuesta</span>` +
+    return `<div class="meta-fila valor"><span class="meta-tag">${etiqueta}</span>` +
       `<span>${pendiente.stake.toFixed(2)}€ a ${pendiente.seleccion} @ ${pendiente.cuota.toFixed(2)} — ${pendiente.estado}</span></div>`;
   }
   if(!mejor){
-    return `<div class="meta-fila valor sin"><span class="meta-tag">Valor</span>` +
+    return `<div class="meta-fila valor sin"><span class="meta-tag">${etiqueta}</span>` +
       `<span>Sin value bet (ninguna cuota supera el umbral del ${(CONFIG_APUESTAS.umbralEdge * 100).toFixed(0)}%)</span></div>`;
   }
-  return `<div class="meta-fila valor si"><span class="meta-tag">Valor</span>` +
+  return `<div class="meta-fila valor si"><span class="meta-tag">${etiqueta}</span>` +
     `<span>${mejor.equipo} @ ${mejor.cuota.toFixed(2)} — edge ${(mejor.edge * 100).toFixed(1)}%` +
-    `<button class="op btn-apostar" type="button">Apostar simulado</button></span></div>`;
+    `<button class="op btn-apostar" type="button" data-mercado="${mercado.id}">Apostar simulado</button></span></div>`;
 }
 
 function grupo(etiqueta, p, campo, res, esResultado){
@@ -780,8 +842,8 @@ function datosEjemplo(){
         inicioUTC: iso(4 * h), estado:"PROGRAMADO",
         loc:"Real Sociedad", vis:"Celta",
         elo:{loc:1788, vis:1712},
-        sim:{n:10000, pLoc:0.472, pEmpate:0.267, pVis:0.261, actualizado: iso(-8 * m)},
-        cuotas:{loc:2.10, empate:3.30, vis:4.20, casa:"Bet365 (ejemplo)", actualizado: iso(-8 * m)},
+        sim:{n:10000, pLoc:0.472, pEmpate:0.267, pVis:0.261, pMasDe25:0.54, pMenosDe25:0.46, actualizado: iso(-8 * m)},
+        cuotas:{loc:2.10, empate:3.30, vis:4.20, masDe25:1.95, menosDe25:1.85, casa:"Bet365 (ejemplo)", actualizado: iso(-8 * m)},
         clima:{estadio:"Reale Arena", techo:false, lluvia_mm:1.2, viento_kmh:18, temp_c:19, resumen:"Llovizna y viento flojo; leve bajada de goles esperados"},
         lesiones:{cobertura:"completa",
           loc:[{jugador:"Oyarzabal", nota:"sobrecarga", severidad:"duda", fuente:"API-Football"}],
@@ -800,8 +862,8 @@ function datosEjemplo(){
         inicioUTC: iso(1 * d + 3 * h), estado:"PROGRAMADO",
         loc:"Betis", vis:"Real Madrid",
         elo:{loc:1802, vis:1985},
-        sim:{n:10000, pLoc:0.182, pEmpate:0.243, pVis:0.575},
-        cuotas:{loc:4.50, empate:3.60, vis:1.72, casa:"Bet365 (ejemplo)", actualizado: iso(-8 * m)}
+        sim:{n:10000, pLoc:0.182, pEmpate:0.243, pVis:0.575, pMasDe25:0.58, pMenosDe25:0.42},
+        cuotas:{loc:4.50, empate:3.60, vis:1.72, masDe25:1.72, menosDe25:2.15, casa:"Bet365 (ejemplo)", actualizado: iso(-8 * m)}
       }
     ]
   };

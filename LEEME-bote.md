@@ -99,6 +99,23 @@ push de `partidos.json` si cambió.
 Para probar el script en local antes de subirlo: `$env:FOOTBALL_DATA_API_KEY="tu_clave"` (PowerShell)
 y `node scripts/generar-partidos.js`.
 
+## Fase 2.1 — HECHA (2026-09-13): segundo mercado (más/menos de 2.5 goles)
+
+La cartera de prueba ya no mira solo quién gana el partido: también compara la probabilidad
+simulada de más/menos de 2.5 goles totales contra la cuota de mercado (mercado `totals` de The Odds
+API). Un mismo partido puede tener value bet en **los dos mercados a la vez** (por ejemplo, "Celta
+gana" Y "más de 2.5 goles" pueden ser ambos value bets del mismo partido) — la cartera los trata y
+liquida por separado. El de 1X2 sigue liquidándose al marcar el "Ganó"; el de goles se liquida solo,
+en cuanto el partido queda FINALIZADO, leyendo el marcador final.
+
+**Corners y tarjetas — descartado por ahora, con motivo:** The Odds API sí tiene esos mercados
+(`alternate_totals_corners`, `alternate_totals_cards`), pero cada mercado adicional que se pide
+multiplica el gasto de la cuota gratuita (fórmula: nº de mercados × nº de regiones), y sobre todo:
+**no tenemos ninguna fuente de datos para calcular una probabilidad propia de córners o tarjetas**
+(el Elo no dice nada de eso). Sin probabilidad propia no hay con qué comparar esa cuota — se podría
+enseñar el número, pero no detectar si tiene valor. Haría falta buscar otra fuente de estadísticas
+por equipo (córners/tarjetas por partido) antes de que esto tenga sentido.
+
 ## Siguientes fases (pendientes)
 
 | Fase | Qué falta |

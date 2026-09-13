@@ -112,21 +112,25 @@ function buscarElo(nombreFD, mapaElo, alias){
   return parcial != null ? mapaElo[parcial] : null;
 }
 
-/* ---------------- The Odds API: cuotas 1x2, con caché para no gastar la cuota gratuita ---------------- */
+/* ---------------- The Odds API: cuotas 1x2 y goles, con caché para no gastar la cuota gratuita ---------------- */
+// Cada mercado que se pide multiplica el gasto de la cuota (500/mes gratis): h2h + totals = 2
+// créditos por liga y pasada. Se queda ahí a propósito — córners/tarjetas existen como mercado en
+// la API, pero no tenemos ninguna fuente de datos para calcular una probabilidad propia de eso, así
+// que no habría con qué comparar esa cuota (sin probabilidad propia no hay "valor" que detectar).
 
 async function obtenerCuotasLiga(codigoLiga){
   const clave = LIGAS_CUOTAS[codigoLiga];
   if(!clave || !ODDS_KEY) return [];
   const r = await pedir(
-    `https://api.the-odds-api.com/v4/sports/${clave}/odds?apiKey=${ODDS_KEY}&regions=eu&markets=h2h&oddsFormat=decimal`
+    `https://api.the-odds-api.com/v4/sports/${clave}/odds?apiKey=${ODDS_KEY}&regions=eu&markets=h2h,totals&oddsFormat=decimal`
   );
   return r.json();
 }
 
-function precioMedio(evento, predicado){
+function precioMedio(evento, clave, predicado){
   const precios = [];
   for(const casa of evento.bookmakers || []){
-    const mercado = casa.markets.find(m => m.key === 'h2h');
+    const mercado = casa.markets.find(m => m.key === clave);
     const resultado = mercado && mercado.outcomes.find(predicado);
     if(resultado) precios.push(1 / resultado.price);
   }
@@ -142,11 +146,15 @@ function buscarCuotasPartido(loc, vis, eventos){
     return (h.includes(nLoc) || nLoc.includes(h)) && (a.includes(nVis) || nVis.includes(a));
   });
   if(!evento) return null;
-  const cLoc = precioMedio(evento, o => normalizar(o.name) === nLoc || normalizar(o.name) === normalizar(evento.home_team));
-  const cVis = precioMedio(evento, o => normalizar(o.name) === nVis || normalizar(o.name) === normalizar(evento.away_team));
-  const cEmpate = precioMedio(evento, o => normalizar(o.name) === 'draw' || normalizar(o.name) === 'empate');
+  const cLoc = precioMedio(evento, 'h2h', o => normalizar(o.name) === nLoc || normalizar(o.name) === normalizar(evento.home_team));
+  const cVis = precioMedio(evento, 'h2h', o => normalizar(o.name) === nVis || normalizar(o.name) === normalizar(evento.away_team));
+  const cEmpate = precioMedio(evento, 'h2h', o => normalizar(o.name) === 'draw' || normalizar(o.name) === 'empate');
   if(cLoc == null || cVis == null) return null;
   const cuotas = { loc: cLoc, vis: cVis, casa: 'Media de mercado (The Odds API)', actualizado: new Date().toISOString() };
+  const masDe25 = precioMedio(evento, 'totals', o => o.name === 'Over' && Math.abs(o.point - 2.5) < 0.01);
+  const menosDe25 = precioMedio(evento, 'totals', o => o.name === 'Under' && Math.abs(o.point - 2.5) < 0.01);
+  if(masDe25 != null) cuotas.masDe25 = masDe25;
+  if(menosDe25 != null) cuotas.menosDe25 = menosDe25;
   if(cEmpate != null) cuotas.empate = cEmpate;
   return cuotas;
 }
@@ -192,12 +200,17 @@ function simular(eloLoc, eloVis, n = N_SIMULACIONES){
   const cuotaFuerza = fuerzaLoc / (fuerzaLoc + fuerzaVis);
   const lambdaLoc = GOLES_MEDIOS_TOTAL * cuotaFuerza;
   const lambdaVis = GOLES_MEDIOS_TOTAL * (1 - cuotaFuerza);
-  let loc = 0, emp = 0, vis = 0;
+  let loc = 0, emp = 0, vis = 0, masDe25 = 0;
   for(let i = 0; i < n; i++){
     const gl = poissonSample(lambdaLoc), gv = poissonSample(lambdaVis);
     if(gl > gv) loc++; else if(gl < gv) vis++; else emp++;
+    if(gl + gv > 2.5) masDe25++;
   }
-  return { n, pLoc: loc / n, pEmpate: emp / n, pVis: vis / n, actualizado: new Date().toISOString() };
+  return {
+    n, pLoc: loc / n, pEmpate: emp / n, pVis: vis / n,
+    pMasDe25: masDe25 / n, pMenosDe25: (n - masDe25) / n,
+    actualizado: new Date().toISOString(),
+  };
 }
 
 /* ---------------- programa principal ---------------- */
