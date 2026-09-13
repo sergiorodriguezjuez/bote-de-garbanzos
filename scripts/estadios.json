@@ -1,0 +1,41 @@
+{
+  "_ayuda": "Clave = nombre del equipo LOCAL normalizado (mismo normalizar() del script: minúsculas, sin acentos, sin CF/FC/SD/etc). Si el aviso 'Sin estadio/clima' señala un equipo que te interesa, añade su entrada aquí. techo=true solo si el estadio se cierra habitualmente ante mal tiempo.",
+
+  "real madrid": { "nombre": "Santiago Bernabéu", "lat": 40.4531, "lon": -3.6883, "techo": false },
+  "barcelona": { "nombre": "Spotify Camp Nou", "lat": 41.3809, "lon": 2.1228, "techo": false },
+  "atletico madrid": { "nombre": "Cívitas Metropolitano", "lat": 40.4362, "lon": -3.5995, "techo": false },
+  "real sociedad": { "nombre": "Reale Arena", "lat": 43.3018, "lon": -1.9740, "techo": false },
+  "sevilla": { "nombre": "Ramón Sánchez-Pizjuán", "lat": 37.3840, "lon": -5.9709, "techo": false },
+  "villarreal": { "nombre": "Estadio de la Cerámica", "lat": 39.9442, "lon": -0.1035, "techo": false },
+  "athletic": { "nombre": "San Mamés", "lat": 43.2642, "lon": -2.9496, "techo": false },
+  "valencia": { "nombre": "Mestalla", "lat": 39.4747, "lon": -0.3583, "techo": false },
+  "celta vigo": { "nombre": "Balaídos", "lat": 42.2121, "lon": -8.7386, "techo": false },
+  "girona": { "nombre": "Montilivi", "lat": 41.9631, "lon": 2.8265, "techo": false },
+
+  "manchester city": { "nombre": "Etihad Stadium", "lat": 53.4831, "lon": -2.2004, "techo": false },
+  "manchester united": { "nombre": "Old Trafford", "lat": 53.4631, "lon": -2.2913, "techo": false },
+  "liverpool": { "nombre": "Anfield", "lat": 53.4308, "lon": -2.9608, "techo": false },
+  "arsenal": { "nombre": "Emirates Stadium", "lat": 51.5549, "lon": -0.1084, "techo": false },
+  "chelsea": { "nombre": "Stamford Bridge", "lat": 51.4817, "lon": -0.1910, "techo": false },
+  "tottenham hotspur": { "nombre": "Tottenham Hotspur Stadium", "lat": 51.6043, "lon": -0.0664, "techo": false },
+  "newcastle united": { "nombre": "St James' Park", "lat": 54.9756, "lon": -1.6217, "techo": false },
+  "aston villa": { "nombre": "Villa Park", "lat": 52.5092, "lon": -1.8848, "techo": false },
+  "west ham united": { "nombre": "London Stadium", "lat": 51.5386, "lon": -0.0166, "techo": false },
+  "brighton hove albion": { "nombre": "Falmer Stadium", "lat": 50.8617, "lon": -0.0837, "techo": false },
+
+  "bayern munchen": { "nombre": "Allianz Arena", "lat": 48.2188, "lon": 11.6247, "techo": false },
+  "borussia dortmund": { "nombre": "Signal Iduna Park", "lat": 51.4926, "lon": 7.4518, "techo": false },
+  "rb leipzig": { "nombre": "Red Bull Arena Leipzig", "lat": 51.3458, "lon": 12.3486, "techo": false },
+
+  "paris saint germain": { "nombre": "Parc des Princes", "lat": 48.8414, "lon": 2.2530, "techo": false },
+  "olympique marseille": { "nombre": "Stade Vélodrome", "lat": 43.2696, "lon": 5.3960, "techo": false },
+  "monaco": { "nombre": "Stade Louis II", "lat": 43.7274, "lon": 7.4155, "techo": false },
+  "olympique lyonnais": { "nombre": "Groupama Stadium", "lat": 45.7653, "lon": 4.9822, "techo": false },
+
+  "juventus": { "nombre": "Allianz Stadium (Turín)", "lat": 45.1096, "lon": 7.6413, "techo": false },
+  "internazionale milano": { "nombre": "San Siro", "lat": 45.4781, "lon": 9.1240, "techo": false },
+  "milan": { "nombre": "San Siro", "lat": 45.4781, "lon": 9.1240, "techo": false },
+  "roma": { "nombre": "Stadio Olimpico", "lat": 41.9342, "lon": 12.4547, "techo": false },
+  "napoli": { "nombre": "Stadio Diego Armando Maradona", "lat": 40.8279, "lon": 14.1930, "techo": false },
+  "lazio": { "nombre": "Stadio Olimpico", "lat": 41.9342, "lon": 12.4547, "techo": false }
+}

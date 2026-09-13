@@ -1,0 +1,76 @@
+{
+  "_esquema": "Este fichero lo genera el backend (fase 2). Mientras no exista un servidor, la web usa datos de ejemplo internos. Formato de cada partido abajo.",
+  "_campos": {
+    "id": "identificador único y estable del partido (se usa para guardar las apuestas)",
+    "dep": "Tenis | Fútbol | Baloncesto ...",
+    "torneo": "texto libre, opcional (US Open, LaLiga...)",
+    "ronda": "texto libre, opcional (Octavos, Jornada 4...)",
+    "inicioUTC": "fecha y hora de inicio en ISO 8601 con zona (ej. 2026-09-02T17:00:00Z)",
+    "estado": "PROGRAMADO | EN_JUEGO | FINALIZADO | SUSPENDIDO | CANCELADO",
+    "loc": "local / jugador 1",
+    "vis": "visitante / jugador 2",
+    "elo": { "loc": "número", "vis": "número" },
+    "sim": {
+      "n": "número de simulaciones Montecarlo",
+      "pLoc": "probabilidad de victoria local (0..1)",
+      "pEmpate": "solo fútbol: probabilidad de empate (0..1); omitir en tenis",
+      "pVis": "probabilidad de victoria visitante (0..1)",
+      "actualizado": "ISO 8601, cuándo se corrió la simulación"
+    },
+    "cuotas": {
+      "loc": "cuota decimal a favor del local/jugador 1 (ej. 1.85)",
+      "empate": "solo fútbol: cuota decimal del empate; omitir en tenis",
+      "vis": "cuota decimal a favor del visitante/jugador 2",
+      "casa": "texto opcional, casa de apuestas de referencia",
+      "actualizado": "ISO 8601, cuándo se leyó la cuota"
+    },
+    "clima": {
+      "estadio": "texto", "techo": "true/false",
+      "lluvia_mm": "número", "viento_kmh": "número", "temp_c": "número",
+      "resumen": "frase corta con el efecto esperado"
+    },
+    "lesiones": {
+      "cobertura": "completa | parcial | sin confirmar",
+      "loc": [{ "jugador": "texto", "nota": "texto", "severidad": "baja | duda", "fuente": "texto" }],
+      "vis": []
+    },
+    "marcador": { "txt": "marcador parcial o final, ej. 6-4, 3-2 o 0-1" }
+  },
+  "generado": "2026-09-02T09:52:00Z",
+  "partidos": [
+    {
+      "id": "atp-usopen-2026-r16-shelton-hurkacz",
+      "dep": "Tenis",
+      "torneo": "US Open",
+      "ronda": "Octavos",
+      "inicioUTC": "2026-09-02T17:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Shelton",
+      "vis": "Hurkacz",
+      "elo": { "loc": 1949, "vis": 1777 },
+      "sim": { "n": 5000, "pLoc": 0.741, "pVis": 0.259, "actualizado": "2026-09-02T09:52:00Z" },
+      "cuotas": { "loc": 1.28, "vis": 3.60, "casa": "Bet365", "actualizado": "2026-09-02T09:52:00Z" },
+      "clima": { "estadio": "Louis Armstrong", "techo": true, "lluvia_mm": 0, "viento_kmh": 8, "temp_c": 26, "resumen": "Techo cerrado, sin efecto" },
+      "lesiones": { "cobertura": "parcial", "loc": [], "vis": [] }
+    },
+    {
+      "id": "laliga-2026-j4-realsociedad-celta",
+      "dep": "Fútbol",
+      "torneo": "LaLiga",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-09-02T19:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Real Sociedad",
+      "vis": "Celta",
+      "elo": { "loc": 1788, "vis": 1712 },
+      "sim": { "n": 10000, "pLoc": 0.472, "pEmpate": 0.267, "pVis": 0.261, "actualizado": "2026-09-02T09:52:00Z" },
+      "cuotas": { "loc": 2.10, "empate": 3.30, "vis": 4.20, "casa": "Bet365", "actualizado": "2026-09-02T09:52:00Z" },
+      "clima": { "estadio": "Reale Arena", "techo": false, "lluvia_mm": 1.2, "viento_kmh": 18, "temp_c": 19, "resumen": "Llovizna y viento flojo; leve bajada de goles esperados" },
+      "lesiones": {
+        "cobertura": "completa",
+        "loc": [{ "jugador": "Oyarzabal", "nota": "sobrecarga", "severidad": "duda", "fuente": "API-Football" }],
+        "vis": [{ "jugador": "Aspas", "nota": "lesión muscular", "severidad": "baja", "fuente": "API-Football" }]
+      }
+    }
+  ]
+}

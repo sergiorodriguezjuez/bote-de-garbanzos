@@ -1,0 +1,824 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --papel:#FCFBF7;
+    --cuadricula:#C9D7E8;
+    --tinta:#25406E;
+    --tinta-suave:#5B739B;
+    --garbanzo:#D2A94E;
+    --garbanzo-claro:#EFE0BC;
+    --lapiz-rojo:#B23A32;
+    --verde:#3F7A55;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:transparent;color:var(--tinta);
+    font-family:'Archivo',system-ui,sans-serif;font-size:15px;line-height:1.45}
+  .hoja{
+    max-width:760px;margin:0 auto;padding:26px 22px 40px;
+    background:
+      linear-gradient(var(--cuadricula) 1px, transparent 1px) 0 0/100% 26px,
+      linear-gradient(90deg, var(--cuadricula) 1px, transparent 1px) 0 0/26px 100%,
+      var(--papel);
+    background-blend-mode:multiply;
+    border:1px solid #DCD8CC;border-radius:3px;
+  }
+
+  /* ---- cabecera / marcador ---- */
+  .titulo{font-family:'Caveat',cursive;font-size:44px;line-height:1;margin:0 0 4px}
+  .fecha{color:var(--tinta-suave);font-size:13px;margin:0 0 22px}
+
+  .marcador{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:center;
+    padding:16px 14px;border:2px solid var(--tinta);border-radius:4px;background:rgba(252,251,247,.9);margin-bottom:8px}
+  .jugador{text-align:center}
+  .jugador h2{font-family:'Caveat',cursive;font-size:28px;margin:0 0 2px;font-weight:600}
+  .cuenta{font-size:38px;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+  .granos{margin-top:6px;font-size:15px;letter-spacing:1px;color:var(--garbanzo);word-break:break-all;min-height:20px}
+  .vs{font-family:'Caveat',cursive;font-size:22px;color:var(--tinta-suave)}
+  .racha{text-align:center;font-size:13px;color:var(--tinta-suave);margin:0 0 20px}
+
+  /* ---- barra de analisis ---- */
+  .barra-superior{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:0 0 20px}
+  .barra-superior button.analizar{font-family:inherit;font-size:13px;font-weight:600;padding:6px 13px;
+    border:1px solid var(--tinta);background:var(--tinta);color:var(--papel);border-radius:2px;cursor:pointer}
+  .barra-superior button.analizar:hover{background:var(--tinta-suave);border-color:var(--tinta-suave)}
+  .barra-superior button.analizar:focus-visible{outline:2px solid var(--garbanzo);outline-offset:1px}
+  .sello{font-size:12px;color:var(--tinta-suave)}
+
+  /* ---- partidos ---- */
+  h3.seccion{font-size:13px;font-weight:600;margin:0 0 2px}
+  h4.deporte{font-family:'Caveat',cursive;font-size:26px;font-weight:600;margin:22px 0 0;color:var(--tinta)}
+  h4.deporte:first-child{margin-top:0}
+  .proximo{display:flex;gap:12px;padding:8px 0;border-top:1px solid var(--cuadricula);font-size:13px}
+  .proximo:last-child{border-bottom:1px solid var(--cuadricula)}
+  .proximo .dia{font-weight:600;min-width:120px;color:var(--tinta-suave);text-transform:capitalize}
+  .nota{font-size:13px;color:var(--tinta-suave);margin:0 0 16px}
+
+  .partido{border-top:1px solid var(--cuadricula);padding:14px 0}
+  .partido:last-of-type{border-bottom:1px solid var(--cuadricula)}
+  .linea1{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+  .equipos{font-weight:600;flex:1;min-width:200px}
+  .torneo{font-size:12px;color:var(--tinta-suave);margin:2px 0 0}
+  .conf{font-size:13px;font-weight:600}
+  .conf.alta{color:var(--verde)}
+  .conf.media{color:var(--garbanzo)}
+  .conf.baja{color:var(--lapiz-rojo)}
+
+  .estado{font-variant-numeric:tabular-nums;font-weight:600;color:var(--tinta-suave);font-size:12px;
+    min-width:52px;border:1px solid var(--cuadricula);border-radius:2px;padding:1px 6px;text-align:center}
+  .estado.en-juego{color:var(--papel);background:var(--lapiz-rojo);border-color:var(--lapiz-rojo);
+    animation:latido 1.6s ease-in-out infinite}
+  .estado.susp{color:var(--lapiz-rojo);border-color:var(--lapiz-rojo)}
+  @keyframes latido{50%{opacity:.55}}
+
+  .barra{height:9px;margin:9px 0 6px;display:flex;border:1px solid var(--tinta);border-radius:2px;overflow:hidden}
+  .barra i{display:block;height:100%}
+  .barra .loc{background:var(--tinta)}
+  .barra .emp{background:var(--garbanzo)}
+  .barra .vis{background:var(--garbanzo-claro)}
+  .pcts{display:flex;justify-content:space-between;font-size:12px;color:var(--tinta-suave);
+    font-variant-numeric:tabular-nums;margin-bottom:9px}
+
+  .meta-partido{margin:6px 0 4px;border-left:2px solid var(--cuadricula);padding-left:9px;
+    display:flex;flex-direction:column;gap:4px}
+  .meta-fila{display:flex;gap:7px;font-size:12px;color:var(--tinta-suave);flex-wrap:wrap;align-items:baseline}
+  .meta-tag{font-weight:700;color:var(--tinta);text-transform:uppercase;letter-spacing:.5px;font-size:10px;
+    border:1px solid var(--cuadricula);border-radius:2px;padding:0 4px}
+  .chip{display:inline-block;margin:0 4px 3px 0;padding:1px 6px;border:1px solid var(--cuadricula);
+    border-radius:2px;background:rgba(252,251,247,.9)}
+  .chip.baja{border-color:var(--lapiz-rojo);color:var(--lapiz-rojo)}
+  .cobertura{font-style:italic}
+
+  .controles{display:flex;gap:16px;flex-wrap:wrap;align-items:center;font-size:13px;margin-top:4px}
+  .grupo{display:flex;gap:5px;align-items:center}
+  .grupo span{color:var(--tinta-suave)}
+  button.op{font-family:inherit;font-size:12px;font-weight:600;padding:3px 9px;
+    border:1px solid var(--tinta-suave);background:transparent;color:var(--tinta-suave);
+    border-radius:2px;cursor:pointer}
+  button.op:hover{border-color:var(--tinta);color:var(--tinta)}
+  button.op:focus-visible{outline:2px solid var(--garbanzo);outline-offset:1px}
+  button.op[aria-pressed="true"]{background:var(--tinta);border-color:var(--tinta);color:var(--papel)}
+  .grupo.result button.op[aria-pressed="true"]{background:var(--lapiz-rojo);border-color:var(--lapiz-rojo)}
+  .veredicto{font-family:'Caveat',cursive;font-size:20px;margin-top:8px;min-height:24px}
+  .veredicto.yo{color:var(--verde)}
+  .veredicto.abuela{color:var(--lapiz-rojo)}
+
+  /* ---- cartera de prueba (value betting simulado) ---- */
+  .cartera{border:2px solid var(--tinta);border-radius:4px;padding:14px 16px;margin:0 0 24px;
+    background:rgba(252,251,247,.9)}
+  .cartera h3{font-family:'Caveat',cursive;font-size:24px;margin:0 0 2px;font-weight:600}
+  .cartera .sub{font-size:12px;color:var(--tinta-suave);margin:0 0 12px}
+  .stats{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:10px}
+  .stat{min-width:90px}
+  .stat .num{font-size:22px;font-weight:700;font-variant-numeric:tabular-nums}
+  .stat .num.pos{color:var(--verde)}
+  .stat .num.neg{color:var(--lapiz-rojo)}
+  .stat .lbl{font-size:11px;color:var(--tinta-suave);text-transform:uppercase;letter-spacing:.4px}
+  table.historial{width:100%;border-collapse:collapse;font-size:12px;margin-top:8px}
+  table.historial th{text-align:left;color:var(--tinta-suave);font-weight:600;padding:4px 6px;
+    border-bottom:1px solid var(--cuadricula)}
+  table.historial td{padding:4px 6px;border-bottom:1px solid var(--cuadricula)}
+  table.historial td.ganada{color:var(--verde);font-weight:600}
+  table.historial td.perdida{color:var(--lapiz-rojo);font-weight:600}
+  table.historial td.pendiente{color:var(--tinta-suave)}
+  .meta-fila.valor.si{background:rgba(63,122,85,.08)}
+  .meta-fila.valor.sin{opacity:.75;font-style:italic}
+  button.btn-apostar{font-family:inherit;font-size:11px;font-weight:600;padding:2px 8px;margin-left:8px;
+    border:1px solid var(--verde);background:var(--verde);color:var(--papel);border-radius:2px;cursor:pointer}
+  button.btn-apostar:hover{opacity:.85}
+  button.btn-apostar:disabled{opacity:.5;cursor:default}
+
+  /* ---- pie ---- */
+  .pie{margin-top:26px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+  .aviso{font-size:12px;color:var(--tinta-suave);max-width:70%}
+  button.reset{font-family:inherit;font-size:12px;padding:5px 11px;background:transparent;
+    border:1px solid var(--tinta-suave);color:var(--tinta-suave);border-radius:2px;cursor:pointer}
+  .cargando{color:var(--tinta-suave);font-size:13px;padding:8px 0}
+  @media (max-width:520px){
+    .hoja{padding:20px 14px 32px}
+    .titulo{font-size:34px}
+    .marcador{grid-template-columns:1fr;gap:6px}
+    .vs{display:none}
+  }
+</style>
+
+<div class="hoja">
+  <h1 class="titulo">El bote de garbanzos</h1>
+  <p class="fecha" id="fecha"></p>
+
+  <div class="marcador">
+    <div class="jugador">
+      <h2>Yo</h2>
+      <div class="cuenta" id="c-yo">0</div>
+      <div class="granos" id="g-yo"></div>
+    </div>
+    <div class="vs">contra</div>
+    <div class="jugador">
+      <h2>La abuela</h2>
+      <div class="cuenta" id="c-abuela">0</div>
+      <div class="granos" id="g-abuela"></div>
+    </div>
+  </div>
+  <p class="racha" id="racha">Sin partidos resueltos todavía.</p>
+
+  <div class="barra-superior">
+    <button class="analizar" id="analizar" type="button">Analizar los partidos de hoy</button>
+    <span class="sello" id="sello"></span>
+  </div>
+
+  <div class="cartera">
+    <h3>Cartera de prueba — 10€ simulados</h3>
+    <p class="sub">Dinero de mentira. Solo apuesta cuando el modelo ve más probabilidad que la cuota del
+      mercado (value bet), con el tamaño calculado por Kelly fraccionado. Sirve para comprobar si el
+      modelo tiene ventaja real antes de arriesgar los 10€ de verdad.</p>
+    <div class="stats" id="cartera-stats"></div>
+    <div id="cartera-tabla"></div>
+  </div>
+
+  <h3 class="seccion">Partidos de hoy — sin jugar o jugándose ahora</h3>
+  <p class="nota" id="nota">
+    Al abrir la página se cogen todos los partidos del día de hoy que todavía no han terminado:
+    los que faltan por empezar y los que están en juego. Cada barra sale de simular el partido
+    miles de veces con el Elo, el clima y las bajas conocidas. Marca quién apuesta a qué y, cuando acabe, quién ganó.
+  </p>
+
+  <div id="lista"><p class="cargando">Cargando el marcador…</p></div>
+
+  <div class="pie">
+    <p class="aviso">Un modelo no ve todo: rotaciones, broncas de vestuario ni quién duerme mal. Acierta más que el azar, no siempre. Los partidos sin parte de bajas van marcados. La cartera de arriba es dinero simulado: no se ha apostado nada real.</p>
+    <button class="reset" id="reset">Vaciar el bote y la cartera</button>
+  </div>
+</div>
+
+<script>
+const CLAVE = "garbanzos-estado-v2";
+const FUENTE = "partidos.json";     // lo genera el backend (fase 2). Si no está, se usan datos de ejemplo.
+const REFRESCO_MS = 60000;          // repaso automático cada minuto para los que están en juego
+
+let estado = {};        // apuestas Yo / Abuela / Ganador, por id de partido
+let TODOS = [];          // todos los partidos cargados de la fuente
+let generado = null;     // cuándo se calculó el análisis
+let usandoEjemplo = false;
+
+/* ---------------- cartera de prueba (value betting simulado) ---------------- */
+
+const CARTERA_CLAVE = "garbanzos-cartera-v1";
+const CONFIG_APUESTAS = {
+  bancaInicial: 10,     // el "ingreso de prueba" de 10€, en simulado
+  umbralEdge: 0.04,     // hace falta al menos 4% de valor esperado para considerarla value bet
+  fraccionKelly: 0.25,  // Kelly a cuarto: reduce mucho la varianza mientras el modelo no está validado
+  apuestaMaxPct: 0.15,  // nunca más del 15% de la banca en una sola apuesta, aunque Kelly pida más
+};
+
+let cartera = { historial: [] };
+
+async function cargarCartera(){
+  try{
+    const r = await window.storage.get(CARTERA_CLAVE);
+    cartera = r ? JSON.parse(r.value) : { historial: [] };
+  }catch(e){
+    cartera = { historial: [] };
+  }
+}
+
+async function guardarCartera(){
+  try{
+    await window.storage.set(CARTERA_CLAVE, JSON.stringify(cartera));
+  }catch(e){ /* si falla, la sesión sigue funcionando en memoria */ }
+}
+
+function bancaActual(){
+  return CONFIG_APUESTAS.bancaInicial + cartera.historial
+    .filter(h => h.estado !== 'pendiente')
+    .reduce((s, h) => s + h.pnl, 0);
+}
+
+function apuestaPendiente(partidoId){
+  return cartera.historial.find(h => h.partidoId === partidoId && h.estado === 'pendiente') || null;
+}
+
+// Valor esperado de apostar a un resultado concreto: prob. del modelo * cuota - 1.
+function valorApuesta(p, r){
+  if(!p.cuotas) return null;
+  const campo = r.clase === 'emp' ? 'empate' : r.clase;
+  const cuota = p.cuotas[campo];
+  if(!cuota) return null;
+  const prob = r.pct / 100;
+  return { equipo: r.equipo, cuota, prob, edge: prob * cuota - 1 };
+}
+
+// El mejor resultado con value bet de un partido, si lo hay (por encima del umbral).
+function mejorValor(p){
+  if(!p.cuotas || !p.sim) return null;
+  let mejor = null;
+  for(const r of resultados(p)){
+    const v = valorApuesta(p, r);
+    if(v && v.edge > CONFIG_APUESTAS.umbralEdge && (!mejor || v.edge > mejor.edge)) mejor = v;
+  }
+  return mejor;
+}
+
+// Fracción de la banca a jugar (Kelly fraccionado, con tope de seguridad).
+function kellyFraccion(prob, cuota){
+  const b = cuota - 1;
+  if(b <= 0) return 0;
+  const q = 1 - prob;
+  const fStar = prob - q / b;
+  if(fStar <= 0) return 0;
+  return Math.min(fStar * CONFIG_APUESTAS.fraccionKelly, CONFIG_APUESTAS.apuestaMaxPct);
+}
+
+function registrarApuesta(p, valor){
+  if(apuestaPendiente(p.id)) return;
+  const stake = +(bancaActual() * kellyFraccion(valor.prob, valor.cuota)).toFixed(2);
+  if(stake <= 0) return;
+  cartera.historial.unshift({
+    id: p.id + '-' + Date.now(),
+    partidoId: p.id,
+    fecha: new Date().toISOString(),
+    partido: `${p.loc} · ${p.vis}`,
+    seleccion: valor.equipo,
+    cuota: valor.cuota,
+    probModelo: valor.prob,
+    edge: valor.edge,
+    stake,
+    estado: 'pendiente',
+    pnl: 0,
+  });
+  guardarCartera();
+  pintar();
+}
+
+// Se llama al marcar (o desmarcar) el ganador de un partido: liquida la apuesta pendiente si la hay.
+function resolverApuestas(partidoId, ganador){
+  let cambiado = false;
+  for(const h of cartera.historial){
+    if(h.partidoId !== partidoId) continue;
+    if(ganador == null){
+      if(h.estado !== 'pendiente'){ h.estado = 'pendiente'; h.pnl = 0; cambiado = true; }
+    }else if(h.estado === 'pendiente'){
+      if(h.seleccion === ganador){ h.estado = 'ganada'; h.pnl = +(h.stake * (h.cuota - 1)).toFixed(2); }
+      else{ h.estado = 'perdida'; h.pnl = -h.stake; }
+      cambiado = true;
+    }
+  }
+  if(cambiado) guardarCartera();
+}
+
+// Brier score (multiclase) sobre TODAS las predicciones resueltas, tengan apuesta o no:
+// mide si el modelo está bien calibrado, no solo si acertó. Más bajo es mejor.
+// Referencia de azar: ~0.5 en partidos a 2 vías (tenis), ~0.67 a 3 vías (fútbol).
+function brierScore(){
+  const valores = [];
+  for(const p of TODOS){
+    const e = estado[p.id];
+    if(!e || !e.ganador || !p.sim) continue;
+    let suma = 0;
+    for(const r of resultados(p)){
+      const o = r.equipo === e.ganador ? 1 : 0;
+      suma += (r.pct / 100 - o) ** 2;
+    }
+    valores.push(suma);
+  }
+  return valores.length ? valores.reduce((a, b) => a + b, 0) / valores.length : null;
+}
+
+function pintarCartera(){
+  const banca = bancaActual();
+  const resueltas = cartera.historial.filter(h => h.estado !== 'pendiente');
+  const ganadas = resueltas.filter(h => h.estado === 'ganada').length;
+  const pendientes = cartera.historial.length - resueltas.length;
+  const rendimiento = ((banca - CONFIG_APUESTAS.bancaInicial) / CONFIG_APUESTAS.bancaInicial) * 100;
+  const brier = brierScore();
+
+  const stats = document.getElementById('cartera-stats');
+  const stat = (num, lbl, clase) => `<div class="stat"><div class="num ${clase||''}">${num}</div><div class="lbl">${lbl}</div></div>`;
+  stats.innerHTML =
+    stat(banca.toFixed(2) + '€', 'Banca actual', banca >= CONFIG_APUESTAS.bancaInicial ? 'pos' : 'neg') +
+    stat((rendimiento >= 0 ? '+' : '') + rendimiento.toFixed(1) + '%', 'Rendimiento', rendimiento >= 0 ? 'pos' : 'neg') +
+    stat(`${ganadas}/${resueltas.length}`, 'Apuestas ganadas') +
+    stat(pendientes, 'Pendientes') +
+    stat(brier != null ? brier.toFixed(3) : '—', 'Brier score');
+
+  const tabla = document.getElementById('cartera-tabla');
+  if(!cartera.historial.length){
+    tabla.innerHTML = '<p class="nota" style="margin:6px 0 0">Todavía no se ha registrado ninguna apuesta simulada. Aparecerán aquí en cuanto el modelo detecte una value bet en los partidos de hoy.</p>';
+    return;
+  }
+  const filas = cartera.historial.slice(0, 20).map(h => `
+    <tr>
+      <td>${h.partido}</td>
+      <td>${h.seleccion}</td>
+      <td>${h.cuota.toFixed(2)}</td>
+      <td>${(h.edge * 100).toFixed(1)}%</td>
+      <td>${h.stake.toFixed(2)}€</td>
+      <td class="${h.estado}">${h.estado}</td>
+      <td class="${h.pnl > 0 ? 'ganada' : h.pnl < 0 ? 'perdida' : 'pendiente'}">${h.pnl > 0 ? '+' : ''}${h.pnl.toFixed(2)}€</td>
+    </tr>`).join('');
+  tabla.innerHTML = `<table class="historial">
+    <thead><tr><th>Partido</th><th>A qué</th><th>Cuota</th><th>Edge</th><th>Apostado</th><th>Estado</th><th>P/L</th></tr></thead>
+    <tbody>${filas}</tbody>
+  </table>`;
+}
+
+/* ---------------- fecha y estado del partido ---------------- */
+
+function ahora(){ return new Date(); }
+
+function fechaHoy(){
+  return new Date().toLocaleDateString('es-ES',
+    {weekday:'long', day:'numeric', month:'long', year:'numeric'});
+}
+
+function mismoDia(a, b){
+  return a.getFullYear() === b.getFullYear()
+      && a.getMonth() === b.getMonth()
+      && a.getDate() === b.getDate();
+}
+
+// Estado real ahora mismo. El feed manda; si aún no lo ha marcado, se deduce de la hora.
+function estadoActual(p){
+  const ex = p.estado;
+  if(ex === "FINALIZADO" || ex === "SUSPENDIDO" || ex === "CANCELADO") return ex;
+  const ini = new Date(p.inicioUTC);
+  if(isNaN(ini)) return ex || "PROGRAMADO";
+  const t = ahora();
+  if(ini > t) return "PROGRAMADO";
+  const horas = (t - ini) / 3600000;
+  if(ex === "EN_JUEGO") return horas > 8 ? "FINALIZADO" : "EN_JUEGO";
+  return horas > 6 ? "FINALIZADO" : "EN_JUEGO";   // empezó hace rato y nadie lo ha cerrado
+}
+
+function esDeHoy(p){
+  const ini = new Date(p.inicioUTC);
+  return !isNaN(ini) && mismoDia(ini, ahora());
+}
+
+// Lo que pediste: del día que abres la página, lo que no se ha jugado o se está jugando.
+function jugablesDeHoy(){
+  return TODOS
+    .filter(esDeHoy)
+    .filter(p => {
+      const e = estadoActual(p);
+      return e === "PROGRAMADO" || e === "EN_JUEGO" || e === "SUSPENDIDO";
+    })
+    .sort((a, b) => new Date(a.inicioUTC) - new Date(b.inicioUTC));
+}
+
+function resueltosHoy(){
+  return TODOS.filter(p => esDeHoy(p) && estadoActual(p) === "FINALIZADO");
+}
+
+function masAdelante(){
+  return TODOS
+    .filter(p => {
+      const ini = new Date(p.inicioUTC);
+      return !isNaN(ini) && ini > ahora() && !esDeHoy(p);
+    })
+    .sort((a, b) => new Date(a.inicioUTC) - new Date(b.inicioUTC));
+}
+
+/* ---------------- carga de datos ---------------- */
+
+async function cargarEstado(){
+  try{
+    const r = await window.storage.get(CLAVE);
+    estado = r ? JSON.parse(r.value) : {};
+  }catch(e){
+    estado = {};
+  }
+}
+
+async function guardar(){
+  try{
+    await window.storage.set(CLAVE, JSON.stringify(estado));
+  }catch(e){
+    document.getElementById('racha').textContent =
+      "No se pudo guardar el marcador. Los cambios de esta sesión siguen en pantalla.";
+  }
+}
+
+async function obtenerDatos(){
+  try{
+    const r = await fetch(FUENTE + "?ts=" + Date.now(), {cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP " + r.status);
+    const j = await r.json();
+    if(!j || !Array.isArray(j.partidos)) throw new Error("formato inesperado");
+    usandoEjemplo = false;
+    return j;
+  }catch(e){
+    return datosEjemplo();   // sirve para abrir el archivo directamente, sin servidor
+  }
+}
+
+async function cargar(){
+  document.getElementById('sello').textContent = "Analizando…";
+  await Promise.all([cargarEstado(), cargarCartera(), obtenerDatos().then(d => {
+    TODOS = d.partidos;
+    generado = d.generado ? new Date(d.generado) : new Date();
+  })]);
+  pintar();
+}
+
+/* ---------------- marcador Yo vs Abuela ---------------- */
+
+function reg(id){
+  if(!estado[id]) estado[id] = {yo:null, abuela:null, ganador:null};
+  return estado[id];
+}
+
+function contar(){
+  let yo = 0, abuela = 0, resueltos = 0;
+  for(const p of TODOS){
+    const e = estado[p.id];
+    if(!e || !e.ganador) continue;
+    resueltos++;
+    if(e.yo === e.ganador) yo++;
+    if(e.abuela === e.ganador) abuela++;
+  }
+  return {yo, abuela, resueltos};
+}
+
+/* ---------------- pintar ---------------- */
+
+function selloTexto(){
+  if(!generado) return "";
+  const min = Math.round((Date.now() - generado.getTime()) / 60000);
+  const cuando = min < 1 ? "hace un momento"
+    : min < 60 ? `hace ${min} min`
+    : `hace ${Math.round(min / 60)} h`;
+  return `Análisis actualizado ${cuando}` + (usandoEjemplo ? " · datos de ejemplo" : "");
+}
+
+function pintar(){
+  document.getElementById('fecha').textContent = fechaHoy();
+  document.getElementById('sello').textContent = selloTexto();
+
+  const {yo, abuela, resueltos} = contar();
+  document.getElementById('c-yo').textContent = yo;
+  document.getElementById('c-abuela').textContent = abuela;
+  document.getElementById('g-yo').textContent = '●'.repeat(Math.min(yo, 20));
+  document.getElementById('g-abuela').textContent = '●'.repeat(Math.min(abuela, 20));
+
+  const racha = document.getElementById('racha');
+  if(resueltos === 0){
+    racha.textContent = "Sin partidos resueltos todavía.";
+  }else if(yo > abuela){
+    racha.textContent = `${resueltos} partidos resueltos. Vas por delante por ${yo - abuela}.`;
+  }else if(abuela > yo){
+    racha.textContent = `${resueltos} partidos resueltos. La abuela te saca ${abuela - yo}.`;
+  }else{
+    racha.textContent = `${resueltos} partidos resueltos. Empate.`;
+  }
+
+  pintarCartera();
+
+  const lista = document.getElementById('lista');
+  lista.innerHTML = '';
+
+  const hoy = jugablesDeHoy();
+  const luego = masAdelante();
+  const hechos = resueltosHoy();
+
+  if(hoy.length === 0){
+    const vacio = document.createElement('p');
+    vacio.className = 'cargando';
+    vacio.textContent = hechos.length
+      ? `Hoy ya no queda ningún partido por analizar. ${hechos.length} han terminado.`
+      : 'No hay partidos de hoy en los datos cargados.';
+    lista.appendChild(vacio);
+  }
+
+  const deportes = [...new Set(hoy.map(p => p.dep))];
+  for(const d of deportes){
+    const grupo = hoy.filter(p => p.dep === d);
+    const enJuego = grupo.filter(p => estadoActual(p) === "EN_JUEGO").length;
+    const h = document.createElement('h4');
+    h.className = 'deporte';
+    h.textContent = `${d} — ${grupo.length} ${grupo.length === 1 ? 'partido' : 'partidos'}`
+      + (enJuego ? ` · ${enJuego} en juego` : '');
+    lista.appendChild(h);
+    for(const p of grupo) lista.appendChild(filaPartido(p));
+  }
+
+  if(luego.length){
+    const h = document.createElement('h4');
+    h.className = 'deporte';
+    h.textContent = 'Más adelante';
+    lista.appendChild(h);
+    for(const p of luego){
+      const li = document.createElement('div');
+      li.className = 'proximo';
+      const ini = new Date(p.inicioUTC);
+      const dia = ini.toLocaleDateString('es-ES', {weekday:'long', day:'numeric'});
+      const hora = ini.toLocaleTimeString('es-ES', {hour:'2-digit', minute:'2-digit'});
+      const prob = p.sim ? ` — ${p.loc} ${(p.sim.pLoc * 100).toFixed(0)}%` : '';
+      li.innerHTML = `<span class="dia">${dia} · ${hora}</span><span>${p.dep}: ${p.loc} · ${p.vis}${prob}</span>`;
+      lista.appendChild(li);
+    }
+  }
+}
+
+// Reparto normalizado a 100 de los posibles resultados (2 vías tenis, 3 vías fútbol).
+function resultados(p){
+  if(!p.sim){
+    return [
+      {clase:'loc', etq:p.loc, pct:50, equipo:p.loc},
+      {clase:'vis', etq:p.vis, pct:50, equipo:p.vis},
+    ];
+  }
+  const s = p.sim;
+  if(s.pEmpate != null){
+    return [
+      {clase:'loc', etq:p.loc,   pct:s.pLoc * 100,     equipo:p.loc},
+      {clase:'emp', etq:'Empate', pct:s.pEmpate * 100, equipo:'Empate'},
+      {clase:'vis', etq:p.vis,   pct:s.pVis * 100,     equipo:p.vis},
+    ];
+  }
+  return [
+    {clase:'loc', etq:p.loc, pct:s.pLoc * 100, equipo:p.loc},
+    {clase:'vis', etq:p.vis, pct:s.pVis * 100, equipo:p.vis},
+  ];
+}
+
+function filaPartido(p){
+  const e = reg(p.id);
+  const est = estadoActual(p);
+  const res = resultados(p);
+  const top = res.reduce((a, b) => b.pct > a.pct ? b : a);
+  const conf = top.pct;
+  const pendiente = apuestaPendiente(p.id);
+  const mejor = pendiente ? null : mejorValor(p);
+
+  const clase = conf >= 85 ? 'alta' : (conf >= 60 ? 'media' : 'baja');
+  const etiqueta = conf >= 85 ? 'casi seguro' : (conf >= 60 ? 'favorito claro' : 'repartido');
+
+  const ini = new Date(p.inicioUTC);
+  const hora = isNaN(ini) ? '—' : ini.toLocaleTimeString('es-ES', {hour:'2-digit', minute:'2-digit'});
+  const marcador = p.marcador && p.marcador.txt ? ' · ' + p.marcador.txt : '';
+  const badge = est === 'EN_JUEGO'
+      ? `<span class="estado en-juego">En juego${marcador}</span>`
+      : est === 'SUSPENDIDO'
+      ? `<span class="estado susp">Suspendido</span>`
+      : `<span class="estado">${hora}</span>`;
+
+  const eloTxt = p.elo
+    ? `<span>${p.loc} · Elo ${p.elo.loc}</span><span>Elo ${p.elo.vis} · ${p.vis}</span>`
+    : `<span>${p.loc}</span><span>${p.vis}</span>`;
+
+  const nSim = p.sim ? p.sim.n : 0;
+  const repartoTxt = p.sim
+    ? res.map(r => `${r.etq} ${r.pct.toFixed(1)}%`).join('  ·  ')
+      + `  —  ${nSim.toLocaleString('es-ES')} simulaciones`
+    : 'Sin simulación todavía para este partido';
+
+  let aviso = '';
+  if(p.sim && conf < 55) aviso = 'Prácticamente una moneda al aire: el modelo no los separa.';
+
+  const torneo = [p.torneo, p.ronda].filter(Boolean).join(' · ');
+
+  const div = document.createElement('div');
+  div.className = 'partido';
+  div.innerHTML = `
+    <div class="linea1">
+      ${badge}
+      <span class="equipos">${p.loc} · ${p.vis}</span>
+      <span class="conf ${clase}">${top.etq} ${conf.toFixed(1)}% — ${etiqueta}</span>
+    </div>
+    ${torneo ? `<div class="torneo">${torneo}</div>` : ''}
+    <div class="barra">
+      ${res.map(r => `<i class="${r.clase}" style="width:${r.pct}%"></i>`).join('')}
+    </div>
+    <div class="pcts">${eloTxt}</div>
+    <div class="pcts" style="justify-content:flex-start"><span>${repartoTxt}</span></div>
+    ${aviso ? `<div class="pcts" style="justify-content:flex-start"><span>${aviso}</span></div>` : ''}
+    ${bloqueMeta(p)}
+    ${bloqueValor(p, mejor, pendiente)}
+  `;
+
+  const btnApostar = div.querySelector('.btn-apostar');
+  if(btnApostar) btnApostar.addEventListener('click', () => registrarApuesta(p, mejor));
+
+  const ctr = document.createElement('div');
+  ctr.className = 'controles';
+  ctr.appendChild(grupo('Yo', p, 'yo', res));
+  ctr.appendChild(grupo('Abuela', p, 'abuela', res));
+  ctr.appendChild(grupo('Ganó', p, 'ganador', res, true));
+  div.appendChild(ctr);
+
+  const ver = document.createElement('div');
+  ver.className = 'veredicto';
+  if(e.ganador){
+    const aYo = e.yo === e.ganador, aAb = e.abuela === e.ganador;
+    if(aYo && !aAb){ ver.textContent = 'Garbanzo para ti'; ver.classList.add('yo'); }
+    else if(aAb && !aYo){ ver.textContent = 'Garbanzo para la abuela'; ver.classList.add('abuela'); }
+    else if(aYo && aAb){ ver.textContent = 'Los dos acertasteis'; }
+    else{ ver.textContent = 'Ninguno lo vio venir'; }
+  }
+  div.appendChild(ver);
+
+  return div;
+}
+
+// Clima + bajas. En fase 1 son campos opcionales del JSON; en fase 2/3 los rellena el backend.
+function bloqueMeta(p){
+  const partes = [];
+
+  if(p.clima){
+    const c = p.clima;
+    const txt = c.resumen || [
+      c.techo ? 'Techo cerrado' : null,
+      c.lluvia_mm != null ? `lluvia ${c.lluvia_mm} mm` : null,
+      c.viento_kmh != null ? `viento ${c.viento_kmh} km/h` : null,
+      c.temp_c != null ? `${c.temp_c}°` : null,
+    ].filter(Boolean).join(' · ');
+    partes.push(`<div class="meta-fila"><span class="meta-tag">Clima</span><span>${txt || '—'}</span></div>`);
+  }
+
+  if(p.lesiones){
+    const L = p.lesiones;
+    const items = [
+      ...(L.loc || []).map(x => [p.loc, x]),
+      ...(L.vis || []).map(x => [p.vis, x]),
+    ];
+    const cob = L.cobertura === 'completa'
+      ? ''
+      : ` <span class="cobertura">parte de bajas ${L.cobertura || 'sin confirmar'}</span>`;
+    if(items.length){
+      const chips = items.map(([eq, x]) =>
+        `<span class="chip ${x.severidad === 'baja' ? 'baja' : ''}">${eq}: ${x.jugador} — ${x.nota}` +
+        `${x.severidad ? ` (${x.severidad})` : ''}</span>`
+      ).join('');
+      partes.push(`<div class="meta-fila"><span class="meta-tag">Bajas</span><span>${chips}${cob}</span></div>`);
+    }else{
+      partes.push(`<div class="meta-fila"><span class="meta-tag">Bajas</span><span>Ninguna señalada${cob}</span></div>`);
+    }
+  }
+
+  return partes.length ? `<div class="meta-partido">${partes.join('')}</div>` : '';
+}
+
+// Value bet detectada (o apuesta ya registrada) para este partido, contra la cartera de prueba.
+function bloqueValor(p, mejor, pendiente){
+  if(!p.cuotas) return '';
+  if(pendiente){
+    return `<div class="meta-fila valor"><span class="meta-tag">Apuesta</span>` +
+      `<span>${pendiente.stake.toFixed(2)}€ a ${pendiente.seleccion} @ ${pendiente.cuota.toFixed(2)} — ${pendiente.estado}</span></div>`;
+  }
+  if(!mejor){
+    return `<div class="meta-fila valor sin"><span class="meta-tag">Valor</span>` +
+      `<span>Sin value bet (ninguna cuota supera el umbral del ${(CONFIG_APUESTAS.umbralEdge * 100).toFixed(0)}%)</span></div>`;
+  }
+  return `<div class="meta-fila valor si"><span class="meta-tag">Valor</span>` +
+    `<span>${mejor.equipo} @ ${mejor.cuota.toFixed(2)} — edge ${(mejor.edge * 100).toFixed(1)}%` +
+    `<button class="op btn-apostar" type="button">Apostar simulado</button></span></div>`;
+}
+
+function grupo(etiqueta, p, campo, res, esResultado){
+  const g = document.createElement('div');
+  g.className = 'grupo' + (esResultado ? ' result' : '');
+  const s = document.createElement('span');
+  s.textContent = etiqueta + ':';
+  g.appendChild(s);
+
+  for(const r of res){
+    const b = document.createElement('button');
+    b.className = 'op';
+    b.type = 'button';
+    b.textContent = r.equipo === 'Empate' ? 'X' : r.equipo.split(' ').pop();
+    b.title = r.equipo;
+    b.setAttribute('aria-pressed', reg(p.id)[campo] === r.equipo ? 'true' : 'false');
+    b.addEventListener('click', async () => {
+      const e = reg(p.id);
+      e[campo] = (e[campo] === r.equipo) ? null : r.equipo;
+      if(campo === 'ganador') resolverApuestas(p.id, e.ganador);
+      await guardar();
+      pintar();
+    });
+    g.appendChild(b);
+  }
+  return g;
+}
+
+/* ---------------- datos de ejemplo (sin servidor) ---------------- */
+// Horas relativas a "ahora" para que la demo siempre muestre partidos por jugar y en juego.
+function datosEjemplo(){
+  usandoEjemplo = true;
+  const t = Date.now();
+  const m = 60000, h = 3600000, d = 86400000;
+  const iso = ms => new Date(t + ms).toISOString();
+  return {
+    generado: iso(-8 * m),
+    partidos: [
+      {
+        id:"demo-t-she-hur", dep:"Tenis", torneo:"US Open", ronda:"Octavos",
+        inicioUTC: iso(-40 * m), estado:"EN_JUEGO",
+        loc:"Shelton", vis:"Hurkacz",
+        elo:{loc:1949, vis:1777},
+        sim:{n:5000, pLoc:0.741, pVis:0.259, actualizado: iso(-40 * m)},
+        cuotas:{loc:1.28, vis:3.60, casa:"Bet365 (ejemplo)", actualizado: iso(-40 * m)},
+        clima:{estadio:"Louis Armstrong", techo:true, lluvia_mm:0, viento_kmh:8, temp_c:26, resumen:"Techo cerrado, sin efecto"},
+        lesiones:{cobertura:"parcial", loc:[], vis:[{jugador:"Hurkacz", nota:"vendaje en el muslo", severidad:"duda", fuente:"prensa"}]},
+        marcador:{txt:"6-4, 3-2"}
+      },
+      {
+        id:"demo-t-alc-dzu", dep:"Tenis", torneo:"US Open", ronda:"Octavos",
+        inicioUTC: iso(2 * h), estado:"PROGRAMADO",
+        loc:"Alcaraz", vis:"Dzumhur",
+        elo:{loc:2145, vis:1702},
+        sim:{n:5000, pLoc:0.963, pVis:0.037, actualizado: iso(-8 * m)},
+        cuotas:{loc:1.05, vis:9.50, casa:"Bet365 (ejemplo)", actualizado: iso(-8 * m)},
+        clima:{estadio:"Arthur Ashe", techo:true, lluvia_mm:0, viento_kmh:0, temp_c:27, resumen:"Techo cerrado"},
+        lesiones:{cobertura:"completa", loc:[], vis:[]}
+      },
+      {
+        id:"demo-f-rso-cel", dep:"Fútbol", torneo:"LaLiga", ronda:"Jornada 4",
+        inicioUTC: iso(4 * h), estado:"PROGRAMADO",
+        loc:"Real Sociedad", vis:"Celta",
+        elo:{loc:1788, vis:1712},
+        sim:{n:10000, pLoc:0.472, pEmpate:0.267, pVis:0.261, actualizado: iso(-8 * m)},
+        cuotas:{loc:2.10, empate:3.30, vis:4.20, casa:"Bet365 (ejemplo)", actualizado: iso(-8 * m)},
+        clima:{estadio:"Reale Arena", techo:false, lluvia_mm:1.2, viento_kmh:18, temp_c:19, resumen:"Llovizna y viento flojo; leve bajada de goles esperados"},
+        lesiones:{cobertura:"completa",
+          loc:[{jugador:"Oyarzabal", nota:"sobrecarga", severidad:"duda", fuente:"API-Football"}],
+          vis:[{jugador:"Aspas", nota:"lesión muscular", severidad:"baja", fuente:"API-Football"}]}
+      },
+      {
+        id:"demo-f-eve-avl", dep:"Fútbol", torneo:"Premier League", ronda:"Jornada 4",
+        inicioUTC: iso(-5 * h), estado:"FINALIZADO",
+        loc:"Everton", vis:"Aston Villa",
+        elo:{loc:1701, vis:1794},
+        sim:{n:10000, pLoc:0.33, pEmpate:0.29, pVis:0.38},
+        marcador:{txt:"0-1"}
+      },
+      {
+        id:"demo-f-bet-rma", dep:"Fútbol", torneo:"LaLiga", ronda:"Jornada 4",
+        inicioUTC: iso(1 * d + 3 * h), estado:"PROGRAMADO",
+        loc:"Betis", vis:"Real Madrid",
+        elo:{loc:1802, vis:1985},
+        sim:{n:10000, pLoc:0.182, pEmpate:0.243, pVis:0.575},
+        cuotas:{loc:4.50, empate:3.60, vis:1.72, casa:"Bet365 (ejemplo)", actualizado: iso(-8 * m)}
+      }
+    ]
+  };
+}
+
+/* ---------------- eventos ---------------- */
+
+document.getElementById('analizar').addEventListener('click', cargar);
+
+document.getElementById('reset').addEventListener('click', async () => {
+  estado = {};
+  cartera = { historial: [] };
+  try{ await window.storage.delete(CLAVE); }catch(e){}
+  try{ await window.storage.delete(CARTERA_CLAVE); }catch(e){}
+  pintar();
+});
+
+setInterval(cargar, REFRESCO_MS);
+cargar();
+</script>

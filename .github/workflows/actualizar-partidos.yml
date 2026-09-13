@@ -1,0 +1,34 @@
+name: Actualizar partidos
+
+on:
+  schedule:
+    # Cada 30 minutos, entre las 06:00 y las 23:59 UTC (cubre la franja habitual de partidos)
+    - cron: '*/30 6-23 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generar partidos.json
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: node scripts/generar-partidos.js
+
+      - name: Publicar cambios
+        run: |
+          git config user.name "bote-de-garbanzos-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add partidos.json
+          git diff --cached --quiet || git commit -m "Actualiza partidos.json"
+          git push
