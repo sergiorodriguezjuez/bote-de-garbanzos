@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-13T21:56:50.117Z",
+  "generado": "2026-09-13T23:52:17.708Z",
   "partidos": [
     {
       "id": "fd-555009",
@@ -72,8 +72,8 @@
         "estadio": "Balaídos",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 5,
-        "temp_c": 23
+        "viento_kmh": 7,
+        "temp_c": 21
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -108,25 +108,6 @@
       },
       "marcador": {
         "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-560578",
-      "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-09-13T13:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Coventry City FC",
-      "vis": "Brighton & Hove Albion FC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-5"
       }
     },
     {
@@ -182,6 +163,25 @@
       }
     },
     {
+      "id": "fd-560578",
+      "dep": "Fútbol",
+      "torneo": "Premier League",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-09-13T13:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Coventry City FC",
+      "vis": "Brighton & Hove Albion FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "0-5"
+      }
+    },
+    {
       "id": "fd-565799",
       "dep": "Fútbol",
       "torneo": "Bundesliga",
@@ -200,9 +200,9 @@
       "clima": {
         "estadio": "Red Bull Arena Leipzig",
         "techo": false,
-        "lluvia_mm": 0.1,
-        "viento_kmh": 7,
-        "temp_c": 17
+        "lluvia_mm": 0,
+        "viento_kmh": 8,
+        "temp_c": 16
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -311,8 +311,8 @@
         "estadio": "Old Trafford",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 5,
-        "temp_c": 20
+        "viento_kmh": 6,
+        "temp_c": 18
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -363,7 +363,7 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 7,
-        "temp_c": 24
+        "temp_c": 23
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -401,32 +401,6 @@
       }
     },
     {
-      "id": "fd-567310",
-      "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-13T17:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "FC Arouca",
-      "vis": "CD Santa Clara",
-      "cuotas": {
-        "loc": 2.55,
-        "vis": 2.82,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:38.312Z",
-        "empate": 3.01
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-2"
-      }
-    },
-    {
       "id": "fd-567304",
       "dep": "Fútbol",
       "torneo": "Primeira Liga",
@@ -450,6 +424,32 @@
       },
       "marcador": {
         "txt": "3-1"
+      }
+    },
+    {
+      "id": "fd-567310",
+      "dep": "Fútbol",
+      "torneo": "Primeira Liga",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-13T17:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "FC Arouca",
+      "vis": "CD Santa Clara",
+      "cuotas": {
+        "loc": 2.55,
+        "vis": 2.82,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-13T14:12:38.312Z",
+        "empate": 3.01
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "1-2"
       }
     },
     {
@@ -479,6 +479,32 @@
       }
     },
     {
+      "id": "fd-559691",
+      "dep": "Fútbol",
+      "torneo": "Ligue 1",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-09-13T18:45:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Stade Brestois 29",
+      "vis": "Paris Saint-Germain FC",
+      "cuotas": {
+        "loc": 11.22,
+        "vis": 1.24,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-13T14:12:38.313Z",
+        "empate": 6.67
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "0-1"
+      }
+    },
+    {
       "id": "fd-558608",
       "dep": "Fútbol",
       "torneo": "Serie A",
@@ -505,29 +531,35 @@
       }
     },
     {
-      "id": "fd-559691",
+      "id": "fd-564674",
       "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-09-13T18:45:00Z",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 5",
+      "inicioUTC": "2026-09-13T19:00:00Z",
       "estado": "FINALIZADO",
-      "loc": "Stade Brestois 29",
-      "vis": "Paris Saint-Germain FC",
+      "loc": "Real Sociedad de Fútbol",
+      "vis": "Club Atlético de Madrid",
       "cuotas": {
-        "loc": 11.22,
-        "vis": 1.24,
+        "loc": 3.31,
+        "vis": 2.13,
         "casa": "Media de mercado (The Odds API)",
         "actualizado": "2026-09-13T14:12:38.313Z",
-        "empate": 6.67
+        "empate": 3.63
       },
-      "clima": null,
+      "clima": {
+        "estadio": "Reale Arena",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 6,
+        "temp_c": 17
+      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
       },
       "marcador": {
-        "txt": "0-1"
+        "txt": "0-3"
       }
     },
     {
@@ -557,38 +589,6 @@
       }
     },
     {
-      "id": "fd-564674",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 5",
-      "inicioUTC": "2026-09-13T19:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Real Sociedad de Fútbol",
-      "vis": "Club Atlético de Madrid",
-      "cuotas": {
-        "loc": 3.31,
-        "vis": 2.13,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:38.313Z",
-        "empate": 3.63
-      },
-      "clima": {
-        "estadio": "Reale Arena",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 6,
-        "temp_c": 18
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-3"
-      }
-    },
-    {
       "id": "fd-567305",
       "dep": "Fútbol",
       "torneo": "Primeira Liga",
@@ -613,7 +613,7 @@
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 27",
       "inicioUTC": "2026-09-13T20:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "CR Flamengo",
       "vis": "SC Corinthians Paulista",
       "cuotas": {
@@ -630,30 +630,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "1-0"
-      }
-    },
-    {
-      "id": "fd-558603",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-09-14T16:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Torino FC",
-      "vis": "AS Roma",
-      "cuotas": {
-        "loc": 5.66,
-        "vis": 1.54,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:38.474Z",
-        "empate": 4.17
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
+        "txt": "2-1"
       }
     },
     {
@@ -671,6 +648,29 @@
         "casa": "Media de mercado (The Odds API)",
         "actualizado": "2026-09-13T14:12:38.474Z",
         "empate": 6.27
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-558603",
+      "dep": "Fútbol",
+      "torneo": "Serie A",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-09-14T16:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Torino FC",
+      "vis": "AS Roma",
+      "cuotas": {
+        "loc": 5.66,
+        "vis": 1.54,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-13T14:12:38.474Z",
+        "empate": 4.17
       },
       "clima": null,
       "lesiones": {
@@ -715,8 +715,8 @@
         "estadio": "San Siro",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 3,
-        "temp_c": 22
+        "viento_kmh": 4,
+        "temp_c": 21
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -744,8 +744,8 @@
         "estadio": "Estadio de la Cerámica",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 5,
-        "temp_c": 21
+        "viento_kmh": 6,
+        "temp_c": 19
       },
       "lesiones": {
         "cobertura": "sin confirmar",
