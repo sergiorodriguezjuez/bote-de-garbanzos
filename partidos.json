@@ -1,638 +1,7 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-13T23:52:17.708Z",
+  "generado": "2026-09-14T11:16:53.625Z",
   "partidos": [
-    {
-      "id": "fd-555009",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 27",
-      "inicioUTC": "2026-09-13T00:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Santos FC",
-      "vis": "Cruzeiro EC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-1"
-      }
-    },
-    {
-      "id": "fd-558894",
-      "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-13T10:15:00Z",
-      "estado": "FINALIZADO",
-      "loc": "SBV Excelsior",
-      "vis": "FC Utrecht",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-2"
-      }
-    },
-    {
-      "id": "fd-561844",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 7",
-      "inicioUTC": "2026-09-13T11:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Sheffield United FC",
-      "vis": "Wolverhampton Wanderers FC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-1"
-      }
-    },
-    {
-      "id": "fd-564672",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 5",
-      "inicioUTC": "2026-09-13T12:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "RC Celta de Vigo",
-      "vis": "Málaga CF",
-      "clima": {
-        "estadio": "Balaídos",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 7,
-        "temp_c": 21
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-1"
-      }
-    },
-    {
-      "id": "fd-558895",
-      "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-13T12:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "SC Heerenveen",
-      "vis": "Telstar 1963",
-      "cuotas": {
-        "loc": 3.02,
-        "vis": 7.36,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:36.430Z",
-        "empate": 1.61
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-558605",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-09-13T13:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "US Lecce",
-      "vis": "AC Monza",
-      "cuotas": {
-        "loc": 1.13,
-        "vis": 20.48,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:36.729Z",
-        "empate": 7.14
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "3-2"
-      }
-    },
-    {
-      "id": "fd-559685",
-      "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-09-13T13:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Lille OSC",
-      "vis": "ES Troyes AC",
-      "cuotas": {
-        "loc": 1.21,
-        "vis": 16.7,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:37.012Z",
-        "empate": 5.31
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-0"
-      }
-    },
-    {
-      "id": "fd-560578",
-      "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-09-13T13:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Coventry City FC",
-      "vis": "Brighton & Hove Albion FC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-5"
-      }
-    },
-    {
-      "id": "fd-565799",
-      "dep": "Fútbol",
-      "torneo": "Bundesliga",
-      "ronda": "Jornada 3",
-      "inicioUTC": "2026-09-13T13:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "RB Leipzig",
-      "vis": "Hamburger SV",
-      "cuotas": {
-        "loc": 1.03,
-        "vis": 49.8,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:37.565Z",
-        "empate": 17.5
-      },
-      "clima": {
-        "estadio": "Red Bull Arena Leipzig",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 8,
-        "temp_c": 16
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "5-0"
-      }
-    },
-    {
-      "id": "fd-564675",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 5",
-      "inicioUTC": "2026-09-13T14:15:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Levante UD",
-      "vis": "FC Barcelona",
-      "cuotas": {
-        "loc": 13.59,
-        "vis": 1.17,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:37.725Z",
-        "empate": 8.42
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-4"
-      }
-    },
-    {
-      "id": "fd-558891",
-      "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-13T14:45:00Z",
-      "estado": "FINALIZADO",
-      "loc": "PEC Zwolle",
-      "vis": "Feyenoord Rotterdam",
-      "cuotas": {
-        "loc": 6.79,
-        "vis": 1.38,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:37.725Z",
-        "empate": 5.1
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-7"
-      }
-    },
-    {
-      "id": "fd-559686",
-      "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-09-13T15:15:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Le Mans FC",
-      "vis": "Racing Club de Lens",
-      "cuotas": {
-        "loc": 4.92,
-        "vis": 1.63,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:37.725Z",
-        "empate": 4.2
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-2"
-      }
-    },
-    {
-      "id": "fd-560580",
-      "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-09-13T15:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Manchester United FC",
-      "vis": "Manchester City FC",
-      "cuotas": {
-        "loc": 3.09,
-        "vis": 2.17,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:37.725Z",
-        "empate": 3.79
-      },
-      "clima": {
-        "estadio": "Old Trafford",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 6,
-        "temp_c": 18
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-1"
-      }
-    },
-    {
-      "id": "fd-565800",
-      "dep": "Fútbol",
-      "torneo": "Bundesliga",
-      "ronda": "Jornada 3",
-      "inicioUTC": "2026-09-13T15:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "SV 07 Elversberg",
-      "vis": "FC Bayern München",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-2"
-      }
-    },
-    {
-      "id": "fd-558599",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-09-13T16:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "SSC Napoli",
-      "vis": "Bologna FC 1909",
-      "cuotas": {
-        "loc": 1.88,
-        "vis": 4.19,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:37.885Z",
-        "empate": 3.55
-      },
-      "clima": {
-        "estadio": "Stadio Diego Armando Maradona",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 7,
-        "temp_c": 23
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-0"
-      }
-    },
-    {
-      "id": "fd-564668",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 5",
-      "inicioUTC": "2026-09-13T16:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Getafe CF",
-      "vis": "RC Deportivo La Coruña",
-      "cuotas": {
-        "loc": 2.65,
-        "vis": 3.08,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:38.046Z",
-        "empate": 2.87
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-1"
-      }
-    },
-    {
-      "id": "fd-567304",
-      "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-13T17:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Sport Lisboa e Benfica",
-      "vis": "Gil Vicente FC",
-      "cuotas": {
-        "loc": 1.12,
-        "vis": 18,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:38.312Z",
-        "empate": 8.03
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "3-1"
-      }
-    },
-    {
-      "id": "fd-567310",
-      "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-13T17:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "FC Arouca",
-      "vis": "CD Santa Clara",
-      "cuotas": {
-        "loc": 2.55,
-        "vis": 2.82,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:38.312Z",
-        "empate": 3.01
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-2"
-      }
-    },
-    {
-      "id": "fd-558893",
-      "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-13T18:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "PSV",
-      "vis": "Sparta Rotterdam",
-      "cuotas": {
-        "loc": 1.15,
-        "vis": 13.19,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:38.313Z",
-        "empate": 8.5
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "4-1"
-      }
-    },
-    {
-      "id": "fd-559691",
-      "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-09-13T18:45:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Stade Brestois 29",
-      "vis": "Paris Saint-Germain FC",
-      "cuotas": {
-        "loc": 11.22,
-        "vis": 1.24,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:38.313Z",
-        "empate": 6.67
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-1"
-      }
-    },
-    {
-      "id": "fd-558608",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-09-13T18:45:00Z",
-      "estado": "FINALIZADO",
-      "loc": "US Sassuolo Calcio",
-      "vis": "Juventus FC",
-      "cuotas": {
-        "loc": 5.33,
-        "vis": 1.62,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:38.313Z",
-        "empate": 3.98
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "3-2"
-      }
-    },
-    {
-      "id": "fd-564674",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 5",
-      "inicioUTC": "2026-09-13T19:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Real Sociedad de Fútbol",
-      "vis": "Club Atlético de Madrid",
-      "cuotas": {
-        "loc": 3.31,
-        "vis": 2.13,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:38.313Z",
-        "empate": 3.63
-      },
-      "clima": {
-        "estadio": "Reale Arena",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 6,
-        "temp_c": 17
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-3"
-      }
-    },
-    {
-      "id": "fd-555007",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 27",
-      "inicioUTC": "2026-09-13T19:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Mirassol FC",
-      "vis": "EC Vitória",
-      "cuotas": {
-        "loc": 1.73,
-        "vis": 4.66,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:38.473Z",
-        "empate": 3.6
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-2"
-      }
-    },
-    {
-      "id": "fd-567305",
-      "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-13T19:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "FC Famalicão",
-      "vis": "Sporting Clube de Portugal",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-1"
-      }
-    },
-    {
-      "id": "fd-555005",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 27",
-      "inicioUTC": "2026-09-13T20:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "CR Flamengo",
-      "vis": "SC Corinthians Paulista",
-      "cuotas": {
-        "loc": 1.24,
-        "vis": 11.79,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:38.473Z",
-        "empate": 5.48
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-1"
-      }
-    },
     {
       "id": "fd-558602",
       "dep": "Fútbol",
@@ -715,8 +84,8 @@
         "estadio": "San Siro",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 4,
-        "temp_c": 21
+        "viento_kmh": 3,
+        "temp_c": 26
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -744,8 +113,8 @@
         "estadio": "Estadio de la Cerámica",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 6,
-        "temp_c": 19
+        "viento_kmh": 13,
+        "temp_c": 31
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -838,6 +207,172 @@
         "actualizado": "2026-09-13T14:12:38.794Z",
         "empate": 4.45
       },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564678",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-15T17:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Rayo Vallecano de Madrid",
+      "vis": "RCD Espanyol de Barcelona",
+      "cuotas": {
+        "loc": 2.17,
+        "vis": 3.32,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-14T11:16:53.448Z",
+        "masDe25": 1.94,
+        "menosDe25": 1.85,
+        "empate": 3.42
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-558240",
+      "dep": "Fútbol",
+      "torneo": "Eredivisie",
+      "ronda": "Jornada 3",
+      "inicioUTC": "2026-09-15T18:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "AFC Ajax",
+      "vis": "Willem II Tilburg",
+      "cuotas": {
+        "loc": 1.13,
+        "vis": 14.3,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-14T11:16:53.544Z",
+        "masDe25": 1.22,
+        "menosDe25": 4.05,
+        "empate": 8.34
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564680",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-15T18:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Deportivo Alavés",
+      "vis": "Valencia CF",
+      "cuotas": {
+        "loc": 1.87,
+        "vis": 4.63,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-14T11:16:53.544Z",
+        "masDe25": 2.18,
+        "menosDe25": 1.66,
+        "empate": 3.31
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561825",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-15T18:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Middlesbrough FC",
+      "vis": "Millwall FC",
+      "cuotas": {
+        "loc": 1.58,
+        "vis": 5.03,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-14T11:16:53.623Z",
+        "masDe25": 1.59,
+        "menosDe25": 2.24,
+        "empate": 4.17
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561828",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-15T18:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Bristol City FC",
+      "vis": "Lincoln City FC",
+      "cuotas": {
+        "loc": 1.97,
+        "vis": 3.57,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-14T11:16:53.623Z",
+        "masDe25": 1.79,
+        "menosDe25": 1.94,
+        "empate": 3.49
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564681",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-15T19:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Elche CF",
+      "vis": "Real Madrid CF",
+      "cuotas": {
+        "loc": 10.51,
+        "vis": 1.24,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-14T11:16:53.625Z",
+        "masDe25": 1.34,
+        "menosDe25": 3.17,
+        "empate": 6.48
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-576251",
+      "dep": "Fútbol",
+      "torneo": "Copa Libertadores",
+      "ronda": "QUARTER FINALS",
+      "inicioUTC": "2026-09-15T22:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "CA Platense",
+      "vis": "Fluminense FC",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
