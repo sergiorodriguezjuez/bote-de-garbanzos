@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-14T17:00:00.199Z",
+  "generado": "2026-09-14T20:48:09.671Z",
   "partidos": [
     {
       "id": "fd-558603",
@@ -8,7 +8,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 4",
       "inicioUTC": "2026-09-14T16:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Torino FC",
       "vis": "AS Roma",
       "cuotas": {
@@ -25,7 +25,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
+        "txt": "0-2"
       }
     },
     {
@@ -34,7 +34,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 4",
       "inicioUTC": "2026-09-14T16:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Como 1907",
       "vis": "Parma Calcio 1913",
       "cuotas": {
@@ -51,7 +51,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
+        "txt": "2-1"
       }
     },
     {
@@ -60,7 +60,7 @@
       "torneo": "Primeira Liga",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-14T17:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Rio Ave FC",
       "vis": "CF Estrela da Amadora",
       "cuotas": {
@@ -77,6 +77,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "3-3"
       }
     },
     {
@@ -85,20 +88,57 @@
       "torneo": "Serie A",
       "ronda": "Jornada 4",
       "inicioUTC": "2026-09-14T18:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "FC Internazionale Milano",
       "vis": "Udinese Calcio",
       "clima": {
         "estadio": "San Siro",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 8,
-        "temp_c": 28
+        "viento_kmh": 6,
+        "temp_c": 24
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "5-3"
+      }
+    },
+    {
+      "id": "fd-564671",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 5",
+      "inicioUTC": "2026-09-14T19:00:00Z",
+      "estado": "EN_JUEGO",
+      "loc": "Villarreal CF",
+      "vis": "Real Betis Balompié",
+      "cuotas": {
+        "loc": 1.97,
+        "vis": 3.47,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-14T16:59:59.822Z",
+        "masDe25": 1.45,
+        "menosDe25": 2.62,
+        "empate": 3.91
+      },
+      "clima": {
+        "estadio": "Estadio de la Cerámica",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 5,
+        "temp_c": 22
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "1-2"
       }
     },
     {
@@ -107,7 +147,7 @@
       "torneo": "Premier League",
       "ronda": "Jornada 4",
       "inicioUTC": "2026-09-14T19:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Leeds United FC",
       "vis": "Newcastle United FC",
       "cuotas": {
@@ -124,37 +164,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
-      }
-    },
-    {
-      "id": "fd-564671",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 5",
-      "inicioUTC": "2026-09-14T19:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Villarreal CF",
-      "vis": "Real Betis Balompié",
-      "cuotas": {
-        "loc": 1.97,
-        "vis": 3.47,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-14T16:59:59.822Z",
-        "masDe25": 1.45,
-        "menosDe25": 2.62,
-        "empate": 3.91
       },
-      "clima": {
-        "estadio": "Estadio de la Cerámica",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 15,
-        "temp_c": 29
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
+      "marcador": {
+        "txt": "4-0"
       }
     },
     {
@@ -163,7 +175,7 @@
       "torneo": "Primeira Liga",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-14T19:15:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Moreirense FC",
       "vis": "CS Marítimo",
       "cuotas": {
@@ -180,6 +192,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
       }
     },
     {
@@ -188,7 +203,7 @@
       "torneo": "Primeira Liga",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-14T19:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Sporting Clube de Braga",
       "vis": "GD Estoril Praia",
       "cuotas": {
@@ -205,6 +220,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
       }
     },
     {
