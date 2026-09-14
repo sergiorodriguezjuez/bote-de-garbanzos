@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-14T20:48:09.671Z",
+  "generado": "2026-09-14T23:36:18.620Z",
   "partidos": [
     {
       "id": "fd-558603",
@@ -96,7 +96,7 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 6,
-        "temp_c": 24
+        "temp_c": 22
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -108,46 +108,12 @@
       }
     },
     {
-      "id": "fd-564671",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 5",
-      "inicioUTC": "2026-09-14T19:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Villarreal CF",
-      "vis": "Real Betis Balompié",
-      "cuotas": {
-        "loc": 1.97,
-        "vis": 3.47,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-14T16:59:59.822Z",
-        "masDe25": 1.45,
-        "menosDe25": 2.62,
-        "empate": 3.91
-      },
-      "clima": {
-        "estadio": "Estadio de la Cerámica",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 5,
-        "temp_c": 22
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-2"
-      }
-    },
-    {
       "id": "fd-560579",
       "dep": "Fútbol",
       "torneo": "Premier League",
       "ronda": "Jornada 4",
       "inicioUTC": "2026-09-14T19:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Leeds United FC",
       "vis": "Newcastle United FC",
       "cuotas": {
@@ -166,7 +132,41 @@
         "vis": []
       },
       "marcador": {
-        "txt": "4-0"
+        "txt": "4-1"
+      }
+    },
+    {
+      "id": "fd-564671",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 5",
+      "inicioUTC": "2026-09-14T19:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Villarreal CF",
+      "vis": "Real Betis Balompié",
+      "cuotas": {
+        "loc": 1.97,
+        "vis": 3.47,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-14T16:59:59.822Z",
+        "masDe25": 1.45,
+        "menosDe25": 2.62,
+        "empate": 3.91
+      },
+      "clima": {
+        "estadio": "Estadio de la Cerámica",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 6,
+        "temp_c": 19
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "1-2"
       }
     },
     {
@@ -175,7 +175,7 @@
       "torneo": "Primeira Liga",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-14T19:15:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Moreirense FC",
       "vis": "CS Marítimo",
       "cuotas": {
@@ -194,7 +194,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "2-0"
+        "txt": "3-1"
       }
     },
     {
@@ -203,7 +203,7 @@
       "torneo": "Primeira Liga",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-14T19:45:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Sporting Clube de Braga",
       "vis": "GD Estoril Praia",
       "cuotas": {
@@ -222,7 +222,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
+        "txt": "1-0"
       }
     },
     {
@@ -231,7 +231,7 @@
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 27",
       "inicioUTC": "2026-09-14T23:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "EC Bahia",
       "vis": "Clube do Remo",
       "cuotas": {
@@ -248,6 +248,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "1-0"
       }
     },
     {
@@ -276,31 +279,6 @@
       }
     },
     {
-      "id": "fd-558240",
-      "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 3",
-      "inicioUTC": "2026-09-15T18:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "AFC Ajax",
-      "vis": "Willem II Tilburg",
-      "cuotas": {
-        "loc": 1.13,
-        "vis": 14.3,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-14T11:16:53.544Z",
-        "masDe25": 1.22,
-        "menosDe25": 4.05,
-        "empate": 8.34
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-564680",
       "dep": "Fútbol",
       "torneo": "Primera Division",
@@ -317,6 +295,31 @@
         "masDe25": 2.18,
         "menosDe25": 1.66,
         "empate": 3.31
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-558240",
+      "dep": "Fútbol",
+      "torneo": "Eredivisie",
+      "ronda": "Jornada 3",
+      "inicioUTC": "2026-09-15T18:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "AFC Ajax",
+      "vis": "Willem II Tilburg",
+      "cuotas": {
+        "loc": 1.13,
+        "vis": 14.3,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-14T11:16:53.544Z",
+        "masDe25": 1.22,
+        "menosDe25": 4.05,
+        "empate": 8.34
       },
       "clima": null,
       "lesiones": {
