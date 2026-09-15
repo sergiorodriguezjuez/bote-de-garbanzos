@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-15T10:42:51.255Z",
+  "generado": "2026-09-15T15:21:37.986Z",
   "partidos": [
     {
       "id": "fd-564678",
@@ -12,13 +12,13 @@
       "loc": "Rayo Vallecano de Madrid",
       "vis": "RCD Espanyol de Barcelona",
       "cuotas": {
-        "loc": 2.17,
-        "vis": 3.32,
+        "loc": 2.4,
+        "vis": 2.98,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-14T11:16:53.448Z",
-        "masDe25": 1.94,
-        "menosDe25": 1.85,
-        "empate": 3.42
+        "actualizado": "2026-09-15T15:21:36.894Z",
+        "masDe25": 1.86,
+        "menosDe25": 1.92,
+        "empate": 3.34
       },
       "clima": null,
       "lesiones": {
@@ -37,13 +37,13 @@
       "loc": "Deportivo Alavés",
       "vis": "Valencia CF",
       "cuotas": {
-        "loc": 1.87,
-        "vis": 4.63,
+        "loc": 1.66,
+        "vis": 5.61,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-14T11:16:53.544Z",
-        "masDe25": 2.18,
-        "menosDe25": 1.66,
-        "empate": 3.31
+        "actualizado": "2026-09-15T15:21:36.895Z",
+        "masDe25": 2.02,
+        "menosDe25": 1.76,
+        "empate": 3.65
       },
       "clima": null,
       "lesiones": {
@@ -62,13 +62,13 @@
       "loc": "AFC Ajax",
       "vis": "Willem II Tilburg",
       "cuotas": {
-        "loc": 1.13,
-        "vis": 14.3,
+        "loc": 1.1,
+        "vis": 17.61,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-14T11:16:53.544Z",
-        "masDe25": 1.22,
-        "menosDe25": 4.05,
-        "empate": 8.34
+        "actualizado": "2026-09-15T15:21:37.016Z",
+        "masDe25": 1.2,
+        "menosDe25": 4.3,
+        "empate": 9.83
       },
       "clima": null,
       "lesiones": {
@@ -87,13 +87,13 @@
       "loc": "Middlesbrough FC",
       "vis": "Millwall FC",
       "cuotas": {
-        "loc": 1.58,
-        "vis": 5.03,
+        "loc": 1.44,
+        "vis": 6.36,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-14T11:16:53.623Z",
-        "masDe25": 1.59,
-        "menosDe25": 2.24,
-        "empate": 4.17
+        "actualizado": "2026-09-15T15:21:37.151Z",
+        "masDe25": 1.52,
+        "menosDe25": 2.37,
+        "empate": 4.63
       },
       "clima": null,
       "lesiones": {
@@ -112,13 +112,13 @@
       "loc": "Bristol City FC",
       "vis": "Lincoln City FC",
       "cuotas": {
-        "loc": 1.97,
-        "vis": 3.57,
+        "loc": 1.86,
+        "vis": 4.07,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-14T11:16:53.623Z",
-        "masDe25": 1.79,
-        "menosDe25": 1.94,
-        "empate": 3.49
+        "actualizado": "2026-09-15T15:21:37.152Z",
+        "masDe25": 1.95,
+        "menosDe25": 1.8,
+        "empate": 3.48
       },
       "clima": null,
       "lesiones": {
@@ -137,13 +137,13 @@
       "loc": "Elche CF",
       "vis": "Real Madrid CF",
       "cuotas": {
-        "loc": 10.51,
-        "vis": 1.24,
+        "loc": 12.6,
+        "vis": 1.2,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-14T11:16:53.625Z",
-        "masDe25": 1.34,
-        "menosDe25": 3.17,
-        "empate": 6.48
+        "actualizado": "2026-09-15T15:21:37.152Z",
+        "masDe25": 1.29,
+        "menosDe25": 3.53,
+        "empate": 7.22
       },
       "clima": null,
       "lesiones": {
@@ -215,8 +215,8 @@
         "estadio": "Cívitas Metropolitano",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 4,
-        "temp_c": 29
+        "viento_kmh": 10,
+        "temp_c": 35
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -271,7 +271,7 @@
         "estadio": "Spotify Camp Nou",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 8,
+        "viento_kmh": 15,
         "temp_c": 30
       },
       "lesiones": {
