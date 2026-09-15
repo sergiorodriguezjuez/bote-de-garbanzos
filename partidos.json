@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-15T15:21:37.986Z",
+  "generado": "2026-09-15T19:07:38.209Z",
   "partidos": [
     {
       "id": "fd-564678",
@@ -8,7 +8,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-15T17:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Rayo Vallecano de Madrid",
       "vis": "RCD Espanyol de Barcelona",
       "cuotas": {
@@ -25,6 +25,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-1"
       }
     },
     {
@@ -33,7 +36,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-15T18:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Deportivo Alavés",
       "vis": "Valencia CF",
       "cuotas": {
@@ -50,6 +53,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
       }
     },
     {
@@ -58,7 +64,7 @@
       "torneo": "Eredivisie",
       "ronda": "Jornada 3",
       "inicioUTC": "2026-09-15T18:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "AFC Ajax",
       "vis": "Willem II Tilburg",
       "cuotas": {
@@ -75,6 +81,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
       }
     },
     {
@@ -83,7 +92,7 @@
       "torneo": "Championship",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-15T18:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Middlesbrough FC",
       "vis": "Millwall FC",
       "cuotas": {
@@ -100,6 +109,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-1"
       }
     },
     {
@@ -108,7 +120,7 @@
       "torneo": "Championship",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-15T18:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Bristol City FC",
       "vis": "Lincoln City FC",
       "cuotas": {
@@ -125,6 +137,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
       }
     },
     {
@@ -215,8 +230,8 @@
         "estadio": "Cívitas Metropolitano",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 10,
-        "temp_c": 35
+        "viento_kmh": 5,
+        "temp_c": 31
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -271,8 +286,8 @@
         "estadio": "Spotify Camp Nou",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 15,
-        "temp_c": 30
+        "viento_kmh": 3,
+        "temp_c": 26
       },
       "lesiones": {
         "cobertura": "sin confirmar",
