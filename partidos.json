@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-15T19:07:38.209Z",
+  "generado": "2026-09-15T22:23:09.558Z",
   "partidos": [
     {
       "id": "fd-564678",
@@ -36,7 +36,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-15T18:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Deportivo Alavés",
       "vis": "Valencia CF",
       "cuotas": {
@@ -55,7 +55,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
+        "txt": "0-1"
       }
     },
     {
@@ -64,7 +64,7 @@
       "torneo": "Eredivisie",
       "ronda": "Jornada 3",
       "inicioUTC": "2026-09-15T18:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "AFC Ajax",
       "vis": "Willem II Tilburg",
       "cuotas": {
@@ -83,35 +83,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "2-0"
-      }
-    },
-    {
-      "id": "fd-561825",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-15T18:45:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Middlesbrough FC",
-      "vis": "Millwall FC",
-      "cuotas": {
-        "loc": 1.44,
-        "vis": 6.36,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T15:21:37.151Z",
-        "masDe25": 1.52,
-        "menosDe25": 2.37,
-        "empate": 4.63
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-1"
+        "txt": "5-1"
       }
     },
     {
@@ -120,7 +92,7 @@
       "torneo": "Championship",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-15T18:45:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Bristol City FC",
       "vis": "Lincoln City FC",
       "cuotas": {
@@ -139,7 +111,35 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
+        "txt": "0-1"
+      }
+    },
+    {
+      "id": "fd-561825",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-15T18:45:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Middlesbrough FC",
+      "vis": "Millwall FC",
+      "cuotas": {
+        "loc": 1.44,
+        "vis": 6.36,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-15T15:21:37.151Z",
+        "masDe25": 1.52,
+        "menosDe25": 2.37,
+        "empate": 4.63
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "2-2"
       }
     },
     {
@@ -148,7 +148,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-15T19:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Elche CF",
       "vis": "Real Madrid CF",
       "cuotas": {
@@ -165,6 +165,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-3"
       }
     },
     {
@@ -177,6 +180,37 @@
       "loc": "CA Platense",
       "vis": "Fluminense FC",
       "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564684",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-16T17:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Club Atlético de Madrid",
+      "vis": "CA Osasuna",
+      "cuotas": {
+        "loc": 1.4,
+        "vis": 7.97,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-15T10:42:50.685Z",
+        "masDe25": 1.69,
+        "menosDe25": 2.12,
+        "empate": 4.73
+      },
+      "clima": {
+        "estadio": "Cívitas Metropolitano",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 3,
+        "temp_c": 26
+      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -209,29 +243,29 @@
       }
     },
     {
-      "id": "fd-564684",
+      "id": "fd-564687",
       "dep": "Fútbol",
       "torneo": "Primera Division",
       "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-16T17:00:00Z",
+      "inicioUTC": "2026-09-16T19:30:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Club Atlético de Madrid",
-      "vis": "CA Osasuna",
+      "loc": "FC Barcelona",
+      "vis": "Real Racing Club de Santander",
       "cuotas": {
-        "loc": 1.4,
-        "vis": 7.97,
+        "loc": 1.06,
+        "vis": 25.44,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T10:42:50.685Z",
-        "masDe25": 1.69,
-        "menosDe25": 2.12,
-        "empate": 4.73
+        "actualizado": "2026-09-15T10:42:51.091Z",
+        "masDe25": 1.11,
+        "menosDe25": 6.26,
+        "empate": 15.25
       },
       "clima": {
-        "estadio": "Cívitas Metropolitano",
+        "estadio": "Spotify Camp Nou",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 5,
-        "temp_c": 31
+        "viento_kmh": 4,
+        "temp_c": 24
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -258,37 +292,6 @@
         "empate": 3.48
       },
       "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-564687",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-16T19:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "FC Barcelona",
-      "vis": "Real Racing Club de Santander",
-      "cuotas": {
-        "loc": 1.06,
-        "vis": 25.44,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T10:42:51.091Z",
-        "masDe25": 1.11,
-        "menosDe25": 6.26,
-        "empate": 15.25
-      },
-      "clima": {
-        "estadio": "Spotify Camp Nou",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 3,
-        "temp_c": 26
-      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
