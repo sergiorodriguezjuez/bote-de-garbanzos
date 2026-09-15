@@ -1,258 +1,7 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-14T23:36:18.620Z",
+  "generado": "2026-09-15T10:42:51.255Z",
   "partidos": [
-    {
-      "id": "fd-558603",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-09-14T16:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Torino FC",
-      "vis": "AS Roma",
-      "cuotas": {
-        "loc": 5.66,
-        "vis": 1.54,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:38.474Z",
-        "empate": 4.17
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-2"
-      }
-    },
-    {
-      "id": "fd-558602",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-09-14T16:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Como 1907",
-      "vis": "Parma Calcio 1913",
-      "cuotas": {
-        "loc": 1.21,
-        "vis": 12.62,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-13T14:12:38.474Z",
-        "empate": 6.27
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-1"
-      }
-    },
-    {
-      "id": "fd-567303",
-      "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-14T17:45:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Rio Ave FC",
-      "vis": "CF Estrela da Amadora",
-      "cuotas": {
-        "loc": 2.83,
-        "vis": 2.44,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-14T16:59:58.706Z",
-        "masDe25": 1.97,
-        "menosDe25": 1.78,
-        "empate": 3.18
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "3-3"
-      }
-    },
-    {
-      "id": "fd-558601",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-09-14T18:45:00Z",
-      "estado": "FINALIZADO",
-      "loc": "FC Internazionale Milano",
-      "vis": "Udinese Calcio",
-      "clima": {
-        "estadio": "San Siro",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 6,
-        "temp_c": 22
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "5-3"
-      }
-    },
-    {
-      "id": "fd-560579",
-      "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-09-14T19:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Leeds United FC",
-      "vis": "Newcastle United FC",
-      "cuotas": {
-        "loc": 2.33,
-        "vis": 3,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-14T16:59:59.547Z",
-        "masDe25": 1.71,
-        "menosDe25": 2.12,
-        "empate": 3.47
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "4-1"
-      }
-    },
-    {
-      "id": "fd-564671",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 5",
-      "inicioUTC": "2026-09-14T19:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Villarreal CF",
-      "vis": "Real Betis Balompié",
-      "cuotas": {
-        "loc": 1.97,
-        "vis": 3.47,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-14T16:59:59.822Z",
-        "masDe25": 1.45,
-        "menosDe25": 2.62,
-        "empate": 3.91
-      },
-      "clima": {
-        "estadio": "Estadio de la Cerámica",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 6,
-        "temp_c": 19
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-2"
-      }
-    },
-    {
-      "id": "fd-567302",
-      "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-14T19:15:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Moreirense FC",
-      "vis": "CS Marítimo",
-      "cuotas": {
-        "loc": 2.67,
-        "vis": 2.64,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-14T16:59:59.969Z",
-        "masDe25": 2.21,
-        "menosDe25": 1.6,
-        "empate": 3.06
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "3-1"
-      }
-    },
-    {
-      "id": "fd-567308",
-      "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-14T19:45:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Sporting Clube de Braga",
-      "vis": "GD Estoril Praia",
-      "cuotas": {
-        "loc": 1.35,
-        "vis": 7.91,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-14T16:59:59.969Z",
-        "masDe25": 1.66,
-        "menosDe25": 2.08,
-        "empate": 4.72
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-0"
-      }
-    },
-    {
-      "id": "fd-555001",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 27",
-      "inicioUTC": "2026-09-14T23:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "EC Bahia",
-      "vis": "Clube do Remo",
-      "cuotas": {
-        "loc": 1.41,
-        "vis": 6.79,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-14T17:00:00.199Z",
-        "masDe25": 1.58,
-        "menosDe25": 2.29,
-        "empate": 4.6
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-0"
-      }
-    },
     {
       "id": "fd-564678",
       "dep": "Fútbol",
@@ -329,31 +78,6 @@
       }
     },
     {
-      "id": "fd-561828",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-15T18:45:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Bristol City FC",
-      "vis": "Lincoln City FC",
-      "cuotas": {
-        "loc": 1.97,
-        "vis": 3.57,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-14T11:16:53.623Z",
-        "masDe25": 1.79,
-        "menosDe25": 1.94,
-        "empate": 3.49
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-561825",
       "dep": "Fútbol",
       "torneo": "Championship",
@@ -370,6 +94,31 @@
         "masDe25": 1.59,
         "menosDe25": 2.24,
         "empate": 4.17
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561828",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-15T18:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Bristol City FC",
+      "vis": "Lincoln City FC",
+      "cuotas": {
+        "loc": 1.97,
+        "vis": 3.57,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-14T11:16:53.623Z",
+        "masDe25": 1.79,
+        "menosDe25": 1.94,
+        "empate": 3.49
       },
       "clima": null,
       "lesiones": {
@@ -412,6 +161,159 @@
       "estado": "PROGRAMADO",
       "loc": "CA Platense",
       "vis": "Fluminense FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564679",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-16T17:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "RC Deportivo La Coruña",
+      "vis": "Sevilla FC",
+      "cuotas": {
+        "loc": 2.5,
+        "vis": 3.03,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-15T10:42:50.684Z",
+        "masDe25": 2.22,
+        "menosDe25": 1.64,
+        "empate": 3.09
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564684",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-16T17:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Club Atlético de Madrid",
+      "vis": "CA Osasuna",
+      "cuotas": {
+        "loc": 1.4,
+        "vis": 7.97,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-15T10:42:50.685Z",
+        "masDe25": 1.69,
+        "menosDe25": 2.12,
+        "empate": 4.73
+      },
+      "clima": {
+        "estadio": "Cívitas Metropolitano",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 4,
+        "temp_c": 29
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564685",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-16T19:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Levante UD",
+      "vis": "Athletic Club",
+      "cuotas": {
+        "loc": 3.38,
+        "vis": 2.13,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-15T10:42:51.091Z",
+        "masDe25": 1.83,
+        "menosDe25": 1.96,
+        "empate": 3.48
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564687",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-16T19:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "FC Barcelona",
+      "vis": "Real Racing Club de Santander",
+      "cuotas": {
+        "loc": 1.06,
+        "vis": 25.44,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-15T10:42:51.091Z",
+        "masDe25": 1.11,
+        "menosDe25": 6.26,
+        "empate": 15.25
+      },
+      "clima": {
+        "estadio": "Spotify Camp Nou",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 8,
+        "temp_c": 30
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-576250",
+      "dep": "Fútbol",
+      "torneo": "Copa Libertadores",
+      "ronda": "QUARTER FINALS",
+      "inicioUTC": "2026-09-16T22:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "LDU de Quito",
+      "vis": "SE Palmeiras",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-554941",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 21",
+      "inicioUTC": "2026-09-16T22:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Botafogo FR",
+      "vis": "Grêmio FBPA",
+      "cuotas": {
+        "loc": 1.7,
+        "vis": 4.61,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-15T10:42:51.254Z",
+        "masDe25": 1.79,
+        "menosDe25": 1.95,
+        "empate": 3.66
+      },
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
