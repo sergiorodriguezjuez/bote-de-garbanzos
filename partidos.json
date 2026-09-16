@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-16T21:54:32.481Z",
+  "generado": "2026-09-16T23:58:35.613Z",
   "partidos": [
     {
       "id": "fd-564684",
@@ -24,8 +24,8 @@
         "estadio": "Cívitas Metropolitano",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 19,
-        "temp_c": 18
+        "viento_kmh": 18,
+        "temp_c": 17
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -113,7 +113,7 @@
       "clima": {
         "estadio": "Spotify Camp Nou",
         "techo": false,
-        "lluvia_mm": 1,
+        "lluvia_mm": 0.3,
         "viento_kmh": 6,
         "temp_c": 21
       },
@@ -148,7 +148,7 @@
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 21",
       "inicioUTC": "2026-09-16T22:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Botafogo FR",
       "vis": "Grêmio FBPA",
       "cuotas": {
@@ -165,6 +165,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-1"
       }
     },
     {
