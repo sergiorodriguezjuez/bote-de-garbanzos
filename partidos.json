@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-16T18:58:32.911Z",
+  "generado": "2026-09-16T21:54:32.481Z",
   "partidos": [
     {
       "id": "fd-564684",
@@ -8,7 +8,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-16T17:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Club Atlético de Madrid",
       "vis": "CA Osasuna",
       "cuotas": {
@@ -24,8 +24,8 @@
         "estadio": "Cívitas Metropolitano",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 23,
-        "temp_c": 21
+        "viento_kmh": 19,
+        "temp_c": 18
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -42,7 +42,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-16T17:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "RC Deportivo La Coruña",
       "vis": "Sevilla FC",
       "cuotas": {
@@ -70,7 +70,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-16T19:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Levante UD",
       "vis": "Athletic Club",
       "cuotas": {
@@ -87,6 +87,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
       }
     },
     {
@@ -95,7 +98,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-16T19:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "FC Barcelona",
       "vis": "Real Racing Club de Santander",
       "cuotas": {
@@ -110,14 +113,17 @@
       "clima": {
         "estadio": "Spotify Camp Nou",
         "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 4,
-        "temp_c": 22
+        "lluvia_mm": 1,
+        "viento_kmh": 6,
+        "temp_c": 21
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "7-2"
       }
     },
     {
