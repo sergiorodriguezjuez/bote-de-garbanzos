@@ -1,184 +1,25 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-15T22:23:09.558Z",
+  "generado": "2026-09-16T00:35:54.228Z",
   "partidos": [
     {
-      "id": "fd-564678",
+      "id": "fd-564679",
       "dep": "Fútbol",
       "torneo": "Primera Division",
       "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-15T17:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Rayo Vallecano de Madrid",
-      "vis": "RCD Espanyol de Barcelona",
-      "cuotas": {
-        "loc": 2.4,
-        "vis": 2.98,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T15:21:36.894Z",
-        "masDe25": 1.86,
-        "menosDe25": 1.92,
-        "empate": 3.34
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-1"
-      }
-    },
-    {
-      "id": "fd-564680",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-15T18:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Deportivo Alavés",
-      "vis": "Valencia CF",
-      "cuotas": {
-        "loc": 1.66,
-        "vis": 5.61,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T15:21:36.895Z",
-        "masDe25": 2.02,
-        "menosDe25": 1.76,
-        "empate": 3.65
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-1"
-      }
-    },
-    {
-      "id": "fd-558240",
-      "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 3",
-      "inicioUTC": "2026-09-15T18:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "AFC Ajax",
-      "vis": "Willem II Tilburg",
-      "cuotas": {
-        "loc": 1.1,
-        "vis": 17.61,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T15:21:37.016Z",
-        "masDe25": 1.2,
-        "menosDe25": 4.3,
-        "empate": 9.83
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "5-1"
-      }
-    },
-    {
-      "id": "fd-561828",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-15T18:45:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Bristol City FC",
-      "vis": "Lincoln City FC",
-      "cuotas": {
-        "loc": 1.86,
-        "vis": 4.07,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T15:21:37.152Z",
-        "masDe25": 1.95,
-        "menosDe25": 1.8,
-        "empate": 3.48
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-1"
-      }
-    },
-    {
-      "id": "fd-561825",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-15T18:45:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Middlesbrough FC",
-      "vis": "Millwall FC",
-      "cuotas": {
-        "loc": 1.44,
-        "vis": 6.36,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T15:21:37.151Z",
-        "masDe25": 1.52,
-        "menosDe25": 2.37,
-        "empate": 4.63
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-2"
-      }
-    },
-    {
-      "id": "fd-564681",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-15T19:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Elche CF",
-      "vis": "Real Madrid CF",
-      "cuotas": {
-        "loc": 12.6,
-        "vis": 1.2,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T15:21:37.152Z",
-        "masDe25": 1.29,
-        "menosDe25": 3.53,
-        "empate": 7.22
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-3"
-      }
-    },
-    {
-      "id": "fd-576251",
-      "dep": "Fútbol",
-      "torneo": "Copa Libertadores",
-      "ronda": "QUARTER FINALS",
-      "inicioUTC": "2026-09-15T22:00:00Z",
+      "inicioUTC": "2026-09-16T17:00:00Z",
       "estado": "PROGRAMADO",
-      "loc": "CA Platense",
-      "vis": "Fluminense FC",
+      "loc": "RC Deportivo La Coruña",
+      "vis": "Sevilla FC",
+      "cuotas": {
+        "loc": 2.5,
+        "vis": 3.03,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-15T10:42:50.684Z",
+        "masDe25": 2.22,
+        "menosDe25": 1.64,
+        "empate": 3.09
+      },
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -208,8 +49,8 @@
         "estadio": "Cívitas Metropolitano",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 3,
-        "temp_c": 26
+        "viento_kmh": 5,
+        "temp_c": 23
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -218,22 +59,22 @@
       }
     },
     {
-      "id": "fd-564679",
+      "id": "fd-564685",
       "dep": "Fútbol",
       "torneo": "Primera Division",
       "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-16T17:00:00Z",
+      "inicioUTC": "2026-09-16T19:30:00Z",
       "estado": "PROGRAMADO",
-      "loc": "RC Deportivo La Coruña",
-      "vis": "Sevilla FC",
+      "loc": "Levante UD",
+      "vis": "Athletic Club",
       "cuotas": {
-        "loc": 2.5,
-        "vis": 3.03,
+        "loc": 3.38,
+        "vis": 2.13,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T10:42:50.684Z",
-        "masDe25": 2.22,
-        "menosDe25": 1.64,
-        "empate": 3.09
+        "actualizado": "2026-09-15T10:42:51.091Z",
+        "masDe25": 1.83,
+        "menosDe25": 1.96,
+        "empate": 3.48
       },
       "clima": null,
       "lesiones": {
@@ -265,33 +106,8 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 4,
-        "temp_c": 24
+        "temp_c": 23
       },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-564685",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-16T19:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Levante UD",
-      "vis": "Athletic Club",
-      "cuotas": {
-        "loc": 3.38,
-        "vis": 2.13,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T10:42:51.091Z",
-        "masDe25": 1.83,
-        "menosDe25": 1.96,
-        "empate": 3.48
-      },
-      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -331,6 +147,72 @@
         "masDe25": 1.79,
         "menosDe25": 1.95,
         "empate": 3.66
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-576249",
+      "dep": "Fútbol",
+      "torneo": "Copa Libertadores",
+      "ronda": "QUARTER FINALS",
+      "inicioUTC": "2026-09-17T00:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "SC Corinthians Paulista",
+      "vis": "Estudiantes de La Plata",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564686",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-17T17:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Real Betis Balompié",
+      "vis": "Getafe CF",
+      "cuotas": {
+        "loc": 1.67,
+        "vis": 5.46,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-16T00:35:54.228Z",
+        "masDe25": 2.16,
+        "menosDe25": 1.67,
+        "empate": 3.68
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564683",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-17T19:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Málaga CF",
+      "vis": "Villarreal CF",
+      "cuotas": {
+        "loc": 3.59,
+        "vis": 1.96,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-16T00:35:54.228Z",
+        "masDe25": 1.59,
+        "menosDe25": 2.29,
+        "empate": 3.74
       },
       "clima": null,
       "lesiones": {
