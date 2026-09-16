@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-16T00:35:54.228Z",
+  "generado": "2026-09-16T10:30:38.190Z",
   "partidos": [
     {
       "id": "fd-564679",
@@ -49,34 +49,9 @@
         "estadio": "Cívitas Metropolitano",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 5,
-        "temp_c": 23
+        "viento_kmh": 19,
+        "temp_c": 24
       },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-564685",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-16T19:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Levante UD",
-      "vis": "Athletic Club",
-      "cuotas": {
-        "loc": 3.38,
-        "vis": 2.13,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T10:42:51.091Z",
-        "masDe25": 1.83,
-        "menosDe25": 1.96,
-        "empate": 3.48
-      },
-      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -104,10 +79,35 @@
       "clima": {
         "estadio": "Spotify Camp Nou",
         "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 4,
-        "temp_c": 23
+        "lluvia_mm": 0.1,
+        "viento_kmh": 17,
+        "temp_c": 26
       },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564685",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-16T19:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Levante UD",
+      "vis": "Athletic Club",
+      "cuotas": {
+        "loc": 3.38,
+        "vis": 2.13,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-15T10:42:51.091Z",
+        "masDe25": 1.83,
+        "menosDe25": 1.96,
+        "empate": 3.48
+      },
+      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
