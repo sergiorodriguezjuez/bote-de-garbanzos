@@ -1,14 +1,48 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-16T15:13:05.026Z",
+  "generado": "2026-09-16T18:58:32.911Z",
   "partidos": [
+    {
+      "id": "fd-564684",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-16T17:00:00Z",
+      "estado": "EN_JUEGO",
+      "loc": "Club Atlético de Madrid",
+      "vis": "CA Osasuna",
+      "cuotas": {
+        "loc": 1.37,
+        "vis": 8.91,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-16T15:13:03.987Z",
+        "masDe25": 1.7,
+        "menosDe25": 2.12,
+        "empate": 4.85
+      },
+      "clima": {
+        "estadio": "Cívitas Metropolitano",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 23,
+        "temp_c": 21
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "4-0"
+      }
+    },
     {
       "id": "fd-564679",
       "dep": "Fútbol",
       "torneo": "Primera Division",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-16T17:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "RC Deportivo La Coruña",
       "vis": "Sevilla FC",
       "cuotas": {
@@ -25,37 +59,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
-      }
-    },
-    {
-      "id": "fd-564684",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-16T17:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Club Atlético de Madrid",
-      "vis": "CA Osasuna",
-      "cuotas": {
-        "loc": 1.37,
-        "vis": 8.91,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-16T15:13:03.987Z",
-        "masDe25": 1.7,
-        "menosDe25": 2.12,
-        "empate": 4.85
       },
-      "clima": {
-        "estadio": "Cívitas Metropolitano",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 20,
-        "temp_c": 28
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
+      "marcador": {
+        "txt": "0-1"
       }
     },
     {
@@ -105,8 +111,8 @@
         "estadio": "Spotify Camp Nou",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 15,
-        "temp_c": 25
+        "viento_kmh": 4,
+        "temp_c": 22
       },
       "lesiones": {
         "cobertura": "sin confirmar",
