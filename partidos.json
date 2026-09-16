@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-16T10:30:38.190Z",
+  "generado": "2026-09-16T15:13:05.026Z",
   "partidos": [
     {
       "id": "fd-564679",
@@ -12,13 +12,13 @@
       "loc": "RC Deportivo La Coruña",
       "vis": "Sevilla FC",
       "cuotas": {
-        "loc": 2.5,
-        "vis": 3.03,
+        "loc": 2.6,
+        "vis": 2.95,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T10:42:50.684Z",
-        "masDe25": 2.22,
-        "menosDe25": 1.64,
-        "empate": 3.09
+        "actualizado": "2026-09-16T15:13:03.987Z",
+        "masDe25": 2.17,
+        "menosDe25": 1.67,
+        "empate": 3.05
       },
       "clima": null,
       "lesiones": {
@@ -37,51 +37,20 @@
       "loc": "Club Atlético de Madrid",
       "vis": "CA Osasuna",
       "cuotas": {
-        "loc": 1.4,
-        "vis": 7.97,
+        "loc": 1.37,
+        "vis": 8.91,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T10:42:50.685Z",
-        "masDe25": 1.69,
+        "actualizado": "2026-09-16T15:13:03.987Z",
+        "masDe25": 1.7,
         "menosDe25": 2.12,
-        "empate": 4.73
+        "empate": 4.85
       },
       "clima": {
         "estadio": "Cívitas Metropolitano",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 19,
-        "temp_c": 24
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-564687",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-09-16T19:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "FC Barcelona",
-      "vis": "Real Racing Club de Santander",
-      "cuotas": {
-        "loc": 1.06,
-        "vis": 25.44,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T10:42:51.091Z",
-        "masDe25": 1.11,
-        "menosDe25": 6.26,
-        "empate": 15.25
-      },
-      "clima": {
-        "estadio": "Spotify Camp Nou",
-        "techo": false,
-        "lluvia_mm": 0.1,
-        "viento_kmh": 17,
-        "temp_c": 26
+        "viento_kmh": 20,
+        "temp_c": 28
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -99,15 +68,46 @@
       "loc": "Levante UD",
       "vis": "Athletic Club",
       "cuotas": {
-        "loc": 3.38,
+        "loc": 3.37,
         "vis": 2.13,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T10:42:51.091Z",
-        "masDe25": 1.83,
-        "menosDe25": 1.96,
-        "empate": 3.48
+        "actualizado": "2026-09-16T15:13:04.719Z",
+        "masDe25": 1.77,
+        "menosDe25": 2.02,
+        "empate": 3.49
       },
       "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564687",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-09-16T19:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "FC Barcelona",
+      "vis": "Real Racing Club de Santander",
+      "cuotas": {
+        "loc": 1.07,
+        "vis": 24.15,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-16T15:13:04.720Z",
+        "masDe25": 1.09,
+        "menosDe25": 6.9,
+        "empate": 13.96
+      },
+      "clima": {
+        "estadio": "Spotify Camp Nou",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 15,
+        "temp_c": 25
+      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -140,13 +140,13 @@
       "loc": "Botafogo FR",
       "vis": "Grêmio FBPA",
       "cuotas": {
-        "loc": 1.7,
-        "vis": 4.61,
+        "loc": 1.69,
+        "vis": 4.6,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-15T10:42:51.254Z",
-        "masDe25": 1.79,
-        "menosDe25": 1.95,
-        "empate": 3.66
+        "actualizado": "2026-09-16T15:13:05.025Z",
+        "masDe25": 1.68,
+        "menosDe25": 2.12,
+        "empate": 3.79
       },
       "clima": null,
       "lesiones": {
