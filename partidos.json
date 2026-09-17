@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-17T10:40:44.720Z",
+  "generado": "2026-09-17T15:22:41.101Z",
   "partidos": [
     {
       "id": "fd-576249",
@@ -123,7 +123,7 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 8,
-        "temp_c": 18
+        "temp_c": 19
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -153,7 +153,7 @@
         "estadio": "Stade Louis II",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 12,
+        "viento_kmh": 13,
         "temp_c": 24
       },
       "lesiones": {
