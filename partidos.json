@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-17T15:22:41.101Z",
+  "generado": "2026-09-17T19:08:06.011Z",
   "partidos": [
     {
       "id": "fd-576249",
@@ -24,7 +24,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-17T17:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Real Betis Balompié",
       "vis": "Getafe CF",
       "cuotas": {
@@ -41,6 +41,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "1-0"
       }
     },
     {
@@ -122,39 +125,8 @@
         "estadio": "Allianz Arena",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 8,
-        "temp_c": 19
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-559682",
-      "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 5",
-      "inicioUTC": "2026-09-18T18:45:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "AS Monaco FC",
-      "vis": "Racing Club de Lens",
-      "cuotas": {
-        "loc": 2.03,
-        "vis": 3.38,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-17T10:40:43.961Z",
-        "masDe25": 1.57,
-        "menosDe25": 2.39,
-        "empate": 3.7
-      },
-      "clima": {
-        "estadio": "Stade Louis II",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 13,
-        "temp_c": 24
+        "viento_kmh": 5,
+        "temp_c": 14
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -188,24 +160,30 @@
       }
     },
     {
-      "id": "fd-564692",
+      "id": "fd-559682",
       "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 7",
-      "inicioUTC": "2026-09-18T19:00:00Z",
+      "torneo": "Ligue 1",
+      "ronda": "Jornada 5",
+      "inicioUTC": "2026-09-18T18:45:00Z",
       "estado": "PROGRAMADO",
-      "loc": "RCD Espanyol de Barcelona",
-      "vis": "Elche CF",
+      "loc": "AS Monaco FC",
+      "vis": "Racing Club de Lens",
       "cuotas": {
-        "loc": 1.83,
-        "vis": 4.38,
+        "loc": 2.03,
+        "vis": 3.38,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-17T10:40:44.354Z",
-        "masDe25": 1.83,
-        "menosDe25": 1.95,
-        "empate": 3.52
+        "actualizado": "2026-09-17T10:40:43.961Z",
+        "masDe25": 1.57,
+        "menosDe25": 2.39,
+        "empate": 3.7
       },
-      "clima": null,
+      "clima": {
+        "estadio": "Stade Louis II",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 12,
+        "temp_c": 23
+      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -254,6 +232,31 @@
         "masDe25": 1.46,
         "menosDe25": 2.64,
         "empate": 3.79
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564692",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 7",
+      "inicioUTC": "2026-09-18T19:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "RCD Espanyol de Barcelona",
+      "vis": "Elche CF",
+      "cuotas": {
+        "loc": 1.83,
+        "vis": 4.38,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-17T10:40:44.354Z",
+        "masDe25": 1.83,
+        "menosDe25": 1.95,
+        "empate": 3.52
       },
       "clima": null,
       "lesiones": {
