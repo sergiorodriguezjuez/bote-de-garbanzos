@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-17T19:08:06.011Z",
+  "generado": "2026-09-17T22:18:18.569Z",
   "partidos": [
     {
       "id": "fd-576249",
@@ -52,7 +52,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-09-17T19:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Málaga CF",
       "vis": "Villarreal CF",
       "cuotas": {
@@ -69,6 +69,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "1-3"
       }
     },
     {
@@ -125,34 +128,9 @@
         "estadio": "Allianz Arena",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 5,
-        "temp_c": 14
+        "viento_kmh": 6,
+        "temp_c": 12
       },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-558596",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 5",
-      "inicioUTC": "2026-09-18T18:45:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "AC Monza",
-      "vis": "US Sassuolo Calcio",
-      "cuotas": {
-        "loc": 3,
-        "vis": 2.34,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-17T10:40:44.353Z",
-        "masDe25": 1.82,
-        "menosDe25": 1.98,
-        "empate": 3.42
-      },
-      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -181,9 +159,34 @@
         "estadio": "Stade Louis II",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 12,
+        "viento_kmh": 8,
         "temp_c": 23
       },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-558596",
+      "dep": "Fútbol",
+      "torneo": "Serie A",
+      "ronda": "Jornada 5",
+      "inicioUTC": "2026-09-18T18:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "AC Monza",
+      "vis": "US Sassuolo Calcio",
+      "cuotas": {
+        "loc": 3,
+        "vis": 2.34,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-17T10:40:44.353Z",
+        "masDe25": 1.82,
+        "menosDe25": 1.98,
+        "empate": 3.42
+      },
+      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
