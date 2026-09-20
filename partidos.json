@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-20T19:59:58.020Z",
+  "generado": "2026-09-20T22:17:01.709Z",
   "partidos": [
     {
       "id": "fd-555017",
@@ -143,25 +143,6 @@
       }
     },
     {
-      "id": "fd-558882",
-      "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 7",
-      "inicioUTC": "2026-09-20T12:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "FC Twente '65",
-      "vis": "PSV",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "3-2"
-      }
-    },
-    {
       "id": "fd-558884",
       "dep": "Fútbol",
       "torneo": "Eredivisie",
@@ -186,7 +167,26 @@
         "vis": []
       },
       "marcador": {
-        "txt": "1-0"
+        "txt": "2-0"
+      }
+    },
+    {
+      "id": "fd-558882",
+      "dep": "Fútbol",
+      "torneo": "Eredivisie",
+      "ronda": "Jornada 7",
+      "inicioUTC": "2026-09-20T12:30:00Z",
+      "estado": "FINALIZADO",
+      "loc": "FC Twente '65",
+      "vis": "PSV",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "3-2"
       }
     },
     {
@@ -215,34 +215,6 @@
       },
       "marcador": {
         "txt": "3-4"
-      }
-    },
-    {
-      "id": "fd-560585",
-      "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 5",
-      "inicioUTC": "2026-09-20T13:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Leeds United FC",
-      "vis": "Crystal Palace FC",
-      "cuotas": {
-        "loc": 1.7,
-        "vis": 4.84,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-20T10:18:42.420Z",
-        "masDe25": 1.71,
-        "menosDe25": 2.12,
-        "empate": 3.92
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
       }
     },
     {
@@ -330,6 +302,34 @@
       }
     },
     {
+      "id": "fd-560585",
+      "dep": "Fútbol",
+      "torneo": "Premier League",
+      "ronda": "Jornada 5",
+      "inicioUTC": "2026-09-20T13:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Leeds United FC",
+      "vis": "Crystal Palace FC",
+      "cuotas": {
+        "loc": 1.7,
+        "vis": 4.84,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-20T10:18:42.420Z",
+        "masDe25": 1.71,
+        "menosDe25": 2.12,
+        "empate": 3.92
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
+      }
+    },
+    {
       "id": "fd-560590",
       "dep": "Fútbol",
       "torneo": "Premier League",
@@ -351,8 +351,8 @@
         "estadio": "Etihad Stadium",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 8,
-        "temp_c": 14
+        "viento_kmh": 4,
+        "temp_c": 13
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -460,8 +460,8 @@
         "estadio": "Cívitas Metropolitano",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 4,
-        "temp_c": 26
+        "viento_kmh": 3,
+        "temp_c": 23
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -470,34 +470,6 @@
       },
       "marcador": {
         "txt": "2-1"
-      }
-    },
-    {
-      "id": "fd-567317",
-      "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 7",
-      "inicioUTC": "2026-09-20T14:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "CF Estrela da Amadora",
-      "vis": "Académico de Viseu FC",
-      "cuotas": {
-        "loc": 2.03,
-        "vis": 3.5,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-20T10:18:42.587Z",
-        "masDe25": 1.95,
-        "menosDe25": 1.8,
-        "empate": 3.3
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-2"
       }
     },
     {
@@ -526,6 +498,34 @@
       },
       "marcador": {
         "txt": "1-1"
+      }
+    },
+    {
+      "id": "fd-567317",
+      "dep": "Fútbol",
+      "torneo": "Primeira Liga",
+      "ronda": "Jornada 7",
+      "inicioUTC": "2026-09-20T14:30:00Z",
+      "estado": "FINALIZADO",
+      "loc": "CF Estrela da Amadora",
+      "vis": "Académico de Viseu FC",
+      "cuotas": {
+        "loc": 2.03,
+        "vis": 3.5,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-20T10:18:42.587Z",
+        "masDe25": 1.95,
+        "menosDe25": 1.8,
+        "empate": 3.3
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "0-2"
       }
     },
     {
@@ -662,8 +662,8 @@
         "estadio": "Allianz Stadium (Turín)",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 4,
-        "temp_c": 21
+        "viento_kmh": 2,
+        "temp_c": 19
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -696,8 +696,8 @@
         "estadio": "Estadio de la Cerámica",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 2,
-        "temp_c": 23
+        "viento_kmh": 6,
+        "temp_c": 19
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -817,7 +817,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 5",
       "inicioUTC": "2026-09-20T18:45:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "AC Milan",
       "vis": "US Lecce",
       "cuotas": {
@@ -833,8 +833,8 @@
         "estadio": "San Siro",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 5,
-        "temp_c": 23
+        "viento_kmh": 4,
+        "temp_c": 21
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -842,7 +842,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "1-0"
+        "txt": "3-0"
       }
     },
     {
@@ -851,7 +851,7 @@
       "torneo": "Ligue 1",
       "ronda": "Jornada 5",
       "inicioUTC": "2026-09-20T18:45:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Olympique de Marseille",
       "vis": "Paris Saint-Germain FC",
       "cuotas": {
@@ -867,8 +867,8 @@
         "estadio": "Stade Vélodrome",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 5,
-        "temp_c": 22
+        "viento_kmh": 3,
+        "temp_c": 21
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -876,35 +876,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-555019",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 28",
-      "inicioUTC": "2026-09-20T19:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "EC Vitória",
-      "vis": "Cruzeiro EC",
-      "cuotas": {
-        "loc": 2.93,
-        "vis": 2.36,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-09-20T10:18:42.673Z",
-        "masDe25": 1.97,
-        "menosDe25": 1.79,
-        "empate": 3.24
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-0"
+        "txt": "1-2"
       }
     },
     {
@@ -913,7 +885,7 @@
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 28",
       "inicioUTC": "2026-09-20T19:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "SC Corinthians Paulista",
       "vis": "Fluminense FC",
       "cuotas": {
@@ -932,7 +904,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-1"
+        "txt": "1-3"
       }
     },
     {
@@ -941,7 +913,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 7",
       "inicioUTC": "2026-09-20T19:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Valencia CF",
       "vis": "Real Sociedad de Fútbol",
       "cuotas": {
@@ -957,8 +929,8 @@
         "estadio": "Mestalla",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 1,
-        "temp_c": 23
+        "viento_kmh": 4,
+        "temp_c": 20
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -966,7 +938,35 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-1"
+        "txt": "2-3"
+      }
+    },
+    {
+      "id": "fd-555019",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 28",
+      "inicioUTC": "2026-09-20T19:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "EC Vitória",
+      "vis": "Cruzeiro EC",
+      "cuotas": {
+        "loc": 2.93,
+        "vis": 2.36,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-09-20T10:18:42.673Z",
+        "masDe25": 1.97,
+        "menosDe25": 1.79,
+        "empate": 3.24
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "1-3"
       }
     },
     {
@@ -975,7 +975,7 @@
       "torneo": "Primeira Liga",
       "ronda": "Jornada 7",
       "inicioUTC": "2026-09-20T19:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "FC Porto",
       "vis": "Sport Lisboa e Benfica",
       "cuotas": {
@@ -994,7 +994,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
+        "txt": "3-1"
       }
     },
     {
@@ -1003,7 +1003,7 @@
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 28",
       "inicioUTC": "2026-09-20T21:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "CR Flamengo",
       "vis": "RB Bragantino",
       "clima": null,
@@ -1011,6 +1011,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "1-0"
       }
     },
     {
