@@ -1,5 +1,31 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-09-30T21:28:42.920Z",
-  "partidos": []
+  "generado": "2026-10-01T00:41:58.820Z",
+  "partidos": [
+    {
+      "id": "fd-554948",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 21",
+      "inicioUTC": "2026-10-02T23:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "São Paulo FC",
+      "vis": "Santos FC",
+      "cuotas": {
+        "loc": 2.01,
+        "vis": 3.61,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-01T00:41:58.820Z",
+        "masDe25": 2.03,
+        "menosDe25": 1.72,
+        "empate": 3.32
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    }
+  ]
 }
