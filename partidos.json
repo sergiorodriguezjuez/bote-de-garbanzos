@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-01T22:50:33.514Z",
+  "generado": "2026-10-02T01:53:18.212Z",
   "partidos": [
     {
       "id": "fd-554948",
@@ -12,14 +12,30 @@
       "loc": "São Paulo FC",
       "vis": "Santos FC",
       "cuotas": {
-        "loc": 2.01,
-        "vis": 3.61,
+        "loc": 2.03,
+        "vis": 3.57,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-01T00:41:58.820Z",
-        "masDe25": 2.03,
+        "actualizado": "2026-10-02T01:53:18.212Z",
+        "masDe25": 2.04,
         "menosDe25": 1.72,
-        "empate": 3.32
+        "empate": 3.33
       },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-554940",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 21",
+      "inicioUTC": "2026-10-03T21:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "CA Mineiro",
+      "vis": "RB Bragantino",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
