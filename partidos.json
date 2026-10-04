@@ -1,25 +1,5 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-03T21:53:45.444Z",
-  "partidos": [
-    {
-      "id": "fd-554940",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 21",
-      "inicioUTC": "2026-10-03T21:30:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "CA Mineiro",
-      "vis": "RB Bragantino",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-0"
-      }
-    }
-  ]
+  "generado": "2026-10-04T00:14:29.537Z",
+  "partidos": []
 }
