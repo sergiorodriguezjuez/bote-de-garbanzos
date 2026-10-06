@@ -1,7 +1,32 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-06T12:27:00.438Z",
+  "generado": "2026-10-06T18:31:31.729Z",
   "partidos": [
+    {
+      "id": "fd-555025",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 29",
+      "inicioUTC": "2026-10-07T22:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "SC Internacional",
+      "vis": "SC Corinthians Paulista",
+      "cuotas": {
+        "loc": 2.16,
+        "vis": 3.34,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-06T01:48:42.653Z",
+        "masDe25": 2.11,
+        "menosDe25": 1.66,
+        "empate": 3.2
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
     {
       "id": "fd-555022",
       "dep": "Fútbol",
@@ -35,31 +60,6 @@
         "masDe25": 1.86,
         "menosDe25": 1.87,
         "empate": 3.36
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-555025",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 29",
-      "inicioUTC": "2026-10-07T22:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "SC Internacional",
-      "vis": "SC Corinthians Paulista",
-      "cuotas": {
-        "loc": 2.16,
-        "vis": 3.34,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-06T01:48:42.653Z",
-        "masDe25": 2.11,
-        "menosDe25": 1.66,
-        "empate": 3.2
       },
       "clima": null,
       "lesiones": {
