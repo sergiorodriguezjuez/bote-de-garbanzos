@@ -1,24 +1,24 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-06T22:50:33.955Z",
+  "generado": "2026-10-07T01:54:18.495Z",
   "partidos": [
     {
-      "id": "fd-555027",
+      "id": "fd-555025",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 29",
       "inicioUTC": "2026-10-07T22:30:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Clube do Remo",
-      "vis": "Grêmio FBPA",
+      "loc": "SC Internacional",
+      "vis": "SC Corinthians Paulista",
       "cuotas": {
-        "loc": 2.24,
-        "vis": 2.99,
+        "loc": 2.18,
+        "vis": 3.32,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-06T01:48:42.652Z",
-        "masDe25": 1.86,
-        "menosDe25": 1.87,
-        "empate": 3.36
+        "actualizado": "2026-10-07T01:54:18.493Z",
+        "masDe25": 2.1,
+        "menosDe25": 1.68,
+        "empate": 3.21
       },
       "clima": null,
       "lesiones": {
@@ -44,22 +44,22 @@
       }
     },
     {
-      "id": "fd-555025",
+      "id": "fd-555027",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 29",
       "inicioUTC": "2026-10-07T22:30:00Z",
       "estado": "PROGRAMADO",
-      "loc": "SC Internacional",
-      "vis": "SC Corinthians Paulista",
+      "loc": "Clube do Remo",
+      "vis": "Grêmio FBPA",
       "cuotas": {
-        "loc": 2.16,
-        "vis": 3.34,
+        "loc": 2.28,
+        "vis": 2.97,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-06T01:48:42.653Z",
-        "masDe25": 2.11,
-        "menosDe25": 1.66,
-        "empate": 3.2
+        "actualizado": "2026-10-07T01:54:18.494Z",
+        "masDe25": 1.86,
+        "menosDe25": 1.89,
+        "empate": 3.34
       },
       "clima": null,
       "lesiones": {
@@ -79,12 +79,12 @@
       "vis": "Chapecoense AF",
       "cuotas": {
         "loc": 1.66,
-        "vis": 4.84,
+        "vis": 4.9,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-06T01:48:42.653Z",
+        "actualizado": "2026-10-07T01:54:18.494Z",
         "masDe25": 1.83,
-        "menosDe25": 1.89,
-        "empate": 3.76
+        "menosDe25": 1.91,
+        "empate": 3.78
       },
       "clima": null,
       "lesiones": {
@@ -103,13 +103,88 @@
       "loc": "Botafogo FR",
       "vis": "CR Vasco da Gama",
       "cuotas": {
-        "loc": 2.68,
-        "vis": 2.44,
+        "loc": 2.77,
+        "vis": 2.4,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-06T01:48:42.653Z",
-        "masDe25": 1.75,
-        "menosDe25": 1.97,
-        "empate": 3.39
+        "actualizado": "2026-10-07T01:54:18.494Z",
+        "masDe25": 1.76,
+        "menosDe25": 1.99,
+        "empate": 3.42
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555023",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 29",
+      "inicioUTC": "2026-10-08T00:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Cruzeiro EC",
+      "vis": "São Paulo FC",
+      "cuotas": {
+        "loc": 1.87,
+        "vis": 4.01,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-07T01:54:18.495Z",
+        "masDe25": 1.94,
+        "menosDe25": 1.81,
+        "empate": 3.47
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555028",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 29",
+      "inicioUTC": "2026-10-08T22:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Santos FC",
+      "vis": "CR Flamengo",
+      "cuotas": {
+        "loc": 4.07,
+        "vis": 1.8,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-07T01:54:18.495Z",
+        "masDe25": 1.74,
+        "menosDe25": 2.01,
+        "empate": 3.64
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555020",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 29",
+      "inicioUTC": "2026-10-08T23:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "CA Paranaense",
+      "vis": "CA Mineiro",
+      "cuotas": {
+        "loc": 2.06,
+        "vis": 3.62,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-07T01:54:18.495Z",
+        "masDe25": 2.01,
+        "menosDe25": 1.75,
+        "empate": 3.2
       },
       "clima": null,
       "lesiones": {
