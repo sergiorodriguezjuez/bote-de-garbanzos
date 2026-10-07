@@ -1,24 +1,24 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-07T01:54:18.495Z",
+  "generado": "2026-10-07T12:20:22.568Z",
   "partidos": [
     {
-      "id": "fd-555025",
+      "id": "fd-555027",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 29",
       "inicioUTC": "2026-10-07T22:30:00Z",
       "estado": "PROGRAMADO",
-      "loc": "SC Internacional",
-      "vis": "SC Corinthians Paulista",
+      "loc": "Clube do Remo",
+      "vis": "Grêmio FBPA",
       "cuotas": {
-        "loc": 2.18,
-        "vis": 3.32,
+        "loc": 2.28,
+        "vis": 2.97,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-07T01:54:18.493Z",
-        "masDe25": 2.1,
-        "menosDe25": 1.68,
-        "empate": 3.21
+        "actualizado": "2026-10-07T01:54:18.494Z",
+        "masDe25": 1.86,
+        "menosDe25": 1.89,
+        "empate": 3.34
       },
       "clima": null,
       "lesiones": {
@@ -44,22 +44,22 @@
       }
     },
     {
-      "id": "fd-555027",
+      "id": "fd-555025",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 29",
       "inicioUTC": "2026-10-07T22:30:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Clube do Remo",
-      "vis": "Grêmio FBPA",
+      "loc": "SC Internacional",
+      "vis": "SC Corinthians Paulista",
       "cuotas": {
-        "loc": 2.28,
-        "vis": 2.97,
+        "loc": 2.18,
+        "vis": 3.32,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-07T01:54:18.494Z",
-        "masDe25": 1.86,
-        "menosDe25": 1.89,
-        "empate": 3.34
+        "actualizado": "2026-10-07T01:54:18.493Z",
+        "masDe25": 2.1,
+        "menosDe25": 1.68,
+        "empate": 3.21
       },
       "clima": null,
       "lesiones": {
