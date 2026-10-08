@@ -1,145 +1,14 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-07T23:39:27.855Z",
+  "generado": "2026-10-08T12:30:23.659Z",
   "partidos": [
-    {
-      "id": "fd-555022",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 29",
-      "inicioUTC": "2026-10-07T22:30:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "RB Bragantino",
-      "vis": "Mirassol FC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-555025",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 29",
-      "inicioUTC": "2026-10-07T22:30:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "SC Internacional",
-      "vis": "SC Corinthians Paulista",
-      "cuotas": {
-        "loc": 2.18,
-        "vis": 3.32,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-07T01:54:18.493Z",
-        "masDe25": 2.1,
-        "menosDe25": 1.68,
-        "empate": 3.21
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-0"
-      }
-    },
-    {
-      "id": "fd-555027",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 29",
-      "inicioUTC": "2026-10-07T22:30:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Clube do Remo",
-      "vis": "Grêmio FBPA",
-      "cuotas": {
-        "loc": 2.28,
-        "vis": 2.97,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-07T01:54:18.494Z",
-        "masDe25": 1.86,
-        "menosDe25": 1.89,
-        "empate": 3.34
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-1"
-      }
-    },
-    {
-      "id": "fd-555029",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 29",
-      "inicioUTC": "2026-10-07T23:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "EC Vitória",
-      "vis": "Chapecoense AF",
-      "cuotas": {
-        "loc": 1.66,
-        "vis": 4.9,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-07T01:54:18.494Z",
-        "masDe25": 1.83,
-        "menosDe25": 1.91,
-        "empate": 3.78
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-0"
-      }
-    },
-    {
-      "id": "fd-555021",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 29",
-      "inicioUTC": "2026-10-07T23:30:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Botafogo FR",
-      "vis": "CR Vasco da Gama",
-      "cuotas": {
-        "loc": 2.77,
-        "vis": 2.4,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-07T01:54:18.494Z",
-        "masDe25": 1.76,
-        "menosDe25": 1.99,
-        "empate": 3.42
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
     {
       "id": "fd-555023",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 29",
       "inicioUTC": "2026-10-08T00:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Cruzeiro EC",
       "vis": "São Paulo FC",
       "cuotas": {
@@ -156,6 +25,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
       }
     },
     {
@@ -168,13 +40,13 @@
       "loc": "Santos FC",
       "vis": "CR Flamengo",
       "cuotas": {
-        "loc": 4.07,
-        "vis": 1.8,
+        "loc": 4.3,
+        "vis": 1.75,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-07T01:54:18.495Z",
-        "masDe25": 1.74,
-        "menosDe25": 2.01,
-        "empate": 3.64
+        "actualizado": "2026-10-08T12:30:22.791Z",
+        "masDe25": 1.68,
+        "menosDe25": 2.11,
+        "empate": 3.74
       },
       "clima": null,
       "lesiones": {
@@ -193,14 +65,242 @@
       "loc": "CA Paranaense",
       "vis": "CA Mineiro",
       "cuotas": {
-        "loc": 2.06,
-        "vis": 3.62,
+        "loc": 2.2,
+        "vis": 3.33,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-07T01:54:18.495Z",
-        "masDe25": 2.01,
-        "menosDe25": 1.75,
-        "empate": 3.2
+        "actualizado": "2026-10-08T12:30:22.791Z",
+        "masDe25": 2.03,
+        "menosDe25": 1.73,
+        "empate": 3.16
       },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555026",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 29",
+      "inicioUTC": "2026-10-09T00:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "SE Palmeiras",
+      "vis": "EC Bahia",
+      "cuotas": {
+        "loc": 1.56,
+        "vis": 5.23,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-08T12:30:22.791Z",
+        "masDe25": 1.6,
+        "menosDe25": 2.24,
+        "empate": 4.19
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555024",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 29",
+      "inicioUTC": "2026-10-09T00:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Fluminense FC",
+      "vis": "Coritiba FBC",
+      "cuotas": {
+        "loc": 1.46,
+        "vis": 6.6,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-08T12:30:22.792Z",
+        "masDe25": 1.84,
+        "menosDe25": 1.91,
+        "empate": 4.23
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-567327",
+      "dep": "Fútbol",
+      "torneo": "Primeira Liga",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-09T17:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Moreirense FC",
+      "vis": "Gil Vicente FC",
+      "cuotas": {
+        "loc": 3.2,
+        "vis": 2.23,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-08T12:30:22.833Z",
+        "masDe25": 2.27,
+        "menosDe25": 1.57,
+        "empate": 3.07
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-558881",
+      "dep": "Fútbol",
+      "torneo": "Eredivisie",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-09T18:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "PSV",
+      "vis": "SC Heerenveen",
+      "cuotas": {
+        "loc": 1.22,
+        "vis": 8.77,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-08T12:30:22.893Z",
+        "masDe25": 1.14,
+        "menosDe25": 5.17,
+        "empate": 7
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-565820",
+      "dep": "Fútbol",
+      "torneo": "Bundesliga",
+      "ronda": "Jornada 5",
+      "inicioUTC": "2026-10-09T18:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Borussia Dortmund",
+      "vis": "SV Werder Bremen",
+      "cuotas": {
+        "loc": 1.34,
+        "vis": 7.87,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-08T12:30:22.975Z",
+        "masDe25": 1.38,
+        "menosDe25": 2.98,
+        "empate": 5.61
+      },
+      "clima": {
+        "estadio": "Signal Iduna Park",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 17,
+        "temp_c": 15
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-559669",
+      "dep": "Fútbol",
+      "torneo": "Ligue 1",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-10-09T18:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Racing Club de Lens",
+      "vis": "Olympique Lyonnais",
+      "cuotas": {
+        "loc": 2.4,
+        "vis": 2.71,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-08T12:30:23.438Z",
+        "masDe25": 1.52,
+        "menosDe25": 2.53,
+        "empate": 3.7
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564706",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-09T19:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Málaga CF",
+      "vis": "RCD Espanyol de Barcelona",
+      "cuotas": {
+        "loc": 2.74,
+        "vis": 2.66,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-08T12:30:23.494Z",
+        "masDe25": 2.05,
+        "menosDe25": 1.75,
+        "empate": 3.19
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561862",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-09T19:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "West Ham United FC",
+      "vis": "Queens Park Rangers FC",
+      "cuotas": {
+        "loc": 1.48,
+        "vis": 5.69,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-08T12:30:23.561Z",
+        "masDe25": 1.5,
+        "menosDe25": 2.42,
+        "empate": 4.51
+      },
+      "clima": {
+        "estadio": "London Stadium",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 16,
+        "temp_c": 14
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-567326",
+      "dep": "Fútbol",
+      "torneo": "Primeira Liga",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-09T19:15:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Sporting Clube de Braga",
+      "vis": "Sporting Clube de Portugal",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
