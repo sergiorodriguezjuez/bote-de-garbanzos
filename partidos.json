@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-08T18:58:01.033Z",
+  "generado": "2026-10-08T23:38:09.171Z",
   "partidos": [
     {
       "id": "fd-555023",
@@ -36,7 +36,7 @@
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 29",
       "inicioUTC": "2026-10-08T22:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Santos FC",
       "vis": "CR Flamengo",
       "cuotas": {
@@ -53,6 +53,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-2"
       }
     },
     {
@@ -61,7 +64,7 @@
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 29",
       "inicioUTC": "2026-10-08T23:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "CA Paranaense",
       "vis": "CA Mineiro",
       "cuotas": {
@@ -78,6 +81,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "1-1"
       }
     },
     {
@@ -202,8 +208,8 @@
         "estadio": "Signal Iduna Park",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 12,
-        "temp_c": 11
+        "viento_kmh": 14,
+        "temp_c": 9
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -283,8 +289,8 @@
         "estadio": "London Stadium",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 7,
-        "temp_c": 14
+        "viento_kmh": 16,
+        "temp_c": 11
       },
       "lesiones": {
         "cobertura": "sin confirmar",
