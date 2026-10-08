@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-08T12:30:23.659Z",
+  "generado": "2026-10-08T18:58:01.033Z",
   "partidos": [
     {
       "id": "fd-555023",
@@ -81,31 +81,6 @@
       }
     },
     {
-      "id": "fd-555026",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 29",
-      "inicioUTC": "2026-10-09T00:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "SE Palmeiras",
-      "vis": "EC Bahia",
-      "cuotas": {
-        "loc": 1.56,
-        "vis": 5.23,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-08T12:30:22.791Z",
-        "masDe25": 1.6,
-        "menosDe25": 2.24,
-        "empate": 4.19
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-555024",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
@@ -122,6 +97,31 @@
         "masDe25": 1.84,
         "menosDe25": 1.91,
         "empate": 4.23
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555026",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 29",
+      "inicioUTC": "2026-10-09T00:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "SE Palmeiras",
+      "vis": "EC Bahia",
+      "cuotas": {
+        "loc": 1.56,
+        "vis": 5.23,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-08T12:30:22.791Z",
+        "masDe25": 1.6,
+        "menosDe25": 2.24,
+        "empate": 4.19
       },
       "clima": null,
       "lesiones": {
@@ -202,8 +202,8 @@
         "estadio": "Signal Iduna Park",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 17,
-        "temp_c": 15
+        "viento_kmh": 12,
+        "temp_c": 11
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -283,7 +283,7 @@
         "estadio": "London Stadium",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 16,
+        "viento_kmh": 7,
         "temp_c": 14
       },
       "lesiones": {
