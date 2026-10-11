@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-11T17:03:10.285Z",
+  "generado": "2026-10-11T21:01:08.932Z",
   "partidos": [
     {
       "id": "fd-555038",
@@ -199,34 +199,6 @@
       }
     },
     {
-      "id": "fd-560594",
-      "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-10-11T13:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Hull City AFC",
-      "vis": "Everton FC",
-      "cuotas": {
-        "loc": 3.66,
-        "vis": 2.1,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-11T11:50:26.210Z",
-        "masDe25": 2.05,
-        "menosDe25": 1.76,
-        "empate": 3.32
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-2"
-      }
-    },
-    {
       "id": "fd-558581",
       "dep": "Fútbol",
       "torneo": "Serie A",
@@ -252,6 +224,34 @@
       },
       "marcador": {
         "txt": "1-2"
+      }
+    },
+    {
+      "id": "fd-560594",
+      "dep": "Fútbol",
+      "torneo": "Premier League",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-10-11T13:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Hull City AFC",
+      "vis": "Everton FC",
+      "cuotas": {
+        "loc": 3.66,
+        "vis": 2.1,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-11T11:50:26.210Z",
+        "masDe25": 2.05,
+        "menosDe25": 1.76,
+        "empate": 3.32
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "2-2"
       }
     },
     {
@@ -304,8 +304,8 @@
         "estadio": "Stadio Olimpico",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 6,
-        "temp_c": 22
+        "viento_kmh": 3,
+        "temp_c": 19
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -395,7 +395,7 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 5,
-        "temp_c": 20
+        "temp_c": 16
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -468,7 +468,7 @@
       "torneo": "Ligue 1",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-10-11T15:15:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Stade Rennais FC 1901",
       "vis": "AJ Auxerre",
       "clima": null,
@@ -478,41 +478,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "2-1"
-      }
-    },
-    {
-      "id": "fd-560598",
-      "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-10-11T15:30:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Liverpool FC",
-      "vis": "Manchester City FC",
-      "cuotas": {
-        "loc": 3.2,
-        "vis": 2.14,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-11T11:50:26.591Z",
-        "masDe25": 1.58,
-        "menosDe25": 2.32,
-        "empate": 3.72
-      },
-      "clima": {
-        "estadio": "Anfield",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 10,
-        "temp_c": 14
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-2"
+        "txt": "4-1"
       }
     },
     {
@@ -521,7 +487,7 @@
       "torneo": "Bundesliga",
       "ronda": "Jornada 5",
       "inicioUTC": "2026-10-11T15:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "SC Freiburg",
       "vis": "FC Schalke 04",
       "cuotas": {
@@ -540,7 +506,41 @@
         "vis": []
       },
       "marcador": {
-        "txt": "1-1"
+        "txt": "2-1"
+      }
+    },
+    {
+      "id": "fd-560598",
+      "dep": "Fútbol",
+      "torneo": "Premier League",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-10-11T15:30:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Liverpool FC",
+      "vis": "Manchester City FC",
+      "cuotas": {
+        "loc": 3.2,
+        "vis": 2.14,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-11T11:50:26.591Z",
+        "masDe25": 1.58,
+        "menosDe25": 2.32,
+        "empate": 3.72
+      },
+      "clima": {
+        "estadio": "Anfield",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 12,
+        "temp_c": 12
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "0-3"
       }
     },
     {
@@ -549,7 +549,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-10-11T16:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "US Sassuolo Calcio",
       "vis": "AC Milan",
       "cuotas": {
@@ -568,7 +568,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
+        "txt": "1-1"
       }
     },
     {
@@ -577,7 +577,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 8",
       "inicioUTC": "2026-10-11T16:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Real Betis Balompié",
       "vis": "CA Osasuna",
       "cuotas": {
@@ -596,7 +596,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "1-0"
+        "txt": "5-2"
       }
     },
     {
@@ -605,7 +605,7 @@
       "torneo": "Primeira Liga",
       "ronda": "Jornada 8",
       "inicioUTC": "2026-10-11T17:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Sport Lisboa e Benfica",
       "vis": "Vitória SC",
       "cuotas": {
@@ -622,6 +622,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
       }
     },
     {
@@ -630,7 +633,7 @@
       "torneo": "Ligue 1",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-10-11T18:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "ES Troyes AC",
       "vis": "Olympique de Marseille",
       "cuotas": {
@@ -647,6 +650,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-2"
       }
     },
     {
@@ -655,7 +661,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-10-11T18:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Cagliari Calcio",
       "vis": "Juventus FC",
       "cuotas": {
@@ -672,31 +678,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
-      }
-    },
-    {
-      "id": "fd-564705",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 8",
-      "inicioUTC": "2026-10-11T19:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Real Racing Club de Santander",
-      "vis": "Valencia CF",
-      "cuotas": {
-        "loc": 2.23,
-        "vis": 3.13,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-11T11:50:26.918Z",
-        "masDe25": 1.67,
-        "menosDe25": 2.14,
-        "empate": 3.52
       },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
+      "marcador": {
+        "txt": "1-1"
       }
     },
     {
@@ -705,7 +689,7 @@
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 30",
       "inicioUTC": "2026-10-11T19:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "CA Mineiro",
       "vis": "Santos FC",
       "cuotas": {
@@ -722,6 +706,37 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "1-1"
+      }
+    },
+    {
+      "id": "fd-564705",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-11T19:00:00Z",
+      "estado": "EN_JUEGO",
+      "loc": "Real Racing Club de Santander",
+      "vis": "Valencia CF",
+      "cuotas": {
+        "loc": 2.23,
+        "vis": 3.13,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-11T11:50:26.918Z",
+        "masDe25": 1.67,
+        "menosDe25": 2.14,
+        "empate": 3.52
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "2-2"
       }
     },
     {
@@ -730,7 +745,7 @@
       "torneo": "Primeira Liga",
       "ronda": "Jornada 8",
       "inicioUTC": "2026-10-11T19:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "FC Arouca",
       "vis": "CF Estrela da Amadora",
       "cuotas": {
@@ -747,6 +762,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "1-0"
       }
     },
     {
@@ -755,7 +773,7 @@
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 30",
       "inicioUTC": "2026-10-11T20:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Grêmio FBPA",
       "vis": "SC Internacional",
       "cuotas": {
@@ -772,31 +790,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
-      }
-    },
-    {
-      "id": "fd-555037",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 30",
-      "inicioUTC": "2026-10-11T20:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "SE Palmeiras",
-      "vis": "SC Corinthians Paulista",
-      "cuotas": {
-        "loc": 1.61,
-        "vis": 5.55,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-11T11:50:26.918Z",
-        "masDe25": 1.99,
-        "menosDe25": 1.76,
-        "empate": 3.69
       },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
+      "marcador": {
+        "txt": "0-0"
       }
     },
     {
@@ -805,7 +801,7 @@
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 30",
       "inicioUTC": "2026-10-11T20:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "CR Flamengo",
       "vis": "Fluminense FC",
       "cuotas": {
@@ -822,6 +818,37 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
+      }
+    },
+    {
+      "id": "fd-555037",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 30",
+      "inicioUTC": "2026-10-11T20:30:00Z",
+      "estado": "EN_JUEGO",
+      "loc": "SE Palmeiras",
+      "vis": "SC Corinthians Paulista",
+      "cuotas": {
+        "loc": 1.61,
+        "vis": 5.55,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-11T11:50:26.918Z",
+        "masDe25": 1.99,
+        "menosDe25": 1.76,
+        "empate": 3.69
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "1-0"
       }
     },
     {
