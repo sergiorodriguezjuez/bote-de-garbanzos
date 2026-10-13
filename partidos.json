@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-13T19:54:54.603Z",
+  "generado": "2026-10-13T23:31:49.543Z",
   "partidos": [
     {
       "id": "fd-555032",
@@ -69,12 +69,40 @@
       }
     },
     {
+      "id": "fd-561870",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 10",
+      "inicioUTC": "2026-10-13T18:45:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Wrexham AFC",
+      "vis": "West Bromwich Albion FC",
+      "cuotas": {
+        "loc": 2.25,
+        "vis": 3.05,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-13T02:47:56.462Z",
+        "masDe25": 1.96,
+        "menosDe25": 1.79,
+        "empate": 3.32
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "1-2"
+      }
+    },
+    {
       "id": "fd-561872",
       "dep": "Fútbol",
       "torneo": "Championship",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-10-13T18:45:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Cardiff City FC",
       "vis": "Watford FC",
       "cuotas": {
@@ -93,7 +121,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "4-0"
+        "txt": "5-1"
       }
     },
     {
@@ -102,7 +130,7 @@
       "torneo": "Championship",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-10-13T18:45:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Bristol City FC",
       "vis": "Blackburn Rovers FC",
       "cuotas": {
@@ -125,96 +153,12 @@
       }
     },
     {
-      "id": "fd-561870",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-10-13T18:45:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Wrexham AFC",
-      "vis": "West Bromwich Albion FC",
-      "cuotas": {
-        "loc": 2.25,
-        "vis": 3.05,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-13T02:47:56.462Z",
-        "masDe25": 1.96,
-        "menosDe25": 1.79,
-        "empate": 3.32
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-561873",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-10-13T18:45:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Burnley FC",
-      "vis": "Charlton Athletic FC",
-      "cuotas": {
-        "loc": 1.61,
-        "vis": 5.19,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-13T02:47:56.462Z",
-        "masDe25": 1.8,
-        "menosDe25": 1.94,
-        "empate": 3.89
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-0"
-      }
-    },
-    {
-      "id": "fd-561869",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-10-13T18:45:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Wolverhampton Wanderers FC",
-      "vis": "Bolton Wanderers FC",
-      "cuotas": {
-        "loc": 1.39,
-        "vis": 7.03,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-13T02:47:56.463Z",
-        "masDe25": 1.55,
-        "menosDe25": 2.29,
-        "empate": 4.73
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-1"
-      }
-    },
-    {
       "id": "fd-561871",
       "dep": "Fútbol",
       "torneo": "Championship",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-10-13T18:45:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Millwall FC",
       "vis": "Swansea City AFC",
       "cuotas": {
@@ -233,75 +177,63 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
+        "txt": "0-1"
       }
     },
     {
-      "id": "fd-575349",
+      "id": "fd-561873",
       "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 2",
-      "inicioUTC": "2026-10-13T19:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Villarreal CF",
-      "vis": "SSC Napoli",
+      "torneo": "Championship",
+      "ronda": "Jornada 10",
+      "inicioUTC": "2026-10-13T18:45:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Burnley FC",
+      "vis": "Charlton Athletic FC",
       "cuotas": {
-        "loc": 2.13,
-        "vis": 3.25,
+        "loc": 1.61,
+        "vis": 5.19,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-13T02:47:57.182Z",
-        "masDe25": 1.61,
-        "menosDe25": 2.27,
-        "empate": 3.66
+        "actualizado": "2026-10-13T02:47:56.462Z",
+        "masDe25": 1.8,
+        "menosDe25": 1.94,
+        "empate": 3.89
       },
-      "clima": {
-        "estadio": "Estadio de la Cerámica",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 2,
-        "temp_c": 22
-      },
+      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
       },
       "marcador": {
-        "txt": "2-1"
+        "txt": "2-2"
       }
     },
     {
-      "id": "fd-575345",
+      "id": "fd-561869",
       "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 2",
-      "inicioUTC": "2026-10-13T19:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Club Atlético de Madrid",
-      "vis": "Manchester United FC",
+      "torneo": "Championship",
+      "ronda": "Jornada 10",
+      "inicioUTC": "2026-10-13T18:45:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Wolverhampton Wanderers FC",
+      "vis": "Bolton Wanderers FC",
       "cuotas": {
-        "loc": 1.91,
-        "vis": 3.69,
+        "loc": 1.39,
+        "vis": 7.03,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-13T02:47:57.345Z",
-        "masDe25": 1.51,
-        "menosDe25": 2.54,
-        "empate": 3.93
+        "actualizado": "2026-10-13T02:47:56.463Z",
+        "masDe25": 1.55,
+        "menosDe25": 2.29,
+        "empate": 4.73
       },
-      "clima": {
-        "estadio": "Cívitas Metropolitano",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 4,
-        "temp_c": 23
-      },
+      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
       },
       "marcador": {
-        "txt": "2-0"
+        "txt": "1-3"
       }
     },
     {
@@ -310,7 +242,7 @@
       "torneo": "UEFA Champions League",
       "ronda": "Jornada 2",
       "inicioUTC": "2026-10-13T19:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Viking FK",
       "vis": "FC Bayern München",
       "clima": null,
@@ -320,7 +252,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "2-0"
+        "txt": "3-3"
       }
     },
     {
@@ -329,7 +261,7 @@
       "torneo": "Championship",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-10-13T19:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Stoke City FC",
       "vis": "Middlesbrough FC",
       "cuotas": {
@@ -348,7 +280,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
+        "txt": "2-3"
       }
     },
     {
@@ -357,15 +289,15 @@
       "torneo": "UEFA Champions League",
       "ronda": "Jornada 2",
       "inicioUTC": "2026-10-13T19:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "FC Internazionale Milano",
       "vis": "Club Brugge KV",
       "clima": {
         "estadio": "San Siro",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 1,
-        "temp_c": 18
+        "viento_kmh": 3,
+        "temp_c": 15
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -373,7 +305,103 @@
         "vis": []
       },
       "marcador": {
-        "txt": "1-1"
+        "txt": "3-4"
+      }
+    },
+    {
+      "id": "fd-575349",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 2",
+      "inicioUTC": "2026-10-13T19:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Villarreal CF",
+      "vis": "SSC Napoli",
+      "cuotas": {
+        "loc": 2.13,
+        "vis": 3.25,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-13T02:47:57.182Z",
+        "masDe25": 1.61,
+        "menosDe25": 2.27,
+        "empate": 3.66
+      },
+      "clima": {
+        "estadio": "Estadio de la Cerámica",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 4,
+        "temp_c": 20
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "3-1"
+      }
+    },
+    {
+      "id": "fd-575345",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 2",
+      "inicioUTC": "2026-10-13T19:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Club Atlético de Madrid",
+      "vis": "Manchester United FC",
+      "cuotas": {
+        "loc": 1.91,
+        "vis": 3.69,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-13T02:47:57.345Z",
+        "masDe25": 1.51,
+        "menosDe25": 2.54,
+        "empate": 3.93
+      },
+      "clima": {
+        "estadio": "Cívitas Metropolitano",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 6,
+        "temp_c": 19
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
+      }
+    },
+    {
+      "id": "fd-561875",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 10",
+      "inicioUTC": "2026-10-13T19:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Birmingham City FC",
+      "vis": "Preston North End FC",
+      "cuotas": {
+        "loc": 1.58,
+        "vis": 5.16,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-13T02:47:57.789Z",
+        "masDe25": 1.7,
+        "menosDe25": 2.07,
+        "empate": 4.07
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "4-0"
       }
     },
     {
@@ -382,7 +410,7 @@
       "torneo": "UEFA Champions League",
       "ronda": "Jornada 2",
       "inicioUTC": "2026-10-13T19:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "RB Leipzig",
       "vis": "PSV",
       "cuotas": {
@@ -397,8 +425,8 @@
       "clima": {
         "estadio": "Red Bull Arena Leipzig",
         "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 11,
+        "lluvia_mm": 0.1,
+        "viento_kmh": 10,
         "temp_c": 13
       },
       "lesiones": {
@@ -407,7 +435,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
+        "txt": "1-0"
       }
     },
     {
@@ -416,7 +444,7 @@
       "torneo": "UEFA Champions League",
       "ronda": "Jornada 2",
       "inicioUTC": "2026-10-13T19:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Galatasaray SK",
       "vis": "FC Barcelona",
       "cuotas": {
@@ -435,7 +463,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "1-1"
+        "txt": "1-4"
       }
     },
     {
@@ -444,7 +472,7 @@
       "torneo": "UEFA Champions League",
       "ronda": "Jornada 2",
       "inicioUTC": "2026-10-13T19:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Arsenal FC",
       "vis": "Lille OSC",
       "cuotas": {
@@ -460,37 +488,9 @@
         "estadio": "Emirates Stadium",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 16,
-        "temp_c": 16
+        "viento_kmh": 9,
+        "temp_c": 14
       },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-561875",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-10-13T19:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Birmingham City FC",
-      "vis": "Preston North End FC",
-      "cuotas": {
-        "loc": 1.58,
-        "vis": 5.16,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-13T02:47:57.789Z",
-        "masDe25": 1.7,
-        "menosDe25": 2.07,
-        "empate": 4.07
-      },
-      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -626,6 +626,22 @@
       }
     },
     {
+      "id": "fd-575357",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 2",
+      "inicioUTC": "2026-10-14T19:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "FK Shakhtar Donetsk",
+      "vis": "PAE AEK",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
       "id": "fd-575353",
       "dep": "Fútbol",
       "torneo": "UEFA Champions League",
@@ -646,9 +662,9 @@
       "clima": {
         "estadio": "Etihad Stadium",
         "techo": false,
-        "lluvia_mm": 0.2,
-        "viento_kmh": 13,
-        "temp_c": 13
+        "lluvia_mm": 0,
+        "viento_kmh": 8,
+        "temp_c": 12
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -703,8 +719,8 @@
         "estadio": "Villa Park",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 15,
-        "temp_c": 14
+        "viento_kmh": 9,
+        "temp_c": 12
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -713,15 +729,30 @@
       }
     },
     {
-      "id": "fd-575357",
+      "id": "fd-575352",
       "dep": "Fútbol",
       "torneo": "UEFA Champions League",
       "ronda": "Jornada 2",
       "inicioUTC": "2026-10-14T19:00:00Z",
       "estado": "PROGRAMADO",
-      "loc": "FK Shakhtar Donetsk",
-      "vis": "PAE AEK",
-      "clima": null,
+      "loc": "AS Roma",
+      "vis": "Real Madrid CF",
+      "cuotas": {
+        "loc": 3.66,
+        "vis": 1.89,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-13T02:47:58.094Z",
+        "masDe25": 1.42,
+        "menosDe25": 2.85,
+        "empate": 4
+      },
+      "clima": {
+        "estadio": "Stadio Olimpico",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 5,
+        "temp_c": 14
+      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -797,37 +828,6 @@
         "empate": 3.7
       },
       "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-575352",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 2",
-      "inicioUTC": "2026-10-14T19:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "AS Roma",
-      "vis": "Real Madrid CF",
-      "cuotas": {
-        "loc": 3.66,
-        "vis": 1.89,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-13T02:47:58.094Z",
-        "masDe25": 1.42,
-        "menosDe25": 2.85,
-        "empate": 4
-      },
-      "clima": {
-        "estadio": "Stadio Olimpico",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 7,
-        "temp_c": 17
-      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
