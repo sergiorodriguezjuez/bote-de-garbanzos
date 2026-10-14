@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-14T10:52:50.706Z",
+  "generado": "2026-10-14T15:38:18.562Z",
   "partidos": [
     {
       "id": "fd-575350",
@@ -78,6 +78,31 @@
       }
     },
     {
+      "id": "fd-561879",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 10",
+      "inicioUTC": "2026-10-14T18:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Norwich City FC",
+      "vis": "Southampton FC",
+      "cuotas": {
+        "loc": 2.42,
+        "vis": 2.6,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-14T10:52:49.565Z",
+        "masDe25": 1.54,
+        "menosDe25": 2.42,
+        "empate": 3.66
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
       "id": "fd-561877",
       "dep": "Fútbol",
       "torneo": "Championship",
@@ -103,22 +128,22 @@
       }
     },
     {
-      "id": "fd-561879",
+      "id": "fd-575356",
       "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-10-14T18:45:00Z",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 2",
+      "inicioUTC": "2026-10-14T19:00:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Norwich City FC",
-      "vis": "Southampton FC",
+      "loc": "Real Betis Balompié",
+      "vis": "FC Porto",
       "cuotas": {
-        "loc": 2.42,
-        "vis": 2.6,
+        "loc": 2.06,
+        "vis": 3.41,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-14T10:52:49.565Z",
-        "masDe25": 1.54,
-        "menosDe25": 2.42,
-        "empate": 3.66
+        "actualizado": "2026-10-14T10:52:50.362Z",
+        "masDe25": 1.69,
+        "menosDe25": 2.16,
+        "empate": 3.68
       },
       "clima": null,
       "lesiones": {
@@ -149,8 +174,8 @@
         "estadio": "Stadio Olimpico",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 8,
-        "temp_c": 23
+        "viento_kmh": 5,
+        "temp_c": 25
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -234,31 +259,6 @@
       }
     },
     {
-      "id": "fd-575356",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 2",
-      "inicioUTC": "2026-10-14T19:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Real Betis Balompié",
-      "vis": "FC Porto",
-      "cuotas": {
-        "loc": 2.06,
-        "vis": 3.41,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-14T10:52:50.362Z",
-        "masDe25": 1.69,
-        "menosDe25": 2.16,
-        "empate": 3.68
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-575357",
       "dep": "Fútbol",
       "torneo": "UEFA Champions League",
@@ -296,8 +296,8 @@
         "estadio": "Etihad Stadium",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 19,
-        "temp_c": 14
+        "viento_kmh": 22,
+        "temp_c": 17
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -327,8 +327,8 @@
         "estadio": "Villa Park",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 18,
-        "temp_c": 14
+        "viento_kmh": 19,
+        "temp_c": 17
       },
       "lesiones": {
         "cobertura": "sin confirmar",
