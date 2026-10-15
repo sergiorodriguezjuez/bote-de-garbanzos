@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-15T10:34:53.030Z",
+  "generado": "2026-10-15T15:24:44.605Z",
   "partidos": [
     {
       "id": "fd-576422",
@@ -135,31 +135,6 @@
       }
     },
     {
-      "id": "fd-561883",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 11",
-      "inicioUTC": "2026-10-16T19:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Burnley FC",
-      "vis": "Wolverhampton Wanderers FC",
-      "cuotas": {
-        "loc": 2.89,
-        "vis": 2.27,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-15T01:06:46.272Z",
-        "masDe25": 1.76,
-        "menosDe25": 1.99,
-        "empate": 3.45
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-564716",
       "dep": "Fútbol",
       "torneo": "Primera Division",
@@ -176,6 +151,31 @@
         "masDe25": 1.91,
         "menosDe25": 1.88,
         "empate": 3.47
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561883",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 11",
+      "inicioUTC": "2026-10-16T19:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Burnley FC",
+      "vis": "Wolverhampton Wanderers FC",
+      "cuotas": {
+        "loc": 2.89,
+        "vis": 2.27,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-15T01:06:46.272Z",
+        "masDe25": 1.76,
+        "menosDe25": 1.99,
+        "empate": 3.45
       },
       "clima": null,
       "lesiones": {
