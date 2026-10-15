@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-15T15:24:44.605Z",
+  "generado": "2026-10-15T19:16:55.014Z",
   "partidos": [
     {
       "id": "fd-576422",
@@ -85,31 +85,6 @@
       }
     },
     {
-      "id": "fd-558573",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 7",
-      "inicioUTC": "2026-10-16T18:45:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Frosinone Calcio",
-      "vis": "US Sassuolo Calcio",
-      "cuotas": {
-        "loc": 2.5,
-        "vis": 2.64,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-15T01:06:46.059Z",
-        "masDe25": 1.47,
-        "menosDe25": 2.56,
-        "empate": 3.6
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-559661",
       "dep": "Fútbol",
       "torneo": "Ligue 1",
@@ -126,6 +101,31 @@
         "masDe25": 1.7,
         "menosDe25": 2.12,
         "empate": 3.49
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-558573",
+      "dep": "Fútbol",
+      "torneo": "Serie A",
+      "ronda": "Jornada 7",
+      "inicioUTC": "2026-10-16T18:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Frosinone Calcio",
+      "vis": "US Sassuolo Calcio",
+      "cuotas": {
+        "loc": 2.5,
+        "vis": 2.64,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-15T01:06:46.059Z",
+        "masDe25": 1.47,
+        "menosDe25": 2.56,
+        "empate": 3.6
       },
       "clima": null,
       "lesiones": {
