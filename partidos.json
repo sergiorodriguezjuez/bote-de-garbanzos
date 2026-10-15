@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-15T19:16:55.014Z",
+  "generado": "2026-10-15T22:32:18.982Z",
   "partidos": [
     {
       "id": "fd-576422",
@@ -135,31 +135,6 @@
       }
     },
     {
-      "id": "fd-564716",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-16T19:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "RC Deportivo La Coruña",
-      "vis": "Levante UD",
-      "cuotas": {
-        "loc": 2.08,
-        "vis": 3.48,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-15T01:06:46.180Z",
-        "masDe25": 1.91,
-        "menosDe25": 1.88,
-        "empate": 3.47
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-561883",
       "dep": "Fútbol",
       "torneo": "Championship",
@@ -176,6 +151,31 @@
         "masDe25": 1.76,
         "menosDe25": 1.99,
         "empate": 3.45
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564716",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-16T19:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "RC Deportivo La Coruña",
+      "vis": "Levante UD",
+      "cuotas": {
+        "loc": 2.08,
+        "vis": 3.48,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-15T01:06:46.180Z",
+        "masDe25": 1.91,
+        "menosDe25": 1.88,
+        "empate": 3.47
       },
       "clima": null,
       "lesiones": {
