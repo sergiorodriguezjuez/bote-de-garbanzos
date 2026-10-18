@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-18T14:04:31.816Z",
+  "generado": "2026-10-18T17:27:17.764Z",
   "partidos": [
     {
       "id": "fd-555049",
@@ -120,7 +120,7 @@
       "torneo": "Eredivisie",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-18T12:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "SC Cambuur-Leeuwarden",
       "vis": "AZ",
       "cuotas": {
@@ -139,7 +139,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "2-1"
+        "txt": "2-2"
       }
     },
     {
@@ -148,7 +148,7 @@
       "torneo": "Premier League",
       "ronda": "Jornada 7",
       "inicioUTC": "2026-10-18T13:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Leeds United FC",
       "vis": "Manchester United FC",
       "cuotas": {
@@ -167,7 +167,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-1"
+        "txt": "1-1"
       }
     },
     {
@@ -176,7 +176,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 7",
       "inicioUTC": "2026-10-18T13:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "ACF Fiorentina",
       "vis": "Como 1907",
       "cuotas": {
@@ -195,32 +195,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "1-2"
-      }
-    },
-    {
-      "id": "fd-560609",
-      "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 7",
-      "inicioUTC": "2026-10-18T13:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Brighton & Hove Albion FC",
-      "vis": "Crystal Palace FC",
-      "clima": {
-        "estadio": "Falmer Stadium",
-        "techo": false,
-        "lluvia_mm": 0.3,
-        "viento_kmh": 17,
-        "temp_c": 10
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "3-0"
+        "txt": "1-3"
       }
     },
     {
@@ -229,7 +204,7 @@
       "torneo": "Ligue 1",
       "ronda": "Jornada 7",
       "inicioUTC": "2026-10-18T13:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Angers SCO",
       "vis": "Olympique de Marseille",
       "cuotas": {
@@ -248,7 +223,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "1-2"
+        "txt": "2-5"
       }
     },
     {
@@ -257,7 +232,7 @@
       "torneo": "Premier League",
       "ronda": "Jornada 7",
       "inicioUTC": "2026-10-18T13:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "AFC Bournemouth",
       "vis": "Sunderland AFC",
       "cuotas": {
@@ -276,7 +251,32 @@
         "vis": []
       },
       "marcador": {
-        "txt": "1-0"
+        "txt": "2-0"
+      }
+    },
+    {
+      "id": "fd-560609",
+      "dep": "Fútbol",
+      "torneo": "Premier League",
+      "ronda": "Jornada 7",
+      "inicioUTC": "2026-10-18T13:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Brighton & Hove Albion FC",
+      "vis": "Crystal Palace FC",
+      "clima": {
+        "estadio": "Falmer Stadium",
+        "techo": false,
+        "lluvia_mm": 0.1,
+        "viento_kmh": 17,
+        "temp_c": 9
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "5-0"
       }
     },
     {
@@ -285,7 +285,7 @@
       "torneo": "Bundesliga",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-10-18T13:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Bayer 04 Leverkusen",
       "vis": "SC Freiburg",
       "clima": null,
@@ -295,7 +295,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "1-1"
+        "txt": "2-1"
       }
     },
     {
@@ -304,7 +304,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-18T14:15:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "RC Celta de Vigo",
       "vis": "Deportivo Alavés",
       "cuotas": {
@@ -320,13 +320,16 @@
         "estadio": "Balaídos",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 13,
-        "temp_c": 23
+        "viento_kmh": 18,
+        "temp_c": 20
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-1"
       }
     },
     {
@@ -335,7 +338,7 @@
       "torneo": "Eredivisie",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-18T14:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "FC Groningen",
       "vis": "AFC Ajax",
       "cuotas": {
@@ -352,31 +355,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
-      }
-    },
-    {
-      "id": "fd-559663",
-      "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 7",
-      "inicioUTC": "2026-10-18T15:15:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Le Havre AC",
-      "vis": "AJ Auxerre",
-      "cuotas": {
-        "loc": 2.29,
-        "vis": 3.09,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-18T01:17:51.732Z",
-        "masDe25": 1.86,
-        "menosDe25": 1.92,
-        "empate": 3.37
       },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
+      "marcador": {
+        "txt": "2-5"
       }
     },
     {
@@ -385,7 +366,7 @@
       "torneo": "Ligue 1",
       "ronda": "Jornada 7",
       "inicioUTC": "2026-10-18T15:15:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "FC Lorient",
       "vis": "AS Monaco FC",
       "cuotas": {
@@ -402,6 +383,37 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "1-0"
+      }
+    },
+    {
+      "id": "fd-559663",
+      "dep": "Fútbol",
+      "torneo": "Ligue 1",
+      "ronda": "Jornada 7",
+      "inicioUTC": "2026-10-18T15:15:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Le Havre AC",
+      "vis": "AJ Auxerre",
+      "cuotas": {
+        "loc": 2.29,
+        "vis": 3.09,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-18T01:17:51.732Z",
+        "masDe25": 1.86,
+        "menosDe25": 1.92,
+        "empate": 3.37
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "1-3"
       }
     },
     {
@@ -410,7 +422,7 @@
       "torneo": "Ligue 1",
       "ronda": "Jornada 7",
       "inicioUTC": "2026-10-18T15:15:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Paris FC",
       "vis": "Stade Rennais FC 1901",
       "clima": null,
@@ -418,6 +430,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "4-3"
       }
     },
     {
@@ -426,7 +441,7 @@
       "torneo": "Bundesliga",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-10-18T15:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Borussia Mönchengladbach",
       "vis": "TSG 1899 Hoffenheim",
       "clima": null,
@@ -434,6 +449,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "1-2"
       }
     },
     {
@@ -442,7 +460,7 @@
       "torneo": "Premier League",
       "ronda": "Jornada 7",
       "inicioUTC": "2026-10-18T15:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Nottingham Forest FC",
       "vis": "Arsenal FC",
       "cuotas": {
@@ -459,6 +477,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-1"
       }
     },
     {
@@ -467,7 +488,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 7",
       "inicioUTC": "2026-10-18T16:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "AC Milan",
       "vis": "Atalanta BC",
       "cuotas": {
@@ -482,14 +503,17 @@
       "clima": {
         "estadio": "San Siro",
         "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 10,
+        "lluvia_mm": 0.2,
+        "viento_kmh": 6,
         "temp_c": 17
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "3-0"
       }
     },
     {
@@ -498,7 +522,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-18T16:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Málaga CF",
       "vis": "Real Sociedad de Fútbol",
       "cuotas": {
@@ -515,6 +539,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-2"
       }
     },
     {
@@ -580,8 +607,8 @@
         "estadio": "Groupama Stadium",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 11,
-        "temp_c": 11
+        "viento_kmh": 8,
+        "temp_c": 10
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -611,8 +638,8 @@
         "estadio": "Allianz Stadium (Turín)",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 14,
-        "temp_c": 16
+        "viento_kmh": 5,
+        "temp_c": 15
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -667,8 +694,8 @@
         "estadio": "Santiago Bernabéu",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 18,
-        "temp_c": 14
+        "viento_kmh": 16,
+        "temp_c": 13
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -839,8 +866,8 @@
         "estadio": "Tottenham Hotspur Stadium",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 20,
-        "temp_c": 14
+        "viento_kmh": 14,
+        "temp_c": 10
       },
       "lesiones": {
         "cobertura": "sin confirmar",
