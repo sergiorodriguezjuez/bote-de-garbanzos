@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-18T10:06:45.879Z",
+  "generado": "2026-10-18T14:04:31.816Z",
   "partidos": [
     {
       "id": "fd-555049",
@@ -36,7 +36,7 @@
       "torneo": "Eredivisie",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-18T10:15:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "PEC Zwolle",
       "vis": "Go Ahead Eagles",
       "cuotas": {
@@ -53,6 +53,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "4-1"
       }
     },
     {
@@ -61,7 +64,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 7",
       "inicioUTC": "2026-10-18T10:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Udinese Calcio",
       "vis": "US Lecce",
       "cuotas": {
@@ -78,6 +81,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-3"
       }
     },
     {
@@ -86,7 +92,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-18T12:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "CA Osasuna",
       "vis": "Real Racing Club de Santander",
       "cuotas": {
@@ -103,6 +109,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
       }
     },
     {
@@ -111,7 +120,7 @@
       "torneo": "Eredivisie",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-18T12:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "SC Cambuur-Leeuwarden",
       "vis": "AZ",
       "cuotas": {
@@ -128,78 +137,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
-      }
-    },
-    {
-      "id": "fd-560609",
-      "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 7",
-      "inicioUTC": "2026-10-18T13:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Brighton & Hove Albion FC",
-      "vis": "Crystal Palace FC",
-      "clima": {
-        "estadio": "Falmer Stadium",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 20,
-        "temp_c": 10
       },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-559664",
-      "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 7",
-      "inicioUTC": "2026-10-18T13:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Angers SCO",
-      "vis": "Olympique de Marseille",
-      "cuotas": {
-        "loc": 3.46,
-        "vis": 2,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-18T01:17:51.500Z",
-        "masDe25": 1.6,
-        "menosDe25": 2.29,
-        "empate": 3.74
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-560604",
-      "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 7",
-      "inicioUTC": "2026-10-18T13:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "AFC Bournemouth",
-      "vis": "Sunderland AFC",
-      "cuotas": {
-        "loc": 2.1,
-        "vis": 3.48,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-18T01:17:51.501Z",
-        "masDe25": 1.87,
-        "menosDe25": 1.93,
-        "empate": 3.48
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
+      "marcador": {
+        "txt": "2-1"
       }
     },
     {
@@ -208,7 +148,7 @@
       "torneo": "Premier League",
       "ronda": "Jornada 7",
       "inicioUTC": "2026-10-18T13:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Leeds United FC",
       "vis": "Manchester United FC",
       "cuotas": {
@@ -225,6 +165,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-1"
       }
     },
     {
@@ -233,7 +176,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 7",
       "inicioUTC": "2026-10-18T13:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "ACF Fiorentina",
       "vis": "Como 1907",
       "cuotas": {
@@ -250,6 +193,90 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "1-2"
+      }
+    },
+    {
+      "id": "fd-560609",
+      "dep": "Fútbol",
+      "torneo": "Premier League",
+      "ronda": "Jornada 7",
+      "inicioUTC": "2026-10-18T13:00:00Z",
+      "estado": "EN_JUEGO",
+      "loc": "Brighton & Hove Albion FC",
+      "vis": "Crystal Palace FC",
+      "clima": {
+        "estadio": "Falmer Stadium",
+        "techo": false,
+        "lluvia_mm": 0.3,
+        "viento_kmh": 17,
+        "temp_c": 10
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "3-0"
+      }
+    },
+    {
+      "id": "fd-559664",
+      "dep": "Fútbol",
+      "torneo": "Ligue 1",
+      "ronda": "Jornada 7",
+      "inicioUTC": "2026-10-18T13:00:00Z",
+      "estado": "EN_JUEGO",
+      "loc": "Angers SCO",
+      "vis": "Olympique de Marseille",
+      "cuotas": {
+        "loc": 3.46,
+        "vis": 2,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-18T01:17:51.500Z",
+        "masDe25": 1.6,
+        "menosDe25": 2.29,
+        "empate": 3.74
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "1-2"
+      }
+    },
+    {
+      "id": "fd-560604",
+      "dep": "Fútbol",
+      "torneo": "Premier League",
+      "ronda": "Jornada 7",
+      "inicioUTC": "2026-10-18T13:00:00Z",
+      "estado": "EN_JUEGO",
+      "loc": "AFC Bournemouth",
+      "vis": "Sunderland AFC",
+      "cuotas": {
+        "loc": 2.1,
+        "vis": 3.48,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-18T01:17:51.501Z",
+        "masDe25": 1.87,
+        "menosDe25": 1.93,
+        "empate": 3.48
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "1-0"
       }
     },
     {
@@ -258,7 +285,7 @@
       "torneo": "Bundesliga",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-10-18T13:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Bayer 04 Leverkusen",
       "vis": "SC Freiburg",
       "clima": null,
@@ -266,6 +293,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "1-1"
       }
     },
     {
@@ -290,8 +320,8 @@
         "estadio": "Balaídos",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 11,
-        "temp_c": 18
+        "viento_kmh": 13,
+        "temp_c": 23
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -317,22 +347,6 @@
         "menosDe25": 2.98,
         "empate": 4.09
       },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-559658",
-      "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 7",
-      "inicioUTC": "2026-10-18T15:15:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Paris FC",
-      "vis": "Stade Rennais FC 1901",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -391,6 +405,38 @@
       }
     },
     {
+      "id": "fd-559658",
+      "dep": "Fútbol",
+      "torneo": "Ligue 1",
+      "ronda": "Jornada 7",
+      "inicioUTC": "2026-10-18T15:15:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Paris FC",
+      "vis": "Stade Rennais FC 1901",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-565826",
+      "dep": "Fútbol",
+      "torneo": "Bundesliga",
+      "ronda": "Jornada 6",
+      "inicioUTC": "2026-10-18T15:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Borussia Mönchengladbach",
+      "vis": "TSG 1899 Hoffenheim",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
       "id": "fd-560608",
       "dep": "Fútbol",
       "torneo": "Premier League",
@@ -408,22 +454,6 @@
         "menosDe25": 1.88,
         "empate": 3.85
       },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-565826",
-      "dep": "Fútbol",
-      "torneo": "Bundesliga",
-      "ronda": "Jornada 6",
-      "inicioUTC": "2026-10-18T15:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Borussia Mönchengladbach",
-      "vis": "TSG 1899 Hoffenheim",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -453,8 +483,8 @@
         "estadio": "San Siro",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 9,
-        "temp_c": 16
+        "viento_kmh": 10,
+        "temp_c": 17
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -529,37 +559,6 @@
       }
     },
     {
-      "id": "fd-558570",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 7",
-      "inicioUTC": "2026-10-18T18:45:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Juventus FC",
-      "vis": "SS Lazio",
-      "cuotas": {
-        "loc": 1.67,
-        "vis": 5.2,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-18T01:17:52.016Z",
-        "masDe25": 1.94,
-        "menosDe25": 1.85,
-        "empate": 3.81
-      },
-      "clima": {
-        "estadio": "Allianz Stadium (Turín)",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 8,
-        "temp_c": 16
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-559665",
       "dep": "Fútbol",
       "torneo": "Ligue 1",
@@ -581,8 +580,8 @@
         "estadio": "Groupama Stadium",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 15,
-        "temp_c": 10
+        "viento_kmh": 11,
+        "temp_c": 11
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -591,22 +590,53 @@
       }
     },
     {
-      "id": "fd-555045",
+      "id": "fd-558570",
+      "dep": "Fútbol",
+      "torneo": "Serie A",
+      "ronda": "Jornada 7",
+      "inicioUTC": "2026-10-18T18:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Juventus FC",
+      "vis": "SS Lazio",
+      "cuotas": {
+        "loc": 1.67,
+        "vis": 5.2,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-18T01:17:52.016Z",
+        "masDe25": 1.94,
+        "menosDe25": 1.85,
+        "empate": 3.81
+      },
+      "clima": {
+        "estadio": "Allianz Stadium (Turín)",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 14,
+        "temp_c": 16
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555046",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 31",
       "inicioUTC": "2026-10-18T19:00:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Fluminense FC",
-      "vis": "Santos FC",
+      "loc": "Grêmio FBPA",
+      "vis": "Cruzeiro EC",
       "cuotas": {
-        "loc": 2.29,
-        "vis": 2.96,
+        "loc": 2.81,
+        "vis": 2.32,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-18T01:17:52.466Z",
-        "masDe25": 1.91,
-        "menosDe25": 1.84,
-        "empate": 3.33
+        "actualizado": "2026-10-18T01:17:52.324Z",
+        "masDe25": 1.77,
+        "menosDe25": 1.98,
+        "empate": 3.44
       },
       "clima": null,
       "lesiones": {
@@ -636,9 +666,9 @@
       "clima": {
         "estadio": "Santiago Bernabéu",
         "techo": false,
-        "lluvia_mm": 0.1,
+        "lluvia_mm": 0,
         "viento_kmh": 18,
-        "temp_c": 11
+        "temp_c": 14
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -647,22 +677,22 @@
       }
     },
     {
-      "id": "fd-555046",
+      "id": "fd-555045",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 31",
       "inicioUTC": "2026-10-18T19:00:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Grêmio FBPA",
-      "vis": "Cruzeiro EC",
+      "loc": "Fluminense FC",
+      "vis": "Santos FC",
       "cuotas": {
-        "loc": 2.81,
-        "vis": 2.32,
+        "loc": 2.29,
+        "vis": 2.96,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-18T01:17:52.324Z",
-        "masDe25": 1.77,
-        "menosDe25": 1.98,
-        "empate": 3.44
+        "actualizado": "2026-10-18T01:17:52.466Z",
+        "masDe25": 1.91,
+        "menosDe25": 1.84,
+        "empate": 3.33
       },
       "clima": null,
       "lesiones": {
@@ -809,8 +839,8 @@
         "estadio": "Tottenham Hotspur Stadium",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 19,
-        "temp_c": 11
+        "viento_kmh": 20,
+        "temp_c": 14
       },
       "lesiones": {
         "cobertura": "sin confirmar",
