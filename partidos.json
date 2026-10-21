@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-21T15:45:06.392Z",
+  "generado": "2026-10-21T19:47:28.479Z",
   "partidos": [
     {
       "id": "fd-575368",
@@ -8,7 +8,7 @@
       "torneo": "UEFA Champions League",
       "ronda": "Jornada 3",
       "inicioUTC": "2026-10-21T16:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Como 1907",
       "vis": "Manchester United FC",
       "cuotas": {
@@ -25,6 +25,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "4-1"
       }
     },
     {
@@ -33,7 +36,7 @@
       "torneo": "UEFA Champions League",
       "ronda": "Jornada 3",
       "inicioUTC": "2026-10-21T16:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Lille OSC",
       "vis": "Galatasaray SK",
       "cuotas": {
@@ -50,6 +53,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-4"
       }
     },
     {
@@ -58,7 +64,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 6",
       "inicioUTC": "2026-10-21T18:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Levante UD",
       "vis": "Athletic Club",
       "cuotas": {
@@ -77,29 +83,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-575372",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 3",
-      "inicioUTC": "2026-10-21T19:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "FC Bayern München",
-      "vis": "Arsenal FC",
-      "clima": {
-        "estadio": "Allianz Arena",
-        "techo": false,
-        "lluvia_mm": 0.5,
-        "viento_kmh": 13,
-        "temp_c": 10
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
+        "txt": "2-1"
       }
     },
     {
@@ -108,7 +92,7 @@
       "torneo": "UEFA Champions League",
       "ronda": "Jornada 3",
       "inicioUTC": "2026-10-21T19:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Aston Villa FC",
       "vis": "Viking FK",
       "cuotas": {
@@ -124,13 +108,16 @@
         "estadio": "Villa Park",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 23,
+        "viento_kmh": 18,
         "temp_c": 9
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
       }
     },
     {
@@ -139,7 +126,7 @@
       "torneo": "UEFA Champions League",
       "ronda": "Jornada 3",
       "inicioUTC": "2026-10-21T19:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Real Madrid CF",
       "vis": "RB Leipzig",
       "cuotas": {
@@ -155,13 +142,16 @@
         "estadio": "Santiago Bernabéu",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 12,
-        "temp_c": 17
+        "viento_kmh": 3,
+        "temp_c": 12
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
       }
     },
     {
@@ -170,7 +160,7 @@
       "torneo": "UEFA Champions League",
       "ronda": "Jornada 3",
       "inicioUTC": "2026-10-21T19:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Real Betis Balompié",
       "vis": "Feyenoord Rotterdam",
       "cuotas": {
@@ -187,6 +177,78 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
+      }
+    },
+    {
+      "id": "fd-575372",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 3",
+      "inicioUTC": "2026-10-21T19:00:00Z",
+      "estado": "EN_JUEGO",
+      "loc": "FC Bayern München",
+      "vis": "Arsenal FC",
+      "clima": {
+        "estadio": "Allianz Arena",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 18,
+        "temp_c": 8
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "1-1"
+      }
+    },
+    {
+      "id": "fd-575375",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 3",
+      "inicioUTC": "2026-10-21T19:00:00Z",
+      "estado": "EN_JUEGO",
+      "loc": "Sporting Clube de Portugal",
+      "vis": "LASK Linz",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "1-1"
+      }
+    },
+    {
+      "id": "fd-575371",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 3",
+      "inicioUTC": "2026-10-21T19:00:00Z",
+      "estado": "EN_JUEGO",
+      "loc": "FC Internazionale Milano",
+      "vis": "FK Shakhtar Donetsk",
+      "clima": {
+        "estadio": "San Siro",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 9,
+        "temp_c": 15
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
       }
     },
     {
@@ -195,7 +257,7 @@
       "torneo": "UEFA Champions League",
       "ronda": "Jornada 3",
       "inicioUTC": "2026-10-21T19:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Club Brugge KV",
       "vis": "Racing Club de Lens",
       "cuotas": {
@@ -212,44 +274,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
-      }
-    },
-    {
-      "id": "fd-575375",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 3",
-      "inicioUTC": "2026-10-21T19:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Sporting Clube de Portugal",
-      "vis": "LASK Linz",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-575371",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 3",
-      "inicioUTC": "2026-10-21T19:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "FC Internazionale Milano",
-      "vis": "FK Shakhtar Donetsk",
-      "clima": {
-        "estadio": "San Siro",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 12,
-        "temp_c": 17
       },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
+      "marcador": {
+        "txt": "0-0"
       }
     },
     {
