@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-21T01:08:48.505Z",
+  "generado": "2026-10-21T10:51:13.847Z",
   "partidos": [
     {
       "id": "fd-575368",
@@ -81,6 +81,37 @@
       }
     },
     {
+      "id": "fd-575374",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 3",
+      "inicioUTC": "2026-10-21T19:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Aston Villa FC",
+      "vis": "Viking FK",
+      "cuotas": {
+        "loc": 1.21,
+        "vis": 11.85,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-10-21T01:08:48.229Z",
+        "masDe25": 1.26,
+        "menosDe25": 3.87,
+        "empate": 6.91
+      },
+      "clima": {
+        "estadio": "Villa Park",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 18,
+        "temp_c": 10
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
       "id": "fd-575370",
       "dep": "Fútbol",
       "torneo": "UEFA Champions League",
@@ -102,8 +133,8 @@
         "estadio": "Santiago Bernabéu",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 4,
-        "temp_c": 10
+        "viento_kmh": 5,
+        "temp_c": 15
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -149,39 +180,8 @@
         "estadio": "Allianz Arena",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 6,
-        "temp_c": 5
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-575374",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 3",
-      "inicioUTC": "2026-10-21T19:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Aston Villa FC",
-      "vis": "Viking FK",
-      "cuotas": {
-        "loc": 1.21,
-        "vis": 11.85,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-10-21T01:08:48.229Z",
-        "masDe25": 1.26,
-        "menosDe25": 3.87,
-        "empate": 6.91
-      },
-      "clima": {
-        "estadio": "Villa Park",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 7,
-        "temp_c": 9
+        "viento_kmh": 9,
+        "temp_c": 11
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -217,9 +217,9 @@
       "clima": {
         "estadio": "San Siro",
         "techo": false,
-        "lluvia_mm": 3.7,
-        "viento_kmh": 15,
-        "temp_c": 16
+        "lluvia_mm": 0,
+        "viento_kmh": 11,
+        "temp_c": 18
       },
       "lesiones": {
         "cobertura": "sin confirmar",
