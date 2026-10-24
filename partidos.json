@@ -1,7 +1,45 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-24T13:53:47.996Z",
+  "generado": "2026-10-24T17:06:13.334Z",
   "partidos": [
+    {
+      "id": "fd-561904",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 12",
+      "inicioUTC": "2026-10-24T11:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Portsmouth FC",
+      "vis": "Millwall FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-560614",
+      "dep": "Fútbol",
+      "torneo": "Premier League",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-24T11:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Aston Villa FC",
+      "vis": "Manchester City FC",
+      "clima": {
+        "estadio": "Villa Park",
+        "techo": false,
+        "lluvia_mm": 0.1,
+        "viento_kmh": 26,
+        "temp_c": 13
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
     {
       "id": "fd-561901",
       "dep": "Fútbol",
@@ -35,53 +73,12 @@
       }
     },
     {
-      "id": "fd-560614",
-      "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 8",
-      "inicioUTC": "2026-10-24T11:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Aston Villa FC",
-      "vis": "Manchester City FC",
-      "clima": {
-        "estadio": "Villa Park",
-        "techo": false,
-        "lluvia_mm": 0.2,
-        "viento_kmh": 30,
-        "temp_c": 11
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-561904",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 12",
-      "inicioUTC": "2026-10-24T11:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Portsmouth FC",
-      "vis": "Millwall FC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-1"
-      }
-    },
-    {
       "id": "fd-564718",
       "dep": "Fútbol",
       "torneo": "Primera Division",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-10-24T12:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "PROGRAMADO",
       "loc": "Rayo Vallecano de Madrid",
       "vis": "Elche CF",
       "clima": null,
@@ -89,28 +86,6 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
-      },
-      "marcador": {
-        "txt": "0-3"
-      }
-    },
-    {
-      "id": "fd-558560",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 8",
-      "inicioUTC": "2026-10-24T13:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Cagliari Calcio",
-      "vis": "Bologna FC 1909",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
       }
     },
     {
@@ -119,7 +94,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 8",
       "inicioUTC": "2026-10-24T13:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "PROGRAMADO",
       "loc": "Como 1907",
       "vis": "US Sassuolo Calcio",
       "clima": null,
@@ -127,66 +102,22 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
       }
     },
     {
-      "id": "fd-565834",
+      "id": "fd-558560",
       "dep": "Fútbol",
-      "torneo": "Bundesliga",
-      "ronda": "Jornada 7",
-      "inicioUTC": "2026-10-24T13:30:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "SC Paderborn 07",
-      "vis": "Hamburger SV",
+      "torneo": "Serie A",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-24T13:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Cagliari Calcio",
+      "vis": "Bologna FC 1909",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-565831",
-      "dep": "Fútbol",
-      "torneo": "Bundesliga",
-      "ronda": "Jornada 7",
-      "inicioUTC": "2026-10-24T13:30:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "1. FC Köln",
-      "vis": "FC Schalke 04",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-565838",
-      "dep": "Fútbol",
-      "torneo": "Bundesliga",
-      "ronda": "Jornada 7",
-      "inicioUTC": "2026-10-24T13:30:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "FC Augsburg",
-      "vis": "1. FC Union Berlin",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
       }
     },
     {
@@ -195,7 +126,7 @@
       "torneo": "Bundesliga",
       "ronda": "Jornada 7",
       "inicioUTC": "2026-10-24T13:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "PROGRAMADO",
       "loc": "1. FSV Mainz 05",
       "vis": "SV Werder Bremen",
       "clima": null,
@@ -203,9 +134,6 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
-      },
-      "marcador": {
-        "txt": "0-1"
       }
     },
     {
@@ -214,7 +142,7 @@
       "torneo": "Bundesliga",
       "ronda": "Jornada 7",
       "inicioUTC": "2026-10-24T13:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "PROGRAMADO",
       "loc": "RB Leipzig",
       "vis": "SV 07 Elversberg",
       "clima": {
@@ -228,20 +156,17 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
       }
     },
     {
-      "id": "fd-561897",
+      "id": "fd-565834",
       "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 12",
-      "inicioUTC": "2026-10-24T14:00:00Z",
+      "torneo": "Bundesliga",
+      "ronda": "Jornada 7",
+      "inicioUTC": "2026-10-24T13:30:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Stoke City FC",
-      "vis": "Bristol City FC",
+      "loc": "SC Paderborn 07",
+      "vis": "Hamburger SV",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -250,36 +175,14 @@
       }
     },
     {
-      "id": "fd-560616",
+      "id": "fd-565831",
       "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 8",
-      "inicioUTC": "2026-10-24T14:00:00Z",
+      "torneo": "Bundesliga",
+      "ronda": "Jornada 7",
+      "inicioUTC": "2026-10-24T13:30:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Arsenal FC",
-      "vis": "Everton FC",
-      "clima": {
-        "estadio": "Emirates Stadium",
-        "techo": false,
-        "lluvia_mm": 0.4,
-        "viento_kmh": 18,
-        "temp_c": 11
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-561903",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 12",
-      "inicioUTC": "2026-10-24T14:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Wolverhampton Wanderers FC",
-      "vis": "Watford FC",
+      "loc": "1. FC Köln",
+      "vis": "FC Schalke 04",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -288,30 +191,14 @@
       }
     },
     {
-      "id": "fd-561899",
+      "id": "fd-565838",
       "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 12",
-      "inicioUTC": "2026-10-24T14:00:00Z",
+      "torneo": "Bundesliga",
+      "ronda": "Jornada 7",
+      "inicioUTC": "2026-10-24T13:30:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Lincoln City FC",
-      "vis": "Burnley FC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-560618",
-      "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 8",
-      "inicioUTC": "2026-10-24T14:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Coventry City FC",
-      "vis": "Fulham FC",
+      "loc": "FC Augsburg",
+      "vis": "1. FC Union Berlin",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -395,10 +282,96 @@
       "clima": {
         "estadio": "London Stadium",
         "techo": false,
-        "lluvia_mm": 0.5,
-        "viento_kmh": 17,
-        "temp_c": 11
+        "lluvia_mm": 0.7,
+        "viento_kmh": 31,
+        "temp_c": 13
       },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561897",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 12",
+      "inicioUTC": "2026-10-24T14:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Stoke City FC",
+      "vis": "Bristol City FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-560616",
+      "dep": "Fútbol",
+      "torneo": "Premier League",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-24T14:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Arsenal FC",
+      "vis": "Everton FC",
+      "clima": {
+        "estadio": "Emirates Stadium",
+        "techo": false,
+        "lluvia_mm": 0.8,
+        "viento_kmh": 29,
+        "temp_c": 13
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561903",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 12",
+      "inicioUTC": "2026-10-24T14:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Wolverhampton Wanderers FC",
+      "vis": "Watford FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561899",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 12",
+      "inicioUTC": "2026-10-24T14:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Lincoln City FC",
+      "vis": "Burnley FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-560618",
+      "dep": "Fútbol",
+      "torneo": "Premier League",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-24T14:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Coventry City FC",
+      "vis": "Fulham FC",
+      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -466,30 +439,8 @@
         "estadio": "Stadio Diego Armando Maradona",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 20,
-        "temp_c": 20
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-564722",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-10-24T16:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Valencia CF",
-      "vis": "Villarreal CF",
-      "clima": {
-        "estadio": "Mestalla",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 6,
-        "temp_c": 22
+        "viento_kmh": 12,
+        "temp_c": 19
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -509,9 +460,9 @@
       "clima": {
         "estadio": "Stamford Bridge",
         "techo": false,
-        "lluvia_mm": 0.3,
-        "viento_kmh": 19,
-        "temp_c": 11
+        "lluvia_mm": 0.6,
+        "viento_kmh": 30,
+        "temp_c": 13
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -532,8 +483,30 @@
         "estadio": "Signal Iduna Park",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 23,
+        "viento_kmh": 20,
         "temp_c": 11
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564722",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 10",
+      "inicioUTC": "2026-10-24T16:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Valencia CF",
+      "vis": "Villarreal CF",
+      "clima": {
+        "estadio": "Mestalla",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 13,
+        "temp_c": 20
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -586,8 +559,8 @@
         "estadio": "Stadio Olimpico",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 10,
-        "temp_c": 19
+        "viento_kmh": 2,
+        "temp_c": 16
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -641,40 +614,8 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 8,
-        "temp_c": 17
+        "temp_c": 18
       },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-555054",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 32",
-      "inicioUTC": "2026-10-24T19:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "SC Internacional",
-      "vis": "Botafogo FR",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-567335",
-      "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-24T19:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Gil Vicente FC",
-      "vis": "FC Porto",
-      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -706,6 +647,38 @@
       "estado": "PROGRAMADO",
       "loc": "Mirassol FC",
       "vis": "São Paulo FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555054",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 32",
+      "inicioUTC": "2026-10-24T19:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "SC Internacional",
+      "vis": "Botafogo FR",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-567335",
+      "dep": "Fútbol",
+      "torneo": "Primeira Liga",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-24T19:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Gil Vicente FC",
+      "vis": "FC Porto",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -806,8 +779,8 @@
         "estadio": "San Siro",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 12,
-        "temp_c": 19
+        "viento_kmh": 7,
+        "temp_c": 15
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -828,25 +801,9 @@
         "estadio": "San Mamés",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 7,
-        "temp_c": 18
+        "viento_kmh": 6,
+        "temp_c": 16
       },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-558858",
-      "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-10-25T13:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "PSV",
-      "vis": "Feyenoord Rotterdam",
-      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -870,21 +827,15 @@
       }
     },
     {
-      "id": "fd-560612",
+      "id": "fd-558858",
       "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 8",
-      "inicioUTC": "2026-10-25T14:00:00Z",
+      "torneo": "Eredivisie",
+      "ronda": "Jornada 10",
+      "inicioUTC": "2026-10-25T13:30:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Liverpool FC",
-      "vis": "Brighton & Hove Albion FC",
-      "clima": {
-        "estadio": "Anfield",
-        "techo": false,
-        "lluvia_mm": 0.7,
-        "viento_kmh": 29,
-        "temp_c": 10
-      },
+      "loc": "PSV",
+      "vis": "Feyenoord Rotterdam",
+      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -892,14 +843,14 @@
       }
     },
     {
-      "id": "fd-558562",
+      "id": "fd-560619",
       "dep": "Fútbol",
-      "torneo": "Serie A",
+      "torneo": "Premier League",
       "ronda": "Jornada 8",
       "inicioUTC": "2026-10-25T14:00:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Atalanta BC",
-      "vis": "Frosinone Calcio",
+      "loc": "Hull City AFC",
+      "vis": "Brentford FC",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -919,9 +870,9 @@
       "clima": {
         "estadio": "Old Trafford",
         "techo": false,
-        "lluvia_mm": 0.7,
-        "viento_kmh": 30,
-        "temp_c": 10
+        "lluvia_mm": 0.6,
+        "viento_kmh": 23,
+        "temp_c": 12
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -942,8 +893,8 @@
         "estadio": "Stade Louis II",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 6,
-        "temp_c": 19
+        "viento_kmh": 3,
+        "temp_c": 18
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -984,14 +935,36 @@
       }
     },
     {
-      "id": "fd-560619",
+      "id": "fd-560612",
       "dep": "Fútbol",
       "torneo": "Premier League",
       "ronda": "Jornada 8",
       "inicioUTC": "2026-10-25T14:00:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Hull City AFC",
-      "vis": "Brentford FC",
+      "loc": "Liverpool FC",
+      "vis": "Brighton & Hove Albion FC",
+      "clima": {
+        "estadio": "Anfield",
+        "techo": false,
+        "lluvia_mm": 0.7,
+        "viento_kmh": 22,
+        "temp_c": 14
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-558562",
+      "dep": "Fútbol",
+      "torneo": "Serie A",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-25T14:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Atalanta BC",
+      "vis": "Frosinone Calcio",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -1029,7 +1002,7 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 9,
-        "temp_c": 16
+        "temp_c": 15
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -1070,6 +1043,38 @@
       }
     },
     {
+      "id": "fd-559655",
+      "dep": "Fútbol",
+      "torneo": "Ligue 1",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-25T16:15:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Toulouse FC",
+      "vis": "ES Troyes AC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-559653",
+      "dep": "Fútbol",
+      "torneo": "Ligue 1",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-25T16:15:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Angers SCO",
+      "vis": "FC Lorient",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
       "id": "fd-559649",
       "dep": "Fútbol",
       "torneo": "Ligue 1",
@@ -1082,8 +1087,8 @@
         "estadio": "Stade Vélodrome",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 19,
-        "temp_c": 17
+        "viento_kmh": 10,
+        "temp_c": 16
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -1116,38 +1121,6 @@
       "estado": "PROGRAMADO",
       "loc": "Stade Rennais FC 1901",
       "vis": "RC Strasbourg Alsace",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-559653",
-      "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 8",
-      "inicioUTC": "2026-10-25T16:15:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Angers SCO",
-      "vis": "FC Lorient",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-559655",
-      "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 8",
-      "inicioUTC": "2026-10-25T16:15:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Toulouse FC",
-      "vis": "ES Troyes AC",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -1216,25 +1189,9 @@
         "estadio": "Reale Arena",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 9,
-        "temp_c": 18
+        "viento_kmh": 4,
+        "temp_c": 16
       },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-567330",
-      "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-25T18:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Rio Ave FC",
-      "vis": "FC Famalicão",
-      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -1250,6 +1207,22 @@
       "estado": "PROGRAMADO",
       "loc": "CD Nacional",
       "vis": "Sporting Clube de Braga",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-567330",
+      "dep": "Fútbol",
+      "torneo": "Primeira Liga",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-25T18:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Rio Ave FC",
+      "vis": "FC Famalicão",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -1302,8 +1275,8 @@
         "estadio": "Spotify Camp Nou",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 9,
-        "temp_c": 18
+        "viento_kmh": 2,
+        "temp_c": 17
       },
       "lesiones": {
         "cobertura": "sin confirmar",
