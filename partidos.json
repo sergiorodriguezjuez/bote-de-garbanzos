@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-25T00:24:32.702Z",
+  "generado": "2026-10-25T10:25:12.353Z",
   "partidos": [
     {
       "id": "fd-555057",
@@ -48,7 +48,7 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 7,
-        "temp_c": 10
+        "temp_c": 12
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -69,8 +69,8 @@
         "estadio": "San Mamés",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 8,
-        "temp_c": 12
+        "viento_kmh": 11,
+        "temp_c": 19
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -111,22 +111,6 @@
       }
     },
     {
-      "id": "fd-558562",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 8",
-      "inicioUTC": "2026-10-25T14:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Atalanta BC",
-      "vis": "Frosinone Calcio",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-560615",
       "dep": "Fútbol",
       "torneo": "Premier League",
@@ -139,7 +123,7 @@
         "estadio": "Old Trafford",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 32,
+        "viento_kmh": 37,
         "temp_c": 11
       },
       "lesiones": {
@@ -161,7 +145,7 @@
         "estadio": "Anfield",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 43,
+        "viento_kmh": 42,
         "temp_c": 11
       },
       "lesiones": {
@@ -171,14 +155,14 @@
       }
     },
     {
-      "id": "fd-560613",
+      "id": "fd-558562",
       "dep": "Fútbol",
-      "torneo": "Premier League",
+      "torneo": "Serie A",
       "ronda": "Jornada 8",
       "inicioUTC": "2026-10-25T14:00:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Crystal Palace FC",
-      "vis": "Newcastle United FC",
+      "loc": "Atalanta BC",
+      "vis": "Frosinone Calcio",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -231,9 +215,25 @@
         "estadio": "Stade Louis II",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 11,
-        "temp_c": 16
+        "viento_kmh": 7,
+        "temp_c": 18
       },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-560613",
+      "dep": "Fútbol",
+      "torneo": "Premier League",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-25T14:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Crystal Palace FC",
+      "vis": "Newcastle United FC",
+      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -270,7 +270,7 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 6,
-        "temp_c": 15
+        "temp_c": 18
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -339,8 +339,8 @@
         "estadio": "Stade Vélodrome",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 5,
-        "temp_c": 13
+        "viento_kmh": 16,
+        "temp_c": 18
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -457,8 +457,8 @@
         "estadio": "Reale Arena",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 8,
-        "temp_c": 11
+        "viento_kmh": 6,
+        "temp_c": 19
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -543,8 +543,8 @@
         "estadio": "Spotify Camp Nou",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 6,
-        "temp_c": 12
+        "viento_kmh": 7,
+        "temp_c": 19
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -597,8 +597,8 @@
         "estadio": "Parc des Princes",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 31,
-        "temp_c": 15
+        "viento_kmh": 22,
+        "temp_c": 14
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -619,8 +619,8 @@
         "estadio": "Ramón Sánchez-Pizjuán",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 2,
-        "temp_c": 14
+        "viento_kmh": 5,
+        "temp_c": 18
       },
       "lesiones": {
         "cobertura": "sin confirmar",
