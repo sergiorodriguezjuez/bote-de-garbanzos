@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-26T11:54:08.426Z",
+  "generado": "2026-10-26T17:57:15.921Z",
   "partidos": [
     {
       "id": "fd-567331",
@@ -31,7 +31,7 @@
         "estadio": "Parc des Princes",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 13,
+        "viento_kmh": 11,
         "temp_c": 13
       },
       "lesiones": {
@@ -54,7 +54,7 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 6,
-        "temp_c": 25
+        "temp_c": 24
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -123,8 +123,8 @@
         "estadio": "Stadio Olimpico",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 5,
-        "temp_c": 22
+        "viento_kmh": 2,
+        "temp_c": 19
       },
       "lesiones": {
         "cobertura": "sin confirmar",
