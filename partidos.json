@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-26T17:57:15.921Z",
+  "generado": "2026-10-26T22:15:07.114Z",
   "partidos": [
     {
       "id": "fd-567331",
@@ -8,7 +8,7 @@
       "torneo": "Primeira Liga",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-26T18:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "CD Santa Clara",
       "vis": "Sport Lisboa e Benfica",
       "clima": null,
@@ -16,6 +16,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "1-2"
       }
     },
     {
@@ -24,7 +27,7 @@
       "torneo": "Ligue 1",
       "ronda": "Jornada 8",
       "inicioUTC": "2026-10-26T19:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Paris Saint-Germain FC",
       "vis": "Olympique Lyonnais",
       "clima": {
@@ -32,12 +35,15 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 11,
-        "temp_c": 13
+        "temp_c": 14
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
       }
     },
     {
@@ -46,20 +52,23 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-10-26T20:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Sevilla FC",
       "vis": "CA Osasuna",
       "clima": {
         "estadio": "Ramón Sánchez-Pizjuán",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 6,
-        "temp_c": 24
+        "viento_kmh": 4,
+        "temp_c": 17
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
       }
     },
     {
@@ -123,8 +132,8 @@
         "estadio": "Stadio Olimpico",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 2,
-        "temp_c": 19
+        "viento_kmh": 3,
+        "temp_c": 14
       },
       "lesiones": {
         "cobertura": "sin confirmar",
