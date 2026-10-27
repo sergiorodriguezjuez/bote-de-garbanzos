@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-27T01:33:12.608Z",
+  "generado": "2026-10-27T11:17:20.998Z",
   "partidos": [
     {
       "id": "fd-558556",
@@ -11,6 +11,22 @@
       "estado": "PROGRAMADO",
       "loc": "US Sassuolo Calcio",
       "vis": "SS Lazio",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-558557",
+      "dep": "Fútbol",
+      "torneo": "Serie A",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-27T19:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Torino FC",
+      "vis": "Como 1907",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -32,7 +48,7 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 3,
-        "temp_c": 12
+        "temp_c": 20
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -41,14 +57,36 @@
       }
     },
     {
-      "id": "fd-558557",
+      "id": "fd-558549",
       "dep": "Fútbol",
       "torneo": "Serie A",
       "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-27T19:45:00Z",
+      "inicioUTC": "2026-10-28T17:30:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Torino FC",
-      "vis": "Como 1907",
+      "loc": "AC Milan",
+      "vis": "Bologna FC 1909",
+      "clima": {
+        "estadio": "San Siro",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 2,
+        "temp_c": 15
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-558550",
+      "dep": "Fútbol",
+      "torneo": "Serie A",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-28T17:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Venezia FC",
+      "vis": "FC Internazionale Milano",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -73,37 +111,15 @@
       }
     },
     {
-      "id": "fd-558550",
+      "id": "fd-558552",
       "dep": "Fútbol",
       "torneo": "Serie A",
       "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-28T17:30:00Z",
+      "inicioUTC": "2026-10-28T19:45:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Venezia FC",
-      "vis": "FC Internazionale Milano",
+      "loc": "Genoa CFC",
+      "vis": "Juventus FC",
       "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-558549",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-28T17:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "AC Milan",
-      "vis": "Bologna FC 1909",
-      "clima": {
-        "estadio": "San Siro",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 3,
-        "temp_c": 9
-      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -127,30 +143,14 @@
       }
     },
     {
-      "id": "fd-558552",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-28T19:45:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Genoa CFC",
-      "vis": "Juventus FC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-555068",
+      "id": "fd-555065",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 33",
       "inicioUTC": "2026-10-28T22:30:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Santos FC",
-      "vis": "SE Palmeiras",
+      "loc": "Fluminense FC",
+      "vis": "SC Internacional",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -175,14 +175,14 @@
       }
     },
     {
-      "id": "fd-555065",
+      "id": "fd-555068",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 33",
       "inicioUTC": "2026-10-28T22:30:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Fluminense FC",
-      "vis": "SC Internacional",
+      "loc": "Santos FC",
+      "vis": "SE Palmeiras",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
