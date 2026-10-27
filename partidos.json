@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-27T16:45:15.671Z",
+  "generado": "2026-10-27T21:03:22.377Z",
   "partidos": [
     {
       "id": "fd-558556",
@@ -8,7 +8,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-27T17:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "US Sassuolo Calcio",
       "vis": "SS Lazio",
       "clima": null,
@@ -16,28 +16,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
-      }
-    },
-    {
-      "id": "fd-558555",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-27T19:45:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "AS Roma",
-      "vis": "Cagliari Calcio",
-      "clima": {
-        "estadio": "Stadio Olimpico",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 4,
-        "temp_c": 19
       },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
+      "marcador": {
+        "txt": "2-6"
       }
     },
     {
@@ -46,9 +27,53 @@
       "torneo": "Serie A",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-27T19:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Torino FC",
       "vis": "Como 1907",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "1-0"
+      }
+    },
+    {
+      "id": "fd-558555",
+      "dep": "Fútbol",
+      "torneo": "Serie A",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-27T19:45:00Z",
+      "estado": "EN_JUEGO",
+      "loc": "AS Roma",
+      "vis": "Cagliari Calcio",
+      "clima": {
+        "estadio": "Stadio Olimpico",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 3,
+        "temp_c": 14
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "2-1"
+      }
+    },
+    {
+      "id": "fd-558553",
+      "dep": "Fútbol",
+      "torneo": "Serie A",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-28T17:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Parma Calcio 1913",
+      "vis": "Udinese Calcio",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -73,22 +98,6 @@
       }
     },
     {
-      "id": "fd-558553",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-28T17:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Parma Calcio 1913",
-      "vis": "Udinese Calcio",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-558549",
       "dep": "Fútbol",
       "torneo": "Serie A",
@@ -102,24 +111,8 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 3,
-        "temp_c": 15
+        "temp_c": 11
       },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-558554",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-28T19:45:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "AC Monza",
-      "vis": "SSC Napoli",
-      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -135,6 +128,22 @@
       "estado": "PROGRAMADO",
       "loc": "Genoa CFC",
       "vis": "Juventus FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-558554",
+      "dep": "Fútbol",
+      "torneo": "Serie A",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-28T19:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "AC Monza",
+      "vis": "SSC Napoli",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
