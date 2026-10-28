@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-28T11:51:40.901Z",
+  "generado": "2026-10-28T17:40:31.164Z",
   "partidos": [
     {
       "id": "fd-558553",
@@ -8,7 +8,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-28T17:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Parma Calcio 1913",
       "vis": "Udinese Calcio",
       "clima": null,
@@ -16,6 +16,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
       }
     },
     {
@@ -24,20 +27,23 @@
       "torneo": "Serie A",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-28T17:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "AC Milan",
       "vis": "Bologna FC 1909",
       "clima": {
         "estadio": "San Siro",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 3,
-        "temp_c": 16
+        "viento_kmh": 4,
+        "temp_c": 15
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
       }
     },
     {
@@ -46,7 +52,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-28T17:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Venezia FC",
       "vis": "FC Internazionale Milano",
       "clima": null,
@@ -54,6 +60,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
       }
     },
     {
