@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-28T17:40:31.164Z",
+  "generado": "2026-10-28T22:01:13.480Z",
   "partidos": [
     {
       "id": "fd-558553",
@@ -8,7 +8,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-28T17:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Parma Calcio 1913",
       "vis": "Udinese Calcio",
       "clima": null,
@@ -27,15 +27,15 @@
       "torneo": "Serie A",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-28T17:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "AC Milan",
       "vis": "Bologna FC 1909",
       "clima": {
         "estadio": "San Siro",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 4,
-        "temp_c": 15
+        "viento_kmh": 3,
+        "temp_c": 11
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -43,7 +43,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
+        "txt": "2-4"
       }
     },
     {
@@ -52,7 +52,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-28T17:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Venezia FC",
       "vis": "FC Internazionale Milano",
       "clima": null,
@@ -62,23 +62,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-558554",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-28T19:45:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "AC Monza",
-      "vis": "SSC Napoli",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
+        "txt": "0-2"
       }
     },
     {
@@ -87,9 +71,47 @@
       "torneo": "Serie A",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-28T19:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Genoa CFC",
       "vis": "Juventus FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
+      }
+    },
+    {
+      "id": "fd-558554",
+      "dep": "Fútbol",
+      "torneo": "Serie A",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-28T19:45:00Z",
+      "estado": "FINALIZADO",
+      "loc": "AC Monza",
+      "vis": "SSC Napoli",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "1-4"
+      }
+    },
+    {
+      "id": "fd-555068",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 33",
+      "inicioUTC": "2026-10-28T22:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Santos FC",
+      "vis": "SE Palmeiras",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -106,22 +128,6 @@
       "estado": "PROGRAMADO",
       "loc": "Fluminense FC",
       "vis": "SC Internacional",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-555068",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 33",
-      "inicioUTC": "2026-10-28T22:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Santos FC",
-      "vis": "SE Palmeiras",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
