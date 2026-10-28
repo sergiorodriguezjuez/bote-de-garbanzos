@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-28T00:36:18.421Z",
+  "generado": "2026-10-28T11:51:40.901Z",
   "partidos": [
     {
       "id": "fd-558553",
@@ -31,8 +31,8 @@
         "estadio": "San Siro",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 5,
-        "temp_c": 10
+        "viento_kmh": 3,
+        "temp_c": 16
       },
       "lesiones": {
         "cobertura": "sin confirmar",
