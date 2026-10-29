@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-29T01:53:16.703Z",
+  "generado": "2026-10-29T11:58:55.184Z",
   "partidos": [
     {
       "id": "fd-555061",
@@ -8,7 +8,7 @@
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 33",
       "inicioUTC": "2026-10-29T00:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "EC Bahia",
       "vis": "São Paulo FC",
       "clima": null,
@@ -18,7 +18,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "2-2"
+        "txt": "3-2"
       }
     },
     {
@@ -27,7 +27,7 @@
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 33",
       "inicioUTC": "2026-10-29T00:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Clube do Remo",
       "vis": "Botafogo FR",
       "clima": null,
@@ -37,7 +37,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "2-0"
+        "txt": "2-1"
       }
     },
     {
@@ -197,8 +197,8 @@
         "estadio": "Estadio de la Cerámica",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 6,
-        "temp_c": 14
+        "viento_kmh": 8,
+        "temp_c": 23
       },
       "lesiones": {
         "cobertura": "sin confirmar",
