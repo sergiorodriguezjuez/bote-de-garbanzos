@@ -1,163 +1,14 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-28T22:01:13.480Z",
+  "generado": "2026-10-29T01:53:16.703Z",
   "partidos": [
-    {
-      "id": "fd-558553",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-28T17:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Parma Calcio 1913",
-      "vis": "Udinese Calcio",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-558549",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-28T17:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "AC Milan",
-      "vis": "Bologna FC 1909",
-      "clima": {
-        "estadio": "San Siro",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 3,
-        "temp_c": 11
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-4"
-      }
-    },
-    {
-      "id": "fd-558550",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-28T17:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Venezia FC",
-      "vis": "FC Internazionale Milano",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-2"
-      }
-    },
-    {
-      "id": "fd-558552",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-28T19:45:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Genoa CFC",
-      "vis": "Juventus FC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-0"
-      }
-    },
-    {
-      "id": "fd-558554",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-28T19:45:00Z",
-      "estado": "FINALIZADO",
-      "loc": "AC Monza",
-      "vis": "SSC Napoli",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-4"
-      }
-    },
-    {
-      "id": "fd-555068",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 33",
-      "inicioUTC": "2026-10-28T22:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Santos FC",
-      "vis": "SE Palmeiras",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-555065",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 33",
-      "inicioUTC": "2026-10-28T22:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Fluminense FC",
-      "vis": "SC Internacional",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-555062",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 33",
-      "inicioUTC": "2026-10-28T22:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "RB Bragantino",
-      "vis": "Chapecoense AF",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
     {
       "id": "fd-555061",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 33",
       "inicioUTC": "2026-10-29T00:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "EC Bahia",
       "vis": "São Paulo FC",
       "clima": null,
@@ -165,6 +16,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-2"
       }
     },
     {
@@ -173,7 +27,7 @@
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 33",
       "inicioUTC": "2026-10-29T00:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Clube do Remo",
       "vis": "Botafogo FR",
       "clima": null,
@@ -181,6 +35,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
       }
     },
     {
@@ -240,6 +97,156 @@
       "estado": "PROGRAMADO",
       "loc": "CR Vasco da Gama",
       "vis": "CR Flamengo",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555066",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 33",
+      "inicioUTC": "2026-10-30T00:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Grêmio FBPA",
+      "vis": "CA Paranaense",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-559646",
+      "dep": "Fútbol",
+      "torneo": "Ligue 1",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-30T18:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "OGC Nice",
+      "vis": "Stade Rennais FC 1901",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-559644",
+      "dep": "Fútbol",
+      "torneo": "Ligue 1",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-30T18:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Le Havre AC",
+      "vis": "Paris Saint-Germain FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-565846",
+      "dep": "Fútbol",
+      "torneo": "Bundesliga",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-30T19:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "SV 07 Elversberg",
+      "vis": "1. FSV Mainz 05",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561916",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 13",
+      "inicioUTC": "2026-10-30T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Sheffield United FC",
+      "vis": "Wrexham AFC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564737",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 11",
+      "inicioUTC": "2026-10-30T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Villarreal CF",
+      "vis": "RCD Espanyol de Barcelona",
+      "clima": {
+        "estadio": "Estadio de la Cerámica",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 6,
+        "temp_c": 14
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-559639",
+      "dep": "Fútbol",
+      "torneo": "Ligue 1",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-30T20:05:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Lille OSC",
+      "vis": "Racing Club de Lens",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-567344",
+      "dep": "Fútbol",
+      "torneo": "Primeira Liga",
+      "ronda": "Jornada 10",
+      "inicioUTC": "2026-10-30T20:15:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Casa Pia AC",
+      "vis": "Sporting Clube de Portugal",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555063",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 33",
+      "inicioUTC": "2026-10-30T23:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "SC Corinthians Paulista",
+      "vis": "Mirassol FC",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
