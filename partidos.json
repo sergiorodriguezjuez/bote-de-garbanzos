@@ -1,45 +1,7 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-10-31T16:13:16.323Z",
+  "generado": "2026-10-31T20:08:50.218Z",
   "partidos": [
-    {
-      "id": "fd-561908",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 13",
-      "inicioUTC": "2026-10-31T12:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Stoke City FC",
-      "vis": "Preston North End FC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-0"
-      }
-    },
-    {
-      "id": "fd-561910",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 13",
-      "inicioUTC": "2026-10-31T12:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Norwich City FC",
-      "vis": "Watford FC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "3-2"
-      }
-    },
     {
       "id": "fd-560626",
       "dep": "Fútbol",
@@ -53,8 +15,8 @@
         "estadio": "Stamford Bridge",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 9,
-        "temp_c": 14
+        "viento_kmh": 7,
+        "temp_c": 12
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -82,6 +44,44 @@
       },
       "marcador": {
         "txt": "1-3"
+      }
+    },
+    {
+      "id": "fd-561910",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 13",
+      "inicioUTC": "2026-10-31T12:30:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Norwich City FC",
+      "vis": "Watford FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "3-2"
+      }
+    },
+    {
+      "id": "fd-561908",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 13",
+      "inicioUTC": "2026-10-31T12:30:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Stoke City FC",
+      "vis": "Preston North End FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
       }
     },
     {
@@ -123,12 +123,69 @@
       }
     },
     {
+      "id": "fd-565843",
+      "dep": "Fútbol",
+      "torneo": "Bundesliga",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-31T14:30:00Z",
+      "estado": "FINALIZADO",
+      "loc": "SV Werder Bremen",
+      "vis": "TSG 1899 Hoffenheim",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
+      }
+    },
+    {
+      "id": "fd-565839",
+      "dep": "Fútbol",
+      "torneo": "Bundesliga",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-31T14:30:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Borussia Mönchengladbach",
+      "vis": "SC Paderborn 07",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
+      }
+    },
+    {
+      "id": "fd-565842",
+      "dep": "Fútbol",
+      "torneo": "Bundesliga",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-31T14:30:00Z",
+      "estado": "FINALIZADO",
+      "loc": "FC Augsburg",
+      "vis": "SC Freiburg",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "1-2"
+      }
+    },
+    {
       "id": "fd-565840",
       "dep": "Fútbol",
       "torneo": "Bundesliga",
       "ronda": "Jornada 8",
       "inicioUTC": "2026-10-31T14:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "FC Schalke 04",
       "vis": "RB Leipzig",
       "clima": null,
@@ -147,7 +204,7 @@
       "torneo": "Bundesliga",
       "ronda": "Jornada 8",
       "inicioUTC": "2026-10-31T14:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Bayer 04 Leverkusen",
       "vis": "VfB Stuttgart",
       "clima": null,
@@ -157,18 +214,18 @@
         "vis": []
       },
       "marcador": {
-        "txt": "1-4"
+        "txt": "2-4"
       }
     },
     {
-      "id": "fd-565842",
+      "id": "fd-560630",
       "dep": "Fútbol",
-      "torneo": "Bundesliga",
-      "ronda": "Jornada 8",
-      "inicioUTC": "2026-10-31T14:30:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "FC Augsburg",
-      "vis": "SC Freiburg",
+      "torneo": "Premier League",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-31T15:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Brentford FC",
+      "vis": "Nottingham Forest FC",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -176,18 +233,18 @@
         "vis": []
       },
       "marcador": {
-        "txt": "1-1"
+        "txt": "2-0"
       }
     },
     {
-      "id": "fd-565839",
+      "id": "fd-561909",
       "dep": "Fútbol",
-      "torneo": "Bundesliga",
-      "ronda": "Jornada 8",
-      "inicioUTC": "2026-10-31T14:30:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Borussia Mönchengladbach",
-      "vis": "SC Paderborn 07",
+      "torneo": "Championship",
+      "ronda": "Jornada 13",
+      "inicioUTC": "2026-10-31T15:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Bolton Wanderers FC",
+      "vis": "Bristol City FC",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -195,18 +252,18 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
+        "txt": "2-3"
       }
     },
     {
-      "id": "fd-565843",
+      "id": "fd-561905",
       "dep": "Fútbol",
-      "torneo": "Bundesliga",
-      "ronda": "Jornada 8",
-      "inicioUTC": "2026-10-31T14:30:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "SV Werder Bremen",
-      "vis": "TSG 1899 Hoffenheim",
+      "torneo": "Championship",
+      "ronda": "Jornada 13",
+      "inicioUTC": "2026-10-31T15:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Wolverhampton Wanderers FC",
+      "vis": "Cardiff City FC",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -214,7 +271,121 @@
         "vis": []
       },
       "marcador": {
-        "txt": "1-0"
+        "txt": "3-0"
+      }
+    },
+    {
+      "id": "fd-561911",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 13",
+      "inicioUTC": "2026-10-31T15:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Middlesbrough FC",
+      "vis": "Charlton Athletic FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "3-0"
+      }
+    },
+    {
+      "id": "fd-561907",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 13",
+      "inicioUTC": "2026-10-31T15:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Swansea City AFC",
+      "vis": "Blackburn Rovers FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "4-0"
+      }
+    },
+    {
+      "id": "fd-560624",
+      "dep": "Fútbol",
+      "torneo": "Premier League",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-31T15:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "AFC Bournemouth",
+      "vis": "Leeds United FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
+      }
+    },
+    {
+      "id": "fd-561913",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 13",
+      "inicioUTC": "2026-10-31T15:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Millwall FC",
+      "vis": "Derby County FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "4-1"
+      }
+    },
+    {
+      "id": "fd-560625",
+      "dep": "Fútbol",
+      "torneo": "Premier League",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-31T15:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Coventry City FC",
+      "vis": "Sunderland AFC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "3-1"
+      }
+    },
+    {
+      "id": "fd-561914",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 13",
+      "inicioUTC": "2026-10-31T15:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Southampton FC",
+      "vis": "Queens Park Rangers FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "4-1"
       }
     },
     {
@@ -223,15 +394,15 @@
       "torneo": "Championship",
       "ronda": "Jornada 13",
       "inicioUTC": "2026-10-31T15:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "West Ham United FC",
       "vis": "West Bromwich Albion FC",
       "clima": {
         "estadio": "London Stadium",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 9,
-        "temp_c": 13
+        "viento_kmh": 5,
+        "temp_c": 11
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -239,7 +410,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "1-2"
+        "txt": "1-3"
       }
     },
     {
@@ -248,15 +419,15 @@
       "torneo": "Premier League",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-31T15:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Manchester City FC",
       "vis": "Brighton & Hove Albion FC",
       "clima": {
         "estadio": "Etihad Stadium",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 7,
-        "temp_c": 12
+        "viento_kmh": 3,
+        "temp_c": 10
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -273,7 +444,7 @@
       "torneo": "Championship",
       "ronda": "Jornada 13",
       "inicioUTC": "2026-10-31T15:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Burnley FC",
       "vis": "Portsmouth FC",
       "clima": null,
@@ -292,7 +463,7 @@
       "torneo": "Premier League",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-10-31T15:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Hull City AFC",
       "vis": "Ipswich Town FC",
       "clima": null,
@@ -302,75 +473,18 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-1"
+        "txt": "2-2"
       }
     },
     {
-      "id": "fd-560625",
+      "id": "fd-564735",
       "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-31T15:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Coventry City FC",
-      "vis": "Sunderland AFC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-0"
-      }
-    },
-    {
-      "id": "fd-561914",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 13",
-      "inicioUTC": "2026-10-31T15:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Southampton FC",
-      "vis": "Queens Park Rangers FC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-0"
-      }
-    },
-    {
-      "id": "fd-561911",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 13",
-      "inicioUTC": "2026-10-31T15:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Middlesbrough FC",
-      "vis": "Charlton Athletic FC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-0"
-      }
-    },
-    {
-      "id": "fd-561907",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 13",
-      "inicioUTC": "2026-10-31T15:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Swansea City AFC",
-      "vis": "Blackburn Rovers FC",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 11",
+      "inicioUTC": "2026-10-31T15:15:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Rayo Vallecano de Madrid",
+      "vis": "RC Celta de Vigo",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -382,71 +496,14 @@
       }
     },
     {
-      "id": "fd-560624",
+      "id": "fd-558854",
       "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-31T15:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "AFC Bournemouth",
-      "vis": "Leeds United FC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-0"
-      }
-    },
-    {
-      "id": "fd-561913",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 13",
-      "inicioUTC": "2026-10-31T15:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Millwall FC",
-      "vis": "Derby County FC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "3-0"
-      }
-    },
-    {
-      "id": "fd-560630",
-      "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-31T15:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Brentford FC",
-      "vis": "Nottingham Forest FC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-0"
-      }
-    },
-    {
-      "id": "fd-561909",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 13",
-      "inicioUTC": "2026-10-31T15:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Bolton Wanderers FC",
-      "vis": "Bristol City FC",
+      "torneo": "Eredivisie",
+      "ronda": "Jornada 11",
+      "inicioUTC": "2026-10-31T15:30:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Feyenoord Rotterdam",
+      "vis": "Fortuna Sittard",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -458,15 +515,103 @@
       }
     },
     {
-      "id": "fd-561905",
+      "id": "fd-567343",
       "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 13",
-      "inicioUTC": "2026-10-31T15:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Wolverhampton Wanderers FC",
-      "vis": "Cardiff City FC",
+      "torneo": "Primeira Liga",
+      "ronda": "Jornada 10",
+      "inicioUTC": "2026-10-31T15:30:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Moreirense FC",
+      "vis": "CF Estrela da Amadora",
       "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "2-1"
+      }
+    },
+    {
+      "id": "fd-558542",
+      "dep": "Fútbol",
+      "torneo": "Serie A",
+      "ronda": "Jornada 10",
+      "inicioUTC": "2026-10-31T17:00:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Udinese Calcio",
+      "vis": "AS Roma",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "2-5"
+      }
+    },
+    {
+      "id": "fd-564736",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 11",
+      "inicioUTC": "2026-10-31T17:30:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Real Betis Balompié",
+      "vis": "Málaga CF",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "2-1"
+      }
+    },
+    {
+      "id": "fd-565845",
+      "dep": "Fútbol",
+      "torneo": "Bundesliga",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-10-31T17:30:00Z",
+      "estado": "FINALIZADO",
+      "loc": "FC Bayern München",
+      "vis": "Borussia Dortmund",
+      "clima": {
+        "estadio": "Allianz Arena",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 4,
+        "temp_c": 6
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "2-2"
+      }
+    },
+    {
+      "id": "fd-560627",
+      "dep": "Fútbol",
+      "torneo": "Premier League",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-31T17:30:00Z",
+      "estado": "FINALIZADO",
+      "loc": "Tottenham Hotspur FC",
+      "vis": "Crystal Palace FC",
+      "clima": {
+        "estadio": "Tottenham Hotspur Stadium",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 6,
+        "temp_c": 11
+      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -477,14 +622,14 @@
       }
     },
     {
-      "id": "fd-564735",
+      "id": "fd-558852",
       "dep": "Fútbol",
-      "torneo": "Primera Division",
+      "torneo": "Eredivisie",
       "ronda": "Jornada 11",
-      "inicioUTC": "2026-10-31T15:15:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Rayo Vallecano de Madrid",
-      "vis": "RC Celta de Vigo",
+      "inicioUTC": "2026-10-31T17:45:00Z",
+      "estado": "FINALIZADO",
+      "loc": "SC Heerenveen",
+      "vis": "NEC",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -496,126 +641,12 @@
       }
     },
     {
-      "id": "fd-567343",
-      "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-10-31T15:30:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Moreirense FC",
-      "vis": "CF Estrela da Amadora",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-558854",
-      "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 11",
-      "inicioUTC": "2026-10-31T15:30:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Feyenoord Rotterdam",
-      "vis": "Fortuna Sittard",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-558542",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-10-31T17:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Udinese Calcio",
-      "vis": "AS Roma",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-560627",
-      "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-31T17:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Tottenham Hotspur FC",
-      "vis": "Crystal Palace FC",
-      "clima": {
-        "estadio": "Tottenham Hotspur Stadium",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 8,
-        "temp_c": 14
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-565845",
-      "dep": "Fútbol",
-      "torneo": "Bundesliga",
-      "ronda": "Jornada 8",
-      "inicioUTC": "2026-10-31T17:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "FC Bayern München",
-      "vis": "Borussia Dortmund",
-      "clima": {
-        "estadio": "Allianz Arena",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 9,
-        "temp_c": 8
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-564736",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 11",
-      "inicioUTC": "2026-10-31T17:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Real Betis Balompié",
-      "vis": "Málaga CF",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-558853",
       "dep": "Fútbol",
       "torneo": "Eredivisie",
       "ronda": "Jornada 11",
       "inicioUTC": "2026-10-31T17:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "PSV",
       "vis": "Willem II Tilburg",
       "clima": null,
@@ -623,22 +654,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
-      }
-    },
-    {
-      "id": "fd-558852",
-      "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 11",
-      "inicioUTC": "2026-10-31T17:45:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "SC Heerenveen",
-      "vis": "NEC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
+      },
+      "marcador": {
+        "txt": "7-0"
       }
     },
     {
@@ -647,7 +665,7 @@
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 33",
       "inicioUTC": "2026-10-31T19:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Coritiba FBC",
       "vis": "EC Vitória",
       "clima": null,
@@ -655,22 +673,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
-      }
-    },
-    {
-      "id": "fd-559643",
-      "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-31T19:45:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "ES Troyes AC",
-      "vis": "Le Mans FC",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
       }
     },
     {
@@ -679,74 +684,42 @@
       "torneo": "Serie A",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-10-31T19:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "AC Milan",
       "vis": "FC Internazionale Milano",
       "clima": {
         "estadio": "San Siro",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 4,
-        "temp_c": 16
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-558851",
-      "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 11",
-      "inicioUTC": "2026-10-31T20:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "AFC Ajax",
-      "vis": "AZ",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-560628",
-      "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-10-31T20:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Aston Villa FC",
-      "vis": "Fulham FC",
-      "clima": {
-        "estadio": "Villa Park",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 5,
+        "viento_kmh": 3,
         "temp_c": 12
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
       }
     },
     {
-      "id": "fd-558850",
+      "id": "fd-559643",
       "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 11",
-      "inicioUTC": "2026-10-31T20:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "SC Cambuur-Leeuwarden",
-      "vis": "Go Ahead Eagles",
+      "torneo": "Ligue 1",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-31T19:45:00Z",
+      "estado": "EN_JUEGO",
+      "loc": "ES Troyes AC",
+      "vis": "Le Mans FC",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
       }
     },
     {
@@ -755,20 +728,86 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 11",
       "inicioUTC": "2026-10-31T20:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "FC Barcelona",
       "vis": "Deportivo Alavés",
       "clima": {
         "estadio": "Spotify Camp Nou",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 11,
-        "temp_c": 19
+        "viento_kmh": 3,
+        "temp_c": 16
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
+      }
+    },
+    {
+      "id": "fd-560628",
+      "dep": "Fútbol",
+      "torneo": "Premier League",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-10-31T20:00:00Z",
+      "estado": "EN_JUEGO",
+      "loc": "Aston Villa FC",
+      "vis": "Fulham FC",
+      "clima": {
+        "estadio": "Villa Park",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 4,
+        "temp_c": 11
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
+      }
+    },
+    {
+      "id": "fd-558850",
+      "dep": "Fútbol",
+      "torneo": "Eredivisie",
+      "ronda": "Jornada 11",
+      "inicioUTC": "2026-10-31T20:00:00Z",
+      "estado": "EN_JUEGO",
+      "loc": "SC Cambuur-Leeuwarden",
+      "vis": "Go Ahead Eagles",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
+      }
+    },
+    {
+      "id": "fd-558851",
+      "dep": "Fútbol",
+      "torneo": "Eredivisie",
+      "ronda": "Jornada 11",
+      "inicioUTC": "2026-10-31T20:00:00Z",
+      "estado": "EN_JUEGO",
+      "loc": "AFC Ajax",
+      "vis": "AZ",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
       }
     },
     {
@@ -836,22 +875,6 @@
       }
     },
     {
-      "id": "fd-558847",
-      "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 11",
-      "inicioUTC": "2026-11-01T13:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "SBV Excelsior",
-      "vis": "FC Twente '65",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-558848",
       "dep": "Fútbol",
       "torneo": "Eredivisie",
@@ -868,15 +891,37 @@
       }
     },
     {
-      "id": "fd-558544",
+      "id": "fd-558847",
+      "dep": "Fútbol",
+      "torneo": "Eredivisie",
+      "ronda": "Jornada 11",
+      "inicioUTC": "2026-11-01T13:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "SBV Excelsior",
+      "vis": "FC Twente '65",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-558546",
       "dep": "Fútbol",
       "torneo": "Serie A",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-11-01T14:00:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Frosinone Calcio",
-      "vis": "Torino FC",
-      "clima": null,
+      "loc": "SS Lazio",
+      "vis": "Cagliari Calcio",
+      "clima": {
+        "estadio": "Stadio Olimpico",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 5,
+        "temp_c": 14
+      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -900,21 +945,15 @@
       }
     },
     {
-      "id": "fd-558546",
+      "id": "fd-558544",
       "dep": "Fútbol",
       "torneo": "Serie A",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-11-01T14:00:00Z",
       "estado": "PROGRAMADO",
-      "loc": "SS Lazio",
-      "vis": "Cagliari Calcio",
-      "clima": {
-        "estadio": "Stadio Olimpico",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 5,
-        "temp_c": 19
-      },
+      "loc": "Frosinone Calcio",
+      "vis": "Torino FC",
+      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -986,28 +1025,6 @@
       }
     },
     {
-      "id": "fd-559640",
-      "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-11-01T16:15:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Olympique Lyonnais",
-      "vis": "Angers SCO",
-      "clima": {
-        "estadio": "Groupama Stadium",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 9,
-        "temp_c": 10
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-559642",
       "dep": "Fútbol",
       "torneo": "Ligue 1",
@@ -1024,15 +1041,21 @@
       }
     },
     {
-      "id": "fd-565844",
+      "id": "fd-559640",
       "dep": "Fútbol",
-      "torneo": "Bundesliga",
-      "ronda": "Jornada 8",
-      "inicioUTC": "2026-11-01T16:30:00Z",
+      "torneo": "Ligue 1",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-11-01T16:15:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Eintracht Frankfurt",
-      "vis": "Hamburger SV",
-      "clima": null,
+      "loc": "Olympique Lyonnais",
+      "vis": "Angers SCO",
+      "clima": {
+        "estadio": "Groupama Stadium",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 1,
+        "temp_c": 9
+      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -1052,9 +1075,25 @@
         "estadio": "Anfield",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 9,
-        "temp_c": 11
+        "viento_kmh": 4,
+        "temp_c": 9
       },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-565844",
+      "dep": "Fútbol",
+      "torneo": "Bundesliga",
+      "ronda": "Jornada 8",
+      "inicioUTC": "2026-11-01T16:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Eintracht Frankfurt",
+      "vis": "Hamburger SV",
+      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -1094,6 +1133,22 @@
       }
     },
     {
+      "id": "fd-567345",
+      "dep": "Fútbol",
+      "torneo": "Primeira Liga",
+      "ronda": "Jornada 10",
+      "inicioUTC": "2026-11-01T18:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Académico de Viseu FC",
+      "vis": "Rio Ave FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
       "id": "fd-567340",
       "dep": "Fútbol",
       "torneo": "Primeira Liga",
@@ -1110,15 +1165,21 @@
       }
     },
     {
-      "id": "fd-567345",
+      "id": "fd-559645",
       "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-11-01T18:00:00Z",
+      "torneo": "Ligue 1",
+      "ronda": "Jornada 9",
+      "inicioUTC": "2026-11-01T19:45:00Z",
       "estado": "PROGRAMADO",
-      "loc": "Académico de Viseu FC",
-      "vis": "Rio Ave FC",
-      "clima": null,
+      "loc": "Olympique de Marseille",
+      "vis": "Toulouse FC",
+      "clima": {
+        "estadio": "Stade Vélodrome",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 9,
+        "temp_c": 15
+      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -1139,29 +1200,7 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 3,
-        "temp_c": 17
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-559645",
-      "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-11-01T19:45:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Olympique de Marseille",
-      "vis": "Toulouse FC",
-      "clima": {
-        "estadio": "Stade Vélodrome",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 11,
-        "temp_c": 19
+        "temp_c": 9
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -1182,8 +1221,8 @@
         "estadio": "San Mamés",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 7,
-        "temp_c": 17
+        "viento_kmh": 2,
+        "temp_c": 12
       },
       "lesiones": {
         "cobertura": "sin confirmar",
