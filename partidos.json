@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-11-01T18:00:33.207Z",
+  "generado": "2026-11-01T22:14:19.806Z",
   "partidos": [
     {
       "id": "fd-558849",
@@ -155,8 +155,8 @@
         "estadio": "Stadio Olimpico",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 6,
-        "temp_c": 12
+        "viento_kmh": 10,
+        "temp_c": 10
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -341,7 +341,7 @@
       "torneo": "Ligue 1",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-11-01T16:15:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Paris FC",
       "vis": "AS Monaco FC",
       "cuotas": {
@@ -369,7 +369,7 @@
       "torneo": "Ligue 1",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-11-01T16:15:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Olympique Lyonnais",
       "vis": "Angers SCO",
       "cuotas": {
@@ -385,8 +385,8 @@
         "estadio": "Groupama Stadium",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 23,
-        "temp_c": 9
+        "viento_kmh": 13,
+        "temp_c": 7
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -394,7 +394,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "1-0"
+        "txt": "2-0"
       }
     },
     {
@@ -403,7 +403,7 @@
       "torneo": "Premier League",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-11-01T16:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Liverpool FC",
       "vis": "Arsenal FC",
       "cuotas": {
@@ -419,8 +419,8 @@
         "estadio": "Anfield",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 8,
-        "temp_c": 12
+        "viento_kmh": 5,
+        "temp_c": 10
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -437,7 +437,7 @@
       "torneo": "Bundesliga",
       "ronda": "Jornada 8",
       "inicioUTC": "2026-11-01T16:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Eintracht Frankfurt",
       "vis": "Hamburger SV",
       "cuotas": {
@@ -465,7 +465,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-11-01T17:00:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "US Lecce",
       "vis": "Genoa CFC",
       "cuotas": {
@@ -493,7 +493,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 11",
       "inicioUTC": "2026-11-01T17:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Elche CF",
       "vis": "Valencia CF",
       "cuotas": {
@@ -512,7 +512,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
+        "txt": "0-1"
       }
     },
     {
@@ -521,7 +521,7 @@
       "torneo": "Primeira Liga",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-11-01T18:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Académico de Viseu FC",
       "vis": "Rio Ave FC",
       "cuotas": {
@@ -538,6 +538,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-1"
       }
     },
     {
@@ -546,7 +549,7 @@
       "torneo": "Primeira Liga",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-11-01T18:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "CS Marítimo",
       "vis": "CD Santa Clara",
       "cuotas": {
@@ -563,6 +566,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-2"
       }
     },
     {
@@ -571,7 +577,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-11-01T19:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Juventus FC",
       "vis": "SSC Napoli",
       "cuotas": {
@@ -587,13 +593,16 @@
         "estadio": "Allianz Stadium (Turín)",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 3,
-        "temp_c": 9
+        "viento_kmh": 4,
+        "temp_c": 4
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
       }
     },
     {
@@ -602,7 +611,7 @@
       "torneo": "Ligue 1",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-11-01T19:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Olympique de Marseille",
       "vis": "Toulouse FC",
       "cuotas": {
@@ -619,12 +628,15 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 5,
-        "temp_c": 14
+        "temp_c": 12
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
       }
     },
     {
@@ -633,7 +645,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 11",
       "inicioUTC": "2026-11-01T20:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Athletic Club",
       "vis": "Real Sociedad de Fútbol",
       "cuotas": {
@@ -649,13 +661,16 @@
         "estadio": "San Mamés",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 7,
-        "temp_c": 15
+        "viento_kmh": 2,
+        "temp_c": 12
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-1"
       }
     },
     {
@@ -664,7 +679,7 @@
       "torneo": "Primeira Liga",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-11-01T20:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Sporting Clube de Braga",
       "vis": "FC Famalicão",
       "cuotas": {
@@ -681,6 +696,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
       }
     },
     {
@@ -806,7 +824,7 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 9,
-        "temp_c": 9
+        "temp_c": 8
       },
       "lesiones": {
         "cobertura": "sin confirmar",
