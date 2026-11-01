@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-11-01T12:20:52.181Z",
+  "generado": "2026-11-01T18:00:33.207Z",
   "partidos": [
     {
       "id": "fd-558849",
@@ -8,7 +8,7 @@
       "torneo": "Eredivisie",
       "ronda": "Jornada 11",
       "inicioUTC": "2026-11-01T11:15:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "PEC Zwolle",
       "vis": "ADO Den Haag",
       "cuotas": {
@@ -36,7 +36,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-11-01T11:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "Como 1907",
       "vis": "Venezia FC",
       "cuotas": {
@@ -64,7 +64,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 11",
       "inicioUTC": "2026-11-01T13:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Getafe CF",
       "vis": "Sevilla FC",
       "cuotas": {
@@ -81,6 +81,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "3-1"
       }
     },
     {
@@ -89,7 +92,7 @@
       "torneo": "Eredivisie",
       "ronda": "Jornada 11",
       "inicioUTC": "2026-11-01T13:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Telstar 1963",
       "vis": "FC Utrecht",
       "cuotas": {
@@ -106,6 +109,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "4-2"
       }
     },
     {
@@ -114,7 +120,7 @@
       "torneo": "Eredivisie",
       "ronda": "Jornada 11",
       "inicioUTC": "2026-11-01T13:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "SBV Excelsior",
       "vis": "FC Twente '65",
       "clima": null,
@@ -122,6 +128,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-9"
       }
     },
     {
@@ -130,7 +139,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-11-01T14:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "SS Lazio",
       "vis": "Cagliari Calcio",
       "cuotas": {
@@ -146,13 +155,16 @@
         "estadio": "Stadio Olimpico",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 19,
-        "temp_c": 17
+        "viento_kmh": 6,
+        "temp_c": 12
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-1"
       }
     },
     {
@@ -161,7 +173,7 @@
       "torneo": "Ligue 1",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-11-01T14:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "RC Strasbourg Alsace",
       "vis": "AJ Auxerre",
       "cuotas": {
@@ -178,6 +190,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "5-1"
       }
     },
     {
@@ -186,7 +201,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-11-01T14:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Frosinone Calcio",
       "vis": "Torino FC",
       "cuotas": {
@@ -203,6 +218,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-0"
       }
     },
     {
@@ -211,7 +229,7 @@
       "torneo": "Bundesliga",
       "ronda": "Jornada 8",
       "inicioUTC": "2026-11-01T14:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "1. FC Union Berlin",
       "vis": "1. FC Köln",
       "cuotas": {
@@ -228,6 +246,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "1-1"
       }
     },
     {
@@ -236,7 +257,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 11",
       "inicioUTC": "2026-11-01T15:15:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "Real Racing Club de Santander",
       "vis": "Real Madrid CF",
       "cuotas": {
@@ -253,6 +274,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-3"
       }
     },
     {
@@ -261,7 +285,7 @@
       "torneo": "Primeira Liga",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-11-01T15:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "FC Arouca",
       "vis": "CD Nacional",
       "cuotas": {
@@ -278,6 +302,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "1-0"
       }
     },
     {
@@ -286,7 +313,7 @@
       "torneo": "Eredivisie",
       "ronda": "Jornada 11",
       "inicioUTC": "2026-11-01T15:45:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "FINALIZADO",
       "loc": "FC Groningen",
       "vis": "Sparta Rotterdam",
       "cuotas": {
@@ -303,6 +330,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "2-3"
       }
     },
     {
@@ -311,7 +341,7 @@
       "torneo": "Ligue 1",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-11-01T16:15:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Paris FC",
       "vis": "AS Monaco FC",
       "cuotas": {
@@ -328,6 +358,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "3-1"
       }
     },
     {
@@ -336,7 +369,7 @@
       "torneo": "Ligue 1",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-11-01T16:15:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Olympique Lyonnais",
       "vis": "Angers SCO",
       "cuotas": {
@@ -352,13 +385,16 @@
         "estadio": "Groupama Stadium",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 18,
-        "temp_c": 10
+        "viento_kmh": 23,
+        "temp_c": 9
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "1-0"
       }
     },
     {
@@ -367,7 +403,7 @@
       "torneo": "Premier League",
       "ronda": "Jornada 9",
       "inicioUTC": "2026-11-01T16:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Liverpool FC",
       "vis": "Arsenal FC",
       "cuotas": {
@@ -383,13 +419,16 @@
         "estadio": "Anfield",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 7,
-        "temp_c": 9
+        "viento_kmh": 8,
+        "temp_c": 12
       },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-1"
       }
     },
     {
@@ -398,7 +437,7 @@
       "torneo": "Bundesliga",
       "ronda": "Jornada 8",
       "inicioUTC": "2026-11-01T16:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Eintracht Frankfurt",
       "vis": "Hamburger SV",
       "cuotas": {
@@ -415,6 +454,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "3-1"
       }
     },
     {
@@ -423,7 +465,7 @@
       "torneo": "Serie A",
       "ronda": "Jornada 10",
       "inicioUTC": "2026-11-01T17:00:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "US Lecce",
       "vis": "Genoa CFC",
       "cuotas": {
@@ -440,6 +482,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "1-2"
       }
     },
     {
@@ -448,7 +493,7 @@
       "torneo": "Primera Division",
       "ronda": "Jornada 11",
       "inicioUTC": "2026-11-01T17:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "Elche CF",
       "vis": "Valencia CF",
       "cuotas": {
@@ -465,6 +510,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
       }
     },
     {
@@ -539,8 +587,8 @@
         "estadio": "Allianz Stadium (Turín)",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 10,
-        "temp_c": 12
+        "viento_kmh": 3,
+        "temp_c": 9
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -570,8 +618,8 @@
         "estadio": "Stade Vélodrome",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 6,
-        "temp_c": 18
+        "viento_kmh": 5,
+        "temp_c": 14
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -601,8 +649,8 @@
         "estadio": "San Mamés",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 8,
-        "temp_c": 17
+        "viento_kmh": 7,
+        "temp_c": 15
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -661,31 +709,6 @@
       }
     },
     {
-      "id": "fd-558545",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-11-02T19:45:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Atalanta BC",
-      "vis": "Parma Calcio 1913",
-      "cuotas": {
-        "loc": 1.49,
-        "vis": 6.05,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:52.037Z",
-        "masDe25": 1.63,
-        "menosDe25": 2.24,
-        "empate": 4.48
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-559641",
       "dep": "Fútbol",
       "torneo": "Ligue 1",
@@ -702,6 +725,31 @@
         "masDe25": 2.05,
         "menosDe25": 1.75,
         "empate": 3.24
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-558545",
+      "dep": "Fútbol",
+      "torneo": "Serie A",
+      "ronda": "Jornada 10",
+      "inicioUTC": "2026-11-02T19:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Atalanta BC",
+      "vis": "Parma Calcio 1913",
+      "cuotas": {
+        "loc": 1.49,
+        "vis": 6.05,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-01T12:20:52.037Z",
+        "masDe25": 1.63,
+        "menosDe25": 2.24,
+        "empate": 4.48
       },
       "clima": null,
       "lesiones": {
@@ -757,34 +805,9 @@
         "estadio": "St James' Park",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 17,
-        "temp_c": 11
+        "viento_kmh": 9,
+        "temp_c": 9
       },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-567346",
-      "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-11-02T20:15:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Gil Vicente FC",
-      "vis": "Vitória SC",
-      "cuotas": {
-        "loc": 2.8,
-        "vis": 2.48,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:52.084Z",
-        "masDe25": 2.2,
-        "menosDe25": 1.61,
-        "empate": 3.05
-      },
-      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -808,6 +831,31 @@
         "masDe25": 1.35,
         "menosDe25": 3,
         "empate": 7.27
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-567346",
+      "dep": "Fútbol",
+      "torneo": "Primeira Liga",
+      "ronda": "Jornada 10",
+      "inicioUTC": "2026-11-02T20:15:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Gil Vicente FC",
+      "vis": "Vitória SC",
+      "cuotas": {
+        "loc": 2.8,
+        "vis": 2.48,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-01T12:20:52.084Z",
+        "masDe25": 2.2,
+        "menosDe25": 1.61,
+        "empate": 3.05
       },
       "clima": null,
       "lesiones": {
