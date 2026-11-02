@@ -1,706 +1,7 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-11-01T22:14:19.806Z",
+  "generado": "2026-11-02T01:39:51.260Z",
   "partidos": [
-    {
-      "id": "fd-558849",
-      "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 11",
-      "inicioUTC": "2026-11-01T11:15:00Z",
-      "estado": "FINALIZADO",
-      "loc": "PEC Zwolle",
-      "vis": "ADO Den Haag",
-      "cuotas": {
-        "loc": 1.41,
-        "vis": 7.41,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:50.972Z",
-        "masDe25": 1.64,
-        "menosDe25": 2.09,
-        "empate": 3.91
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-0"
-      }
-    },
-    {
-      "id": "fd-558543",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-11-01T11:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Como 1907",
-      "vis": "Venezia FC",
-      "cuotas": {
-        "loc": 1.1,
-        "vis": 24.87,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.055Z",
-        "masDe25": 1.61,
-        "menosDe25": 2.2,
-        "empate": 7.59
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-0"
-      }
-    },
-    {
-      "id": "fd-564733",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 11",
-      "inicioUTC": "2026-11-01T13:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Getafe CF",
-      "vis": "Sevilla FC",
-      "cuotas": {
-        "loc": 3.43,
-        "vis": 2.33,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.145Z",
-        "masDe25": 2.51,
-        "menosDe25": 1.53,
-        "empate": 2.99
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "3-1"
-      }
-    },
-    {
-      "id": "fd-558848",
-      "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 11",
-      "inicioUTC": "2026-11-01T13:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Telstar 1963",
-      "vis": "FC Utrecht",
-      "cuotas": {
-        "loc": 3.07,
-        "vis": 2.1,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.146Z",
-        "masDe25": 1.55,
-        "menosDe25": 2.36,
-        "empate": 3.68
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "4-2"
-      }
-    },
-    {
-      "id": "fd-558847",
-      "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 11",
-      "inicioUTC": "2026-11-01T13:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "SBV Excelsior",
-      "vis": "FC Twente '65",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-9"
-      }
-    },
-    {
-      "id": "fd-558546",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-11-01T14:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "SS Lazio",
-      "vis": "Cagliari Calcio",
-      "cuotas": {
-        "loc": 1.46,
-        "vis": 6.81,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.146Z",
-        "masDe25": 1.77,
-        "menosDe25": 2.04,
-        "empate": 4.37
-      },
-      "clima": {
-        "estadio": "Stadio Olimpico",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 10,
-        "temp_c": 10
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-1"
-      }
-    },
-    {
-      "id": "fd-559647",
-      "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-11-01T14:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "RC Strasbourg Alsace",
-      "vis": "AJ Auxerre",
-      "cuotas": {
-        "loc": 1.83,
-        "vis": 3.93,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.414Z",
-        "masDe25": 1.57,
-        "menosDe25": 2.35,
-        "empate": 3.91
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "5-1"
-      }
-    },
-    {
-      "id": "fd-558544",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-11-01T14:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Frosinone Calcio",
-      "vis": "Torino FC",
-      "cuotas": {
-        "loc": 1.98,
-        "vis": 3.34,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.414Z",
-        "masDe25": 1.37,
-        "menosDe25": 2.99,
-        "empate": 3.94
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-0"
-      }
-    },
-    {
-      "id": "fd-565841",
-      "dep": "Fútbol",
-      "torneo": "Bundesliga",
-      "ronda": "Jornada 8",
-      "inicioUTC": "2026-11-01T14:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "1. FC Union Berlin",
-      "vis": "1. FC Köln",
-      "cuotas": {
-        "loc": 2.64,
-        "vis": 2.54,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.502Z",
-        "masDe25": 1.68,
-        "menosDe25": 2.17,
-        "empate": 3.5
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-1"
-      }
-    },
-    {
-      "id": "fd-564734",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 11",
-      "inicioUTC": "2026-11-01T15:15:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Real Racing Club de Santander",
-      "vis": "Real Madrid CF",
-      "cuotas": {
-        "loc": 11.04,
-        "vis": 1.2,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.502Z",
-        "masDe25": 1.25,
-        "menosDe25": 3.96,
-        "empate": 7.58
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-3"
-      }
-    },
-    {
-      "id": "fd-567341",
-      "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-11-01T15:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "FC Arouca",
-      "vis": "CD Nacional",
-      "cuotas": {
-        "loc": 1.58,
-        "vis": 5.12,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.635Z",
-        "masDe25": 1.8,
-        "menosDe25": 1.94,
-        "empate": 3.89
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-0"
-      }
-    },
-    {
-      "id": "fd-558846",
-      "dep": "Fútbol",
-      "torneo": "Eredivisie",
-      "ronda": "Jornada 11",
-      "inicioUTC": "2026-11-01T15:45:00Z",
-      "estado": "FINALIZADO",
-      "loc": "FC Groningen",
-      "vis": "Sparta Rotterdam",
-      "cuotas": {
-        "loc": 1.72,
-        "vis": 4.03,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.636Z",
-        "masDe25": 1.42,
-        "menosDe25": 2.69,
-        "empate": 4.08
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-3"
-      }
-    },
-    {
-      "id": "fd-559642",
-      "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-11-01T16:15:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Paris FC",
-      "vis": "AS Monaco FC",
-      "cuotas": {
-        "loc": 2.47,
-        "vis": 2.72,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.637Z",
-        "masDe25": 1.75,
-        "menosDe25": 2.06,
-        "empate": 3.48
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "3-1"
-      }
-    },
-    {
-      "id": "fd-559640",
-      "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-11-01T16:15:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Olympique Lyonnais",
-      "vis": "Angers SCO",
-      "cuotas": {
-        "loc": 1.4,
-        "vis": 7.23,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.637Z",
-        "masDe25": 1.65,
-        "menosDe25": 2.21,
-        "empate": 4.81
-      },
-      "clima": {
-        "estadio": "Groupama Stadium",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 13,
-        "temp_c": 7
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-0"
-      }
-    },
-    {
-      "id": "fd-560631",
-      "dep": "Fútbol",
-      "torneo": "Premier League",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-11-01T16:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Liverpool FC",
-      "vis": "Arsenal FC",
-      "cuotas": {
-        "loc": 2.79,
-        "vis": 2.53,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.838Z",
-        "masDe25": 1.85,
-        "menosDe25": 1.95,
-        "empate": 3.37
-      },
-      "clima": {
-        "estadio": "Anfield",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 5,
-        "temp_c": 10
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-1"
-      }
-    },
-    {
-      "id": "fd-565844",
-      "dep": "Fútbol",
-      "torneo": "Bundesliga",
-      "ronda": "Jornada 8",
-      "inicioUTC": "2026-11-01T16:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Eintracht Frankfurt",
-      "vis": "Hamburger SV",
-      "cuotas": {
-        "loc": 1.53,
-        "vis": 5.35,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.892Z",
-        "masDe25": 1.4,
-        "menosDe25": 2.92,
-        "empate": 4.67
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "3-1"
-      }
-    },
-    {
-      "id": "fd-558540",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-11-01T17:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "US Lecce",
-      "vis": "Genoa CFC",
-      "cuotas": {
-        "loc": 3.15,
-        "vis": 2.48,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.893Z",
-        "masDe25": 2.38,
-        "menosDe25": 1.57,
-        "empate": 2.98
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-2"
-      }
-    },
-    {
-      "id": "fd-564728",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 11",
-      "inicioUTC": "2026-11-01T17:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Elche CF",
-      "vis": "Valencia CF",
-      "cuotas": {
-        "loc": 2.32,
-        "vis": 3.07,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.893Z",
-        "masDe25": 1.92,
-        "menosDe25": 1.87,
-        "empate": 3.35
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-1"
-      }
-    },
-    {
-      "id": "fd-567345",
-      "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-11-01T18:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Académico de Viseu FC",
-      "vis": "Rio Ave FC",
-      "cuotas": {
-        "loc": 1.81,
-        "vis": 4.13,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.893Z",
-        "masDe25": 1.89,
-        "menosDe25": 1.85,
-        "empate": 3.46
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-1"
-      }
-    },
-    {
-      "id": "fd-567340",
-      "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-11-01T18:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "CS Marítimo",
-      "vis": "CD Santa Clara",
-      "cuotas": {
-        "loc": 3.35,
-        "vis": 2.18,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.893Z",
-        "masDe25": 2.34,
-        "menosDe25": 1.53,
-        "empate": 3.04
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-2"
-      }
-    },
-    {
-      "id": "fd-558547",
-      "dep": "Fútbol",
-      "torneo": "Serie A",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-11-01T19:45:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Juventus FC",
-      "vis": "SSC Napoli",
-      "cuotas": {
-        "loc": 2.2,
-        "vis": 3.39,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.893Z",
-        "masDe25": 1.98,
-        "menosDe25": 1.82,
-        "empate": 3.24
-      },
-      "clima": {
-        "estadio": "Allianz Stadium (Turín)",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 4,
-        "temp_c": 4
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-0"
-      }
-    },
-    {
-      "id": "fd-559645",
-      "dep": "Fútbol",
-      "torneo": "Ligue 1",
-      "ronda": "Jornada 9",
-      "inicioUTC": "2026-11-01T19:45:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Olympique de Marseille",
-      "vis": "Toulouse FC",
-      "cuotas": {
-        "loc": 1.85,
-        "vis": 3.73,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.948Z",
-        "masDe25": 1.49,
-        "menosDe25": 2.54,
-        "empate": 4.03
-      },
-      "clima": {
-        "estadio": "Stade Vélodrome",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 5,
-        "temp_c": 12
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-0"
-      }
-    },
-    {
-      "id": "fd-564729",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 11",
-      "inicioUTC": "2026-11-01T20:00:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Athletic Club",
-      "vis": "Real Sociedad de Fútbol",
-      "cuotas": {
-        "loc": 1.97,
-        "vis": 3.71,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:51.992Z",
-        "masDe25": 1.78,
-        "menosDe25": 2,
-        "empate": 3.59
-      },
-      "clima": {
-        "estadio": "San Mamés",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 2,
-        "temp_c": 12
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-1"
-      }
-    },
-    {
-      "id": "fd-567339",
-      "dep": "Fútbol",
-      "torneo": "Primeira Liga",
-      "ronda": "Jornada 10",
-      "inicioUTC": "2026-11-01T20:30:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Sporting Clube de Braga",
-      "vis": "FC Famalicão",
-      "cuotas": {
-        "loc": 1.62,
-        "vis": 5.14,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:52.037Z",
-        "masDe25": 2,
-        "menosDe25": 1.76,
-        "empate": 3.66
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-0"
-      }
-    },
     {
       "id": "fd-558541",
       "dep": "Fútbol",
@@ -777,31 +78,6 @@
       }
     },
     {
-      "id": "fd-564731",
-      "dep": "Fútbol",
-      "torneo": "Primera Division",
-      "ronda": "Jornada 11",
-      "inicioUTC": "2026-11-02T20:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "RC Deportivo La Coruña",
-      "vis": "CA Osasuna",
-      "cuotas": {
-        "loc": 2.15,
-        "vis": 3.5,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-01T12:20:52.038Z",
-        "masDe25": 2.18,
-        "menosDe25": 1.67,
-        "empate": 3.25
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-560622",
       "dep": "Fútbol",
       "torneo": "Premier League",
@@ -824,8 +100,33 @@
         "techo": false,
         "lluvia_mm": 0,
         "viento_kmh": 9,
-        "temp_c": 8
+        "temp_c": 7
       },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-564731",
+      "dep": "Fútbol",
+      "torneo": "Primera Division",
+      "ronda": "Jornada 11",
+      "inicioUTC": "2026-11-02T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "RC Deportivo La Coruña",
+      "vis": "CA Osasuna",
+      "cuotas": {
+        "loc": 2.15,
+        "vis": 3.5,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-01T12:20:52.038Z",
+        "masDe25": 2.18,
+        "menosDe25": 1.67,
+        "empate": 3.25
+      },
+      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -891,6 +192,478 @@
       "estado": "PROGRAMADO",
       "loc": "RB Bragantino",
       "vis": "Santos FC",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-575377",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-11-03T17:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "FK Shakhtar Donetsk",
+      "vis": "Sporting Clube de Portugal",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-575378",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-11-03T17:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Galatasaray SK",
+      "vis": "VfB Stuttgart",
+      "cuotas": {
+        "loc": 2.17,
+        "vis": 2.88,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-02T01:39:50.414Z",
+        "masDe25": 1.4,
+        "menosDe25": 2.91,
+        "empate": 4.04
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561918",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 14",
+      "inicioUTC": "2026-11-03T19:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Portsmouth FC",
+      "vis": "Swansea City AFC",
+      "cuotas": {
+        "loc": 2.61,
+        "vis": 2.57,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-02T01:39:50.705Z",
+        "masDe25": 1.94,
+        "menosDe25": 1.8,
+        "empate": 3.27
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561924",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 14",
+      "inicioUTC": "2026-11-03T19:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Watford FC",
+      "vis": "Lincoln City FC",
+      "cuotas": {
+        "loc": 2.38,
+        "vis": 2.79,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-02T01:39:50.705Z",
+        "masDe25": 1.85,
+        "menosDe25": 1.88,
+        "empate": 3.35
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561920",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 14",
+      "inicioUTC": "2026-11-03T19:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Queens Park Rangers FC",
+      "vis": "Burnley FC",
+      "cuotas": {
+        "loc": 1.96,
+        "vis": 3.42,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-02T01:39:50.705Z",
+        "masDe25": 1.64,
+        "menosDe25": 2.14,
+        "empate": 3.63
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561922",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 14",
+      "inicioUTC": "2026-11-03T19:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Blackburn Rovers FC",
+      "vis": "Stoke City FC",
+      "cuotas": {
+        "loc": 2.56,
+        "vis": 2.63,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-02T01:39:50.706Z",
+        "masDe25": 1.98,
+        "menosDe25": 1.76,
+        "empate": 3.25
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561919",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 14",
+      "inicioUTC": "2026-11-03T19:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Preston North End FC",
+      "vis": "Sheffield United FC",
+      "cuotas": {
+        "loc": 3.15,
+        "vis": 2.09,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-02T01:39:50.706Z",
+        "masDe25": 1.71,
+        "menosDe25": 2.02,
+        "empate": 3.55
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561928",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 14",
+      "inicioUTC": "2026-11-03T19:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Charlton Athletic FC",
+      "vis": "Bolton Wanderers FC",
+      "cuotas": {
+        "loc": 2.19,
+        "vis": 2.99,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-02T01:39:50.706Z",
+        "masDe25": 1.72,
+        "menosDe25": 2.03,
+        "empate": 3.49
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561921",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 14",
+      "inicioUTC": "2026-11-03T19:45:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Derby County FC",
+      "vis": "Norwich City FC",
+      "cuotas": {
+        "loc": 3.26,
+        "vis": 2.03,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-02T01:39:50.707Z",
+        "masDe25": 1.65,
+        "menosDe25": 2.12,
+        "empate": 3.59
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-575385",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-11-03T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "LASK Linz",
+      "vis": "ŠK Slovan Bratislava",
+      "cuotas": {
+        "loc": 1.42,
+        "vis": 6.49,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-02T01:39:50.707Z",
+        "masDe25": 1.4,
+        "menosDe25": 2.92,
+        "empate": 5.05
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-575381",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-11-03T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Club Atlético de Madrid",
+      "vis": "FC Bayern München",
+      "clima": {
+        "estadio": "Cívitas Metropolitano",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 5,
+        "temp_c": 9
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-575383",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-11-03T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Manchester United FC",
+      "vis": "AS Roma",
+      "cuotas": {
+        "loc": 2.32,
+        "vis": 2.69,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-02T01:39:50.845Z",
+        "masDe25": 1.52,
+        "menosDe25": 2.52,
+        "empate": 3.92
+      },
+      "clima": {
+        "estadio": "Old Trafford",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 7,
+        "temp_c": 7
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-575379",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-11-03T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Feyenoord Rotterdam",
+      "vis": "FC Internazionale Milano",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561923",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 14",
+      "inicioUTC": "2026-11-03T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "West Bromwich Albion FC",
+      "vis": "Southampton FC",
+      "cuotas": {
+        "loc": 2.42,
+        "vis": 2.63,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-02T01:39:50.983Z",
+        "masDe25": 1.6,
+        "menosDe25": 2.2,
+        "empate": 3.52
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-575382",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-11-03T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Villarreal CF",
+      "vis": "Paris Saint-Germain FC",
+      "cuotas": {
+        "loc": 4.78,
+        "vis": 1.59,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-02T01:39:50.983Z",
+        "masDe25": 1.34,
+        "menosDe25": 3.25,
+        "empate": 4.59
+      },
+      "clima": {
+        "estadio": "Estadio de la Cerámica",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 7,
+        "temp_c": 14
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-575384",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-11-03T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "FK Bodø/Glimt",
+      "vis": "Lille OSC",
+      "cuotas": {
+        "loc": 1.84,
+        "vis": 3.82,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-02T01:39:51.121Z",
+        "masDe25": 1.47,
+        "menosDe25": 2.68,
+        "empate": 4.02
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-561917",
+      "dep": "Fútbol",
+      "torneo": "Championship",
+      "ronda": "Jornada 14",
+      "inicioUTC": "2026-11-03T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Birmingham City FC",
+      "vis": "Millwall FC",
+      "cuotas": {
+        "loc": 1.94,
+        "vis": 3.58,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-02T01:39:51.121Z",
+        "masDe25": 1.74,
+        "menosDe25": 2,
+        "empate": 3.54
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-575380",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-11-03T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "FC Barcelona",
+      "vis": "Aston Villa FC",
+      "cuotas": {
+        "loc": 1.24,
+        "vis": 9.49,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-02T01:39:51.121Z",
+        "masDe25": 1.2,
+        "menosDe25": 4.57,
+        "empate": 6.98
+      },
+      "clima": {
+        "estadio": "Spotify Camp Nou",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 12,
+        "temp_c": 15
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555073",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 34",
+      "inicioUTC": "2026-11-03T22:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Chapecoense AF",
+      "vis": "Mirassol FC",
+      "cuotas": {
+        "loc": 3.36,
+        "vis": 1.96,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-02T01:39:51.259Z",
+        "masDe25": 1.64,
+        "menosDe25": 2.15,
+        "empate": 3.63
+      },
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
