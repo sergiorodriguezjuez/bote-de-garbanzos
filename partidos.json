@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-11-04T00:44:14.137Z",
+  "generado": "2026-11-04T13:29:30.640Z",
   "partidos": [
     {
       "id": "fd-555076",
@@ -8,7 +8,7 @@
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 34",
       "inicioUTC": "2026-11-04T00:30:00Z",
-      "estado": "EN_JUEGO",
+      "estado": "FINALIZADO",
       "loc": "SC Internacional",
       "vis": "Coritiba FBC",
       "cuotas": {
@@ -27,7 +27,7 @@
         "vis": []
       },
       "marcador": {
-        "txt": "0-0"
+        "txt": "1-0"
       }
     },
     {
@@ -40,13 +40,13 @@
       "loc": "Fenerbahçe SK",
       "vis": "Liverpool FC",
       "cuotas": {
-        "loc": 5.4,
-        "vis": 1.53,
+        "loc": 5.89,
+        "vis": 1.45,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.764Z",
-        "masDe25": 1.46,
-        "menosDe25": 2.68,
-        "empate": 4.59
+        "actualizado": "2026-11-04T13:29:29.814Z",
+        "masDe25": 1.35,
+        "menosDe25": 3.17,
+        "empate": 5.04
       },
       "clima": null,
       "lesiones": {
@@ -81,13 +81,13 @@
       "loc": "Wrexham AFC",
       "vis": "Middlesbrough FC",
       "cuotas": {
-        "loc": 4.1,
-        "vis": 1.74,
+        "loc": 4.38,
+        "vis": 1.68,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.765Z",
-        "masDe25": 1.61,
-        "menosDe25": 2.19,
-        "empate": 3.84
+        "actualizado": "2026-11-04T13:29:29.903Z",
+        "masDe25": 1.58,
+        "menosDe25": 2.24,
+        "empate": 3.94
       },
       "clima": null,
       "lesiones": {
@@ -106,71 +106,15 @@
       "loc": "Cardiff City FC",
       "vis": "West Ham United FC",
       "cuotas": {
-        "loc": 3.19,
-        "vis": 1.95,
+        "loc": 3.31,
+        "vis": 1.91,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.765Z",
-        "masDe25": 1.38,
-        "menosDe25": 2.94,
-        "empate": 3.93
+        "actualizado": "2026-11-04T13:29:29.903Z",
+        "masDe25": 1.37,
+        "menosDe25": 3.01,
+        "empate": 3.99
       },
       "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-575389",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-11-04T20:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "SK Slavia Praha",
-      "vis": "Arsenal FC",
-      "cuotas": {
-        "loc": 10.15,
-        "vis": 1.27,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.766Z",
-        "masDe25": 1.53,
-        "menosDe25": 2.5,
-        "empate": 6.1
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-575391",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-11-04T20:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Borussia Dortmund",
-      "vis": "Real Betis Balompié",
-      "cuotas": {
-        "loc": 1.72,
-        "vis": 4.36,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.766Z",
-        "masDe25": 1.51,
-        "menosDe25": 2.54,
-        "empate": 4.1
-      },
-      "clima": {
-        "estadio": "Signal Iduna Park",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 17,
-        "temp_c": 6
-      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -187,13 +131,13 @@
       "loc": "Racing Club de Lens",
       "vis": "Como 1907",
       "cuotas": {
-        "loc": 2.99,
-        "vis": 2.17,
+        "loc": 3.66,
+        "vis": 1.92,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.766Z",
-        "masDe25": 1.54,
-        "menosDe25": 2.47,
-        "empate": 3.89
+        "actualizado": "2026-11-04T13:29:29.903Z",
+        "masDe25": 1.58,
+        "menosDe25": 2.32,
+        "empate": 3.84
       },
       "clima": null,
       "lesiones": {
@@ -212,15 +156,102 @@
       "loc": "Bristol City FC",
       "vis": "Wolverhampton Wanderers FC",
       "cuotas": {
-        "loc": 3.32,
-        "vis": 2.05,
+        "loc": 3.2,
+        "vis": 2.14,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.766Z",
-        "masDe25": 1.83,
-        "menosDe25": 1.91,
-        "empate": 3.42
+        "actualizado": "2026-11-04T13:29:29.904Z",
+        "masDe25": 1.87,
+        "menosDe25": 1.88,
+        "empate": 3.38
       },
       "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-575389",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-11-04T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "SK Slavia Praha",
+      "vis": "Arsenal FC",
+      "cuotas": {
+        "loc": 12.64,
+        "vis": 1.23,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-04T13:29:29.904Z",
+        "masDe25": 1.64,
+        "menosDe25": 2.23,
+        "empate": 6.3
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-575391",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-11-04T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Borussia Dortmund",
+      "vis": "Real Betis Balompié",
+      "cuotas": {
+        "loc": 1.68,
+        "vis": 4.6,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-04T13:29:29.904Z",
+        "masDe25": 1.48,
+        "menosDe25": 2.56,
+        "empate": 4.16
+      },
+      "clima": {
+        "estadio": "Signal Iduna Park",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 21,
+        "temp_c": 9
+      },
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-575388",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-11-04T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "RB Leipzig",
+      "vis": "Manchester City FC",
+      "cuotas": {
+        "loc": 5.33,
+        "vis": 1.52,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-04T13:29:30.451Z",
+        "masDe25": 1.29,
+        "menosDe25": 3.6,
+        "empate": 4.85
+      },
+      "clima": {
+        "estadio": "Red Bull Arena Leipzig",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 11,
+        "temp_c": 9
+      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -237,13 +268,13 @@
       "loc": "Viking FK",
       "vis": "Sabah FK",
       "cuotas": {
-        "loc": 1.46,
-        "vis": 6.07,
+        "loc": 1.37,
+        "vis": 7.02,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.858Z",
-        "masDe25": 1.4,
-        "menosDe25": 2.89,
-        "empate": 4.86
+        "actualizado": "2026-11-04T13:29:30.576Z",
+        "masDe25": 1.31,
+        "menosDe25": 3.38,
+        "empate": 5.39
       },
       "clima": null,
       "lesiones": {
@@ -262,13 +293,13 @@
       "loc": "PSV",
       "vis": "Club Brugge KV",
       "cuotas": {
-        "loc": 2.04,
-        "vis": 3.03,
+        "loc": 1.92,
+        "vis": 3.3,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.858Z",
-        "masDe25": 1.35,
-        "menosDe25": 3.2,
-        "empate": 4.26
+        "actualizado": "2026-11-04T13:29:30.576Z",
+        "masDe25": 1.33,
+        "menosDe25": 3.3,
+        "empate": 4.28
       },
       "clima": null,
       "lesiones": {
@@ -287,69 +318,13 @@
       "loc": "FC Porto",
       "vis": "SSC Napoli",
       "cuotas": {
-        "loc": 1.96,
-        "vis": 3.64,
+        "loc": 1.83,
+        "vis": 4.21,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.812Z",
-        "masDe25": 1.72,
-        "menosDe25": 2.12,
-        "empate": 3.71
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-575388",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-11-04T20:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "RB Leipzig",
-      "vis": "Manchester City FC",
-      "cuotas": {
-        "loc": 5.09,
-        "vis": 1.54,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.812Z",
-        "masDe25": 1.35,
-        "menosDe25": 3.2,
-        "empate": 4.73
-      },
-      "clima": {
-        "estadio": "Red Bull Arena Leipzig",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 8,
-        "temp_c": 6
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-555070",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 34",
-      "inicioUTC": "2026-11-04T22:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "CA Paranaense",
-      "vis": "CR Vasco da Gama",
-      "cuotas": {
-        "loc": 2.08,
-        "vis": 3.2,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.858Z",
-        "masDe25": 1.75,
-        "menosDe25": 2,
-        "empate": 3.44
+        "actualizado": "2026-11-04T13:29:30.577Z",
+        "masDe25": 1.78,
+        "menosDe25": 2.02,
+        "empate": 3.7
       },
       "clima": null,
       "lesiones": {
@@ -368,13 +343,38 @@
       "loc": "CR Flamengo",
       "vis": "Grêmio FBPA",
       "cuotas": {
-        "loc": 1.16,
-        "vis": 13.19,
+        "loc": 1.13,
+        "vis": 14.33,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.858Z",
-        "masDe25": 1.36,
-        "menosDe25": 2.93,
-        "empate": 7.15
+        "actualizado": "2026-11-04T13:29:30.640Z",
+        "masDe25": 1.29,
+        "menosDe25": 3.37,
+        "empate": 7.91
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555070",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 34",
+      "inicioUTC": "2026-11-04T22:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "CA Paranaense",
+      "vis": "CR Vasco da Gama",
+      "cuotas": {
+        "loc": 2.03,
+        "vis": 3.37,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-04T13:29:30.640Z",
+        "masDe25": 1.78,
+        "menosDe25": 1.98,
+        "empate": 3.45
       },
       "clima": null,
       "lesiones": {
