@@ -1,540 +1,14 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-11-03T20:11:05.338Z",
+  "generado": "2026-11-04T00:44:14.137Z",
   "partidos": [
-    {
-      "id": "fd-575377",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-11-03T17:45:00Z",
-      "estado": "FINALIZADO",
-      "loc": "FK Shakhtar Donetsk",
-      "vis": "Sporting Clube de Portugal",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-1"
-      }
-    },
-    {
-      "id": "fd-575378",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-11-03T17:45:00Z",
-      "estado": "FINALIZADO",
-      "loc": "Galatasaray SK",
-      "vis": "VfB Stuttgart",
-      "cuotas": {
-        "loc": 2.15,
-        "vis": 2.92,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.122Z",
-        "masDe25": 1.36,
-        "menosDe25": 3.13,
-        "empate": 4.04
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "2-0"
-      }
-    },
-    {
-      "id": "fd-561922",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 14",
-      "inicioUTC": "2026-11-03T19:45:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Blackburn Rovers FC",
-      "vis": "Stoke City FC",
-      "cuotas": {
-        "loc": 2.56,
-        "vis": 2.62,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.272Z",
-        "masDe25": 1.98,
-        "menosDe25": 1.76,
-        "empate": 3.25
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-561918",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 14",
-      "inicioUTC": "2026-11-03T19:45:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Portsmouth FC",
-      "vis": "Swansea City AFC",
-      "cuotas": {
-        "loc": 2.64,
-        "vis": 2.57,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.272Z",
-        "masDe25": 2.01,
-        "menosDe25": 1.74,
-        "empate": 3.2
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-561928",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 14",
-      "inicioUTC": "2026-11-03T19:45:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Charlton Athletic FC",
-      "vis": "Bolton Wanderers FC",
-      "cuotas": {
-        "loc": 2.22,
-        "vis": 2.98,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.272Z",
-        "masDe25": 1.72,
-        "menosDe25": 2.02,
-        "empate": 3.42
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-1"
-      }
-    },
-    {
-      "id": "fd-561924",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 14",
-      "inicioUTC": "2026-11-03T19:45:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Watford FC",
-      "vis": "Lincoln City FC",
-      "cuotas": {
-        "loc": 2.43,
-        "vis": 2.73,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.271Z",
-        "masDe25": 1.85,
-        "menosDe25": 1.89,
-        "empate": 3.34
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-561920",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 14",
-      "inicioUTC": "2026-11-03T19:45:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Queens Park Rangers FC",
-      "vis": "Burnley FC",
-      "cuotas": {
-        "loc": 1.96,
-        "vis": 3.44,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.272Z",
-        "masDe25": 1.64,
-        "menosDe25": 2.14,
-        "empate": 3.63
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-561919",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 14",
-      "inicioUTC": "2026-11-03T19:45:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Preston North End FC",
-      "vis": "Sheffield United FC",
-      "cuotas": {
-        "loc": 3.33,
-        "vis": 2.02,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.273Z",
-        "masDe25": 1.72,
-        "menosDe25": 2.01,
-        "empate": 3.54
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-0"
-      }
-    },
-    {
-      "id": "fd-561921",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 14",
-      "inicioUTC": "2026-11-03T19:45:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Derby County FC",
-      "vis": "Norwich City FC",
-      "cuotas": {
-        "loc": 3.33,
-        "vis": 2.02,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.273Z",
-        "masDe25": 1.66,
-        "menosDe25": 2.1,
-        "empate": 3.52
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-1"
-      }
-    },
-    {
-      "id": "fd-575385",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-11-03T20:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "LASK Linz",
-      "vis": "ŠK Slovan Bratislava",
-      "cuotas": {
-        "loc": 1.39,
-        "vis": 6.78,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.499Z",
-        "masDe25": 1.36,
-        "menosDe25": 3.11,
-        "empate": 5.27
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-575381",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-11-03T20:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Club Atlético de Madrid",
-      "vis": "FC Bayern München",
-      "clima": {
-        "estadio": "Cívitas Metropolitano",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 4,
-        "temp_c": 9
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-575383",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-11-03T20:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Manchester United FC",
-      "vis": "AS Roma",
-      "cuotas": {
-        "loc": 2.23,
-        "vis": 2.81,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.273Z",
-        "masDe25": 1.48,
-        "menosDe25": 2.67,
-        "empate": 3.98
-      },
-      "clima": {
-        "estadio": "Old Trafford",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 14,
-        "temp_c": 9
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-575379",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-11-03T20:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Feyenoord Rotterdam",
-      "vis": "FC Internazionale Milano",
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-561917",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 14",
-      "inicioUTC": "2026-11-03T20:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Birmingham City FC",
-      "vis": "Millwall FC",
-      "cuotas": {
-        "loc": 1.94,
-        "vis": 3.59,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.637Z",
-        "masDe25": 1.75,
-        "menosDe25": 1.99,
-        "empate": 3.53
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "1-0"
-      }
-    },
-    {
-      "id": "fd-561923",
-      "dep": "Fútbol",
-      "torneo": "Championship",
-      "ronda": "Jornada 14",
-      "inicioUTC": "2026-11-03T20:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "West Bromwich Albion FC",
-      "vis": "Southampton FC",
-      "cuotas": {
-        "loc": 2.43,
-        "vis": 2.62,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.637Z",
-        "masDe25": 1.62,
-        "menosDe25": 2.16,
-        "empate": 3.49
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-575382",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-11-03T20:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "Villarreal CF",
-      "vis": "Paris Saint-Germain FC",
-      "cuotas": {
-        "loc": 4.69,
-        "vis": 1.61,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.545Z",
-        "masDe25": 1.34,
-        "menosDe25": 3.29,
-        "empate": 4.57
-      },
-      "clima": {
-        "estadio": "Estadio de la Cerámica",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 5,
-        "temp_c": 14
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-575384",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-11-03T20:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "FK Bodø/Glimt",
-      "vis": "Lille OSC",
-      "cuotas": {
-        "loc": 1.81,
-        "vis": 3.92,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.591Z",
-        "masDe25": 1.48,
-        "menosDe25": 2.64,
-        "empate": 4.05
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-575380",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-11-03T20:00:00Z",
-      "estado": "EN_JUEGO",
-      "loc": "FC Barcelona",
-      "vis": "Aston Villa FC",
-      "cuotas": {
-        "loc": 1.24,
-        "vis": 9.73,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.591Z",
-        "masDe25": 1.19,
-        "menosDe25": 4.71,
-        "empate": 7.07
-      },
-      "clima": {
-        "estadio": "Spotify Camp Nou",
-        "techo": false,
-        "lluvia_mm": 0.8,
-        "viento_kmh": 11,
-        "temp_c": 12
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "0-0"
-      }
-    },
-    {
-      "id": "fd-555073",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 34",
-      "inicioUTC": "2026-11-03T22:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Chapecoense AF",
-      "vis": "Mirassol FC",
-      "cuotas": {
-        "loc": 3.4,
-        "vis": 2.01,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.764Z",
-        "masDe25": 1.8,
-        "menosDe25": 1.95,
-        "empate": 3.47
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
     {
       "id": "fd-555076",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 34",
       "inicioUTC": "2026-11-04T00:30:00Z",
-      "estado": "PROGRAMADO",
+      "estado": "EN_JUEGO",
       "loc": "SC Internacional",
       "vis": "Coritiba FBC",
       "cuotas": {
@@ -551,6 +25,9 @@
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "0-0"
       }
     },
     {
@@ -645,6 +122,31 @@
       }
     },
     {
+      "id": "fd-575389",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-11-04T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "SK Slavia Praha",
+      "vis": "Arsenal FC",
+      "cuotas": {
+        "loc": 10.15,
+        "vis": 1.27,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-03T03:46:48.766Z",
+        "masDe25": 1.53,
+        "menosDe25": 2.5,
+        "empate": 6.1
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
       "id": "fd-575391",
       "dep": "Fútbol",
       "torneo": "UEFA Champions League",
@@ -666,8 +168,8 @@
         "estadio": "Signal Iduna Park",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 13,
-        "temp_c": 5
+        "viento_kmh": 17,
+        "temp_c": 6
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -701,31 +203,6 @@
       }
     },
     {
-      "id": "fd-575389",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-11-04T20:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "SK Slavia Praha",
-      "vis": "Arsenal FC",
-      "cuotas": {
-        "loc": 10.15,
-        "vis": 1.27,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.766Z",
-        "masDe25": 1.53,
-        "menosDe25": 2.5,
-        "empate": 6.1
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-561926",
       "dep": "Fútbol",
       "torneo": "Championship",
@@ -742,6 +219,31 @@
         "masDe25": 1.83,
         "menosDe25": 1.91,
         "empate": 3.42
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-575394",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 4",
+      "inicioUTC": "2026-11-04T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Viking FK",
+      "vis": "Sabah FK",
+      "cuotas": {
+        "loc": 1.46,
+        "vis": 6.07,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-03T03:46:48.858Z",
+        "masDe25": 1.4,
+        "menosDe25": 2.89,
+        "empate": 4.86
       },
       "clima": null,
       "lesiones": {
@@ -822,34 +324,9 @@
         "estadio": "Red Bull Arena Leipzig",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 10,
-        "temp_c": 7
+        "viento_kmh": 8,
+        "temp_c": 6
       },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-575394",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 4",
-      "inicioUTC": "2026-11-04T20:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Viking FK",
-      "vis": "Sabah FK",
-      "cuotas": {
-        "loc": 1.46,
-        "vis": 6.07,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-03T03:46:48.858Z",
-        "masDe25": 1.4,
-        "menosDe25": 2.89,
-        "empate": 4.86
-      },
-      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -898,6 +375,81 @@
         "masDe25": 1.36,
         "menosDe25": 2.93,
         "empate": 7.15
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555078",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 34",
+      "inicioUTC": "2026-11-05T00:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "São Paulo FC",
+      "vis": "SC Corinthians Paulista",
+      "cuotas": {
+        "loc": 2.21,
+        "vis": 3.26,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-04T00:44:14.135Z",
+        "masDe25": 2.33,
+        "menosDe25": 1.56,
+        "empate": 3.1
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555071",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 34",
+      "inicioUTC": "2026-11-05T00:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Botafogo FR",
+      "vis": "CA Mineiro",
+      "cuotas": {
+        "loc": 1.61,
+        "vis": 4.73,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-04T00:44:14.136Z",
+        "masDe25": 1.61,
+        "menosDe25": 2.22,
+        "empate": 4.04
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555077",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 34",
+      "inicioUTC": "2026-11-05T22:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "SE Palmeiras",
+      "vis": "Clube do Remo",
+      "cuotas": {
+        "loc": 1.2,
+        "vis": 11.44,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-04T00:44:14.137Z",
+        "masDe25": 1.51,
+        "menosDe25": 2.46,
+        "empate": 6.21
       },
       "clima": null,
       "lesiones": {
