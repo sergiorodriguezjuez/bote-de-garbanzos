@@ -1,5 +1,56 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-11-12T21:30:49.014Z",
-  "partidos": []
+  "generado": "2026-11-13T02:17:18.526Z",
+  "partidos": [
+    {
+      "id": "fd-555085",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 35",
+      "inicioUTC": "2026-11-14T21:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Mirassol FC",
+      "vis": "CA Mineiro",
+      "cuotas": {
+        "loc": 1.93,
+        "vis": 3.6,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-13T02:17:18.525Z",
+        "masDe25": 1.82,
+        "menosDe25": 1.91,
+        "empate": 3.43
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-554942",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 21",
+      "inicioUTC": "2026-11-14T23:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Chapecoense AF",
+      "vis": "CR Vasco da Gama",
+      "cuotas": {
+        "loc": 6.03,
+        "vis": 1.44,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-13T02:17:18.525Z",
+        "masDe25": 1.58,
+        "menosDe25": 2.27,
+        "empate": 4.43
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    }
+  ]
 }
