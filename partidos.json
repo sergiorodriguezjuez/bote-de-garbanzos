@@ -1,5 +1,106 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-11-16T23:27:10.636Z",
-  "partidos": []
+  "generado": "2026-11-17T05:09:50.110Z",
+  "partidos": [
+    {
+      "id": "fd-555081",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 35",
+      "inicioUTC": "2026-11-18T22:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Coritiba FBC",
+      "vis": "Santos FC",
+      "cuotas": {
+        "loc": 3.21,
+        "vis": 2.05,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-17T05:09:50.109Z",
+        "masDe25": 1.66,
+        "menosDe25": 2.12,
+        "empate": 3.5
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555086",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 35",
+      "inicioUTC": "2026-11-18T23:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Clube do Remo",
+      "vis": "Chapecoense AF",
+      "cuotas": {
+        "loc": 1.57,
+        "vis": 4.84,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-17T05:09:50.109Z",
+        "masDe25": 1.58,
+        "menosDe25": 2.28,
+        "empate": 4.08
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555082",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 35",
+      "inicioUTC": "2026-11-18T23:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Cruzeiro EC",
+      "vis": "SE Palmeiras",
+      "cuotas": {
+        "loc": 2.71,
+        "vis": 2.38,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-17T05:09:50.109Z",
+        "masDe25": 1.72,
+        "menosDe25": 2.03,
+        "empate": 3.36
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555083",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 35",
+      "inicioUTC": "2026-11-18T23:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "CR Flamengo",
+      "vis": "CA Paranaense",
+      "cuotas": {
+        "loc": 1.22,
+        "vis": 10.55,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-17T05:09:50.110Z",
+        "masDe25": 1.45,
+        "menosDe25": 2.59,
+        "empate": 6.04
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    }
+  ]
 }
