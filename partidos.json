@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-11-18T14:49:59.754Z",
+  "generado": "2026-11-18T22:25:40.097Z",
   "partidos": [
     {
       "id": "fd-555081",
@@ -53,31 +53,6 @@
       }
     },
     {
-      "id": "fd-555082",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 35",
-      "inicioUTC": "2026-11-18T23:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Cruzeiro EC",
-      "vis": "SE Palmeiras",
-      "cuotas": {
-        "loc": 2.63,
-        "vis": 2.45,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-18T14:49:59.753Z",
-        "masDe25": 1.67,
-        "menosDe25": 2.12,
-        "empate": 3.43
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-555083",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
@@ -94,6 +69,31 @@
         "masDe25": 1.39,
         "menosDe25": 2.84,
         "empate": 6.73
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555082",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 35",
+      "inicioUTC": "2026-11-18T23:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "Cruzeiro EC",
+      "vis": "SE Palmeiras",
+      "cuotas": {
+        "loc": 2.63,
+        "vis": 2.45,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-18T14:49:59.753Z",
+        "masDe25": 1.67,
+        "menosDe25": 2.12,
+        "empate": 3.43
       },
       "clima": null,
       "lesiones": {
@@ -153,6 +153,22 @@
       }
     },
     {
+      "id": "fd-555089",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 35",
+      "inicioUTC": "2026-11-19T22:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "EC Vitória",
+      "vis": "RB Bragantino",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
       "id": "fd-555088",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
@@ -170,22 +186,6 @@
         "menosDe25": 1.99,
         "empate": 3.81
       },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
-      "id": "fd-555089",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 35",
-      "inicioUTC": "2026-11-19T22:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "EC Vitória",
-      "vis": "RB Bragantino",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
