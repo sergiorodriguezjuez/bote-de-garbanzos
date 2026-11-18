@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-11-17T23:01:43.280Z",
+  "generado": "2026-11-18T04:36:49.527Z",
   "partidos": [
     {
       "id": "fd-555081",
@@ -53,6 +53,31 @@
       }
     },
     {
+      "id": "fd-555083",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 35",
+      "inicioUTC": "2026-11-18T23:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "CR Flamengo",
+      "vis": "CA Paranaense",
+      "cuotas": {
+        "loc": 1.22,
+        "vis": 10.55,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-17T05:09:50.110Z",
+        "masDe25": 1.45,
+        "menosDe25": 2.59,
+        "empate": 6.04
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
       "id": "fd-555082",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
@@ -78,22 +103,88 @@
       }
     },
     {
-      "id": "fd-555083",
+      "id": "fd-555084",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 35",
-      "inicioUTC": "2026-11-18T23:30:00Z",
+      "inicioUTC": "2026-11-19T00:30:00Z",
       "estado": "PROGRAMADO",
-      "loc": "CR Flamengo",
-      "vis": "CA Paranaense",
+      "loc": "Grêmio FBPA",
+      "vis": "EC Bahia",
       "cuotas": {
-        "loc": 1.22,
-        "vis": 10.55,
+        "loc": 2.23,
+        "vis": 2.9,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-17T05:09:50.110Z",
-        "masDe25": 1.45,
-        "menosDe25": 2.59,
-        "empate": 6.04
+        "actualizado": "2026-11-18T04:36:49.526Z",
+        "masDe25": 1.67,
+        "menosDe25": 2.12,
+        "empate": 3.46
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555080",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 35",
+      "inicioUTC": "2026-11-19T00:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "SC Corinthians Paulista",
+      "vis": "Botafogo FR",
+      "cuotas": {
+        "loc": 1.81,
+        "vis": 4.02,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-18T04:36:49.526Z",
+        "masDe25": 1.83,
+        "menosDe25": 1.91,
+        "empate": 3.58
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555089",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 35",
+      "inicioUTC": "2026-11-19T22:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "EC Vitória",
+      "vis": "RB Bragantino",
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555088",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 35",
+      "inicioUTC": "2026-11-19T22:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "CR Vasco da Gama",
+      "vis": "SC Internacional",
+      "cuotas": {
+        "loc": 1.63,
+        "vis": 4.8,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-18T04:36:49.526Z",
+        "masDe25": 1.76,
+        "menosDe25": 1.99,
+        "empate": 3.81
       },
       "clima": null,
       "lesiones": {
