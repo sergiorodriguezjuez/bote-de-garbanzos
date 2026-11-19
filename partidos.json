@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-11-19T03:43:14.653Z",
+  "generado": "2026-11-19T14:55:58.032Z",
   "partidos": [
     {
       "id": "fd-555080",
@@ -84,13 +84,13 @@
       "loc": "CR Vasco da Gama",
       "vis": "SC Internacional",
       "cuotas": {
-        "loc": 1.63,
-        "vis": 4.8,
+        "loc": 1.53,
+        "vis": 5.4,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-18T04:36:49.526Z",
-        "masDe25": 1.76,
-        "menosDe25": 1.99,
-        "empate": 3.81
+        "actualizado": "2026-11-19T14:55:57.689Z",
+        "masDe25": 1.7,
+        "menosDe25": 2.08,
+        "empate": 4.12
       },
       "clima": null,
       "lesiones": {
@@ -137,8 +137,8 @@
         "estadio": "Allianz Arena",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 8,
-        "temp_c": 6
+        "viento_kmh": 26,
+        "temp_c": 8
       },
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -193,8 +193,8 @@
         "estadio": "San Mamés",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 11,
-        "temp_c": 15
+        "viento_kmh": 12,
+        "temp_c": 17
       },
       "lesiones": {
         "cobertura": "sin confirmar",
