@@ -1,35 +1,7 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-11-19T14:55:58.032Z",
+  "generado": "2026-11-19T22:31:31.253Z",
   "partidos": [
-    {
-      "id": "fd-555080",
-      "dep": "Fútbol",
-      "torneo": "Campeonato Brasileiro Série A",
-      "ronda": "Jornada 35",
-      "inicioUTC": "2026-11-19T00:30:00Z",
-      "estado": "FINALIZADO",
-      "loc": "SC Corinthians Paulista",
-      "vis": "Botafogo FR",
-      "cuotas": {
-        "loc": 1.81,
-        "vis": 4.02,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-18T04:36:49.526Z",
-        "masDe25": 1.83,
-        "menosDe25": 1.91,
-        "empate": 3.58
-      },
-      "clima": null,
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      },
-      "marcador": {
-        "txt": "4-0"
-      }
-    },
     {
       "id": "fd-555084",
       "dep": "Fútbol",
@@ -59,19 +31,31 @@
       }
     },
     {
-      "id": "fd-555089",
+      "id": "fd-555080",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
       "ronda": "Jornada 35",
-      "inicioUTC": "2026-11-19T22:30:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "EC Vitória",
-      "vis": "RB Bragantino",
+      "inicioUTC": "2026-11-19T00:30:00Z",
+      "estado": "FINALIZADO",
+      "loc": "SC Corinthians Paulista",
+      "vis": "Botafogo FR",
+      "cuotas": {
+        "loc": 1.81,
+        "vis": 4.02,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-18T04:36:49.526Z",
+        "masDe25": 1.83,
+        "menosDe25": 1.91,
+        "empate": 3.58
+      },
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
         "vis": []
+      },
+      "marcador": {
+        "txt": "4-0"
       }
     },
     {
@@ -92,6 +76,22 @@
         "menosDe25": 2.08,
         "empate": 4.12
       },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-555089",
+      "dep": "Fútbol",
+      "torneo": "Campeonato Brasileiro Série A",
+      "ronda": "Jornada 35",
+      "inicioUTC": "2026-11-19T22:30:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "EC Vitória",
+      "vis": "RB Bragantino",
       "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
@@ -133,13 +133,7 @@
       "estado": "PROGRAMADO",
       "loc": "FC Bayern München",
       "vis": "1. FC Köln",
-      "clima": {
-        "estadio": "Allianz Arena",
-        "techo": false,
-        "lluvia_mm": 0,
-        "viento_kmh": 26,
-        "temp_c": 8
-      },
+      "clima": null,
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -193,8 +187,8 @@
         "estadio": "San Mamés",
         "techo": false,
         "lluvia_mm": 0,
-        "viento_kmh": 12,
-        "temp_c": 17
+        "viento_kmh": 10,
+        "temp_c": 14
       },
       "lesiones": {
         "cobertura": "sin confirmar",
