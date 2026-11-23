@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-11-23T01:16:11.791Z",
+  "generado": "2026-11-23T16:52:53.435Z",
   "partidos": [
     {
       "id": "fd-558519",
@@ -420,7 +420,13 @@
         "menosDe25": 5.09,
         "empate": 8.44
       },
-      "clima": null,
+      "clima": {
+        "estadio": "Santiago Bernabéu",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 3,
+        "temp_c": 11
+      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -461,7 +467,13 @@
         "menosDe25": 2.22,
         "empate": 4.93
       },
-      "clima": null,
+      "clima": {
+        "estadio": "Emirates Stadium",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 11,
+        "temp_c": 6
+      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -536,7 +548,13 @@
         "menosDe25": 3.45,
         "empate": 5.51
       },
-      "clima": null,
+      "clima": {
+        "estadio": "Red Bull Arena Leipzig",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 8,
+        "temp_c": 1
+      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -561,7 +579,13 @@
         "menosDe25": 3.1,
         "empate": 6.41
       },
-      "clima": null,
+      "clima": {
+        "estadio": "Etihad Stadium",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 12,
+        "temp_c": 5
+      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
