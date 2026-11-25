@@ -1,6 +1,6 @@
 {
   "_esquema": "Generado automáticamente por scripts/generar-partidos.js (fase 2, vía GitHub Actions). Campos documentados en LEEME-bote.md.",
-  "generado": "2026-11-25T01:12:12.172Z",
+  "generado": "2026-11-25T16:29:40.590Z",
   "partidos": [
     {
       "id": "fd-575404",
@@ -12,13 +12,13 @@
       "loc": "Sabah FK",
       "vis": "FC Barcelona",
       "cuotas": {
-        "loc": 20.49,
-        "vis": 1.08,
+        "loc": 26.95,
+        "vis": 1.06,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-24T03:06:29.379Z",
-        "masDe25": 1.1,
-        "menosDe25": 6.93,
-        "empate": 12.8
+        "actualizado": "2026-11-25T16:29:39.849Z",
+        "masDe25": 1.12,
+        "menosDe25": 6.21,
+        "empate": 13.95
       },
       "clima": null,
       "lesiones": {
@@ -37,13 +37,13 @@
       "loc": "SK Slavia Praha",
       "vis": "Villarreal CF",
       "cuotas": {
-        "loc": 3.09,
-        "vis": 2.12,
+        "loc": 2.97,
+        "vis": 2.25,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-24T03:06:29.379Z",
-        "masDe25": 1.52,
-        "menosDe25": 2.48,
-        "empate": 3.81
+        "actualizado": "2026-11-25T16:29:39.850Z",
+        "masDe25": 1.61,
+        "menosDe25": 2.3,
+        "empate": 3.63
       },
       "clima": null,
       "lesiones": {
@@ -62,13 +62,13 @@
       "loc": "Burnley FC",
       "vis": "Birmingham City FC",
       "cuotas": {
-        "loc": 2.59,
-        "vis": 2.41,
+        "loc": 2.86,
+        "vis": 2.29,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-24T03:06:29.379Z",
-        "masDe25": 1.64,
-        "menosDe25": 2.14,
-        "empate": 3.56
+        "actualizado": "2026-11-25T16:29:40.164Z",
+        "masDe25": 1.72,
+        "menosDe25": 2.03,
+        "empate": 3.45
       },
       "clima": null,
       "lesiones": {
@@ -87,13 +87,13 @@
       "loc": "Bolton Wanderers FC",
       "vis": "West Bromwich Albion FC",
       "cuotas": {
-        "loc": 3.45,
-        "vis": 1.97,
+        "loc": 3.66,
+        "vis": 1.92,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-24T03:06:29.379Z",
-        "masDe25": 1.69,
-        "menosDe25": 2.06,
-        "empate": 3.54
+        "actualizado": "2026-11-25T16:29:40.164Z",
+        "masDe25": 1.74,
+        "menosDe25": 1.99,
+        "empate": 3.55
       },
       "clima": null,
       "lesiones": {
@@ -112,13 +112,38 @@
       "loc": "Watford FC",
       "vis": "Blackburn Rovers FC",
       "cuotas": {
-        "loc": 2.46,
-        "vis": 2.65,
+        "loc": 2.44,
+        "vis": 2.79,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-24T03:06:29.380Z",
-        "masDe25": 1.82,
-        "menosDe25": 1.92,
-        "empate": 3.38
+        "actualizado": "2026-11-25T16:29:40.165Z",
+        "masDe25": 1.93,
+        "menosDe25": 1.81,
+        "empate": 3.27
+      },
+      "clima": null,
+      "lesiones": {
+        "cobertura": "sin confirmar",
+        "loc": [],
+        "vis": []
+      }
+    },
+    {
+      "id": "fd-575412",
+      "dep": "Fútbol",
+      "torneo": "UEFA Champions League",
+      "ronda": "Jornada 5",
+      "inicioUTC": "2026-11-25T20:00:00Z",
+      "estado": "PROGRAMADO",
+      "loc": "FK Shakhtar Donetsk",
+      "vis": "Fenerbahçe SK",
+      "cuotas": {
+        "loc": 2.62,
+        "vis": 2.6,
+        "casa": "Media de mercado (The Odds API)",
+        "actualizado": "2026-11-25T16:29:40.166Z",
+        "masDe25": 1.78,
+        "menosDe25": 2.04,
+        "empate": 3.43
       },
       "clima": null,
       "lesiones": {
@@ -137,13 +162,13 @@
       "loc": "Paris Saint-Germain FC",
       "vis": "AS Roma",
       "cuotas": {
-        "loc": 1.4,
-        "vis": 6.63,
+        "loc": 1.5,
+        "vis": 5.48,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-24T03:06:29.447Z",
-        "masDe25": 1.33,
-        "menosDe25": 3.34,
-        "empate": 5.18
+        "actualizado": "2026-11-25T16:29:40.166Z",
+        "masDe25": 1.31,
+        "menosDe25": 3.41,
+        "empate": 4.81
       },
       "clima": {
         "estadio": "Parc des Princes",
@@ -186,8 +211,8 @@
       "clima": {
         "estadio": "San Siro",
         "techo": false,
-        "lluvia_mm": 0.3,
-        "viento_kmh": 4,
+        "lluvia_mm": 0.1,
+        "viento_kmh": 5,
         "temp_c": 8
       },
       "lesiones": {
@@ -206,12 +231,12 @@
       "loc": "Stoke City FC",
       "vis": "Millwall FC",
       "cuotas": {
-        "loc": 2.21,
-        "vis": 3.09,
+        "loc": 2.06,
+        "vis": 3.45,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-24T03:06:29.380Z",
-        "masDe25": 1.91,
-        "menosDe25": 1.83,
+        "actualizado": "2026-11-25T16:29:40.251Z",
+        "masDe25": 1.97,
+        "menosDe25": 1.77,
         "empate": 3.29
       },
       "clima": null,
@@ -222,24 +247,30 @@
       }
     },
     {
-      "id": "fd-575412",
+      "id": "fd-575407",
       "dep": "Fútbol",
       "torneo": "UEFA Champions League",
       "ronda": "Jornada 5",
       "inicioUTC": "2026-11-25T20:00:00Z",
       "estado": "PROGRAMADO",
-      "loc": "FK Shakhtar Donetsk",
-      "vis": "Fenerbahçe SK",
+      "loc": "Club Atlético de Madrid",
+      "vis": "Viking FK",
       "cuotas": {
-        "loc": 2.61,
-        "vis": 2.58,
+        "loc": 1.1,
+        "vis": 20.2,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-24T03:06:29.447Z",
-        "masDe25": 1.71,
-        "menosDe25": 2.12,
-        "empate": 3.46
+        "actualizado": "2026-11-25T16:29:40.252Z",
+        "masDe25": 1.23,
+        "menosDe25": 4.07,
+        "empate": 10.27
       },
-      "clima": null,
+      "clima": {
+        "estadio": "Cívitas Metropolitano",
+        "techo": false,
+        "lluvia_mm": 0,
+        "viento_kmh": 13,
+        "temp_c": 11
+      },
       "lesiones": {
         "cobertura": "sin confirmar",
         "loc": [],
@@ -256,13 +287,13 @@
       "loc": "Club Brugge KV",
       "vis": "Liverpool FC",
       "cuotas": {
-        "loc": 4.42,
-        "vis": 1.64,
+        "loc": 4.49,
+        "vis": 1.63,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-24T03:06:29.413Z",
-        "masDe25": 1.28,
-        "menosDe25": 3.66,
-        "empate": 4.56
+        "actualizado": "2026-11-25T16:29:40.269Z",
+        "masDe25": 1.31,
+        "menosDe25": 3.44,
+        "empate": 4.59
       },
       "clima": null,
       "lesiones": {
@@ -288,37 +319,6 @@
       }
     },
     {
-      "id": "fd-575407",
-      "dep": "Fútbol",
-      "torneo": "UEFA Champions League",
-      "ronda": "Jornada 5",
-      "inicioUTC": "2026-11-25T20:00:00Z",
-      "estado": "PROGRAMADO",
-      "loc": "Club Atlético de Madrid",
-      "vis": "Viking FK",
-      "cuotas": {
-        "loc": 1.1,
-        "vis": 21.91,
-        "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-24T03:06:29.380Z",
-        "masDe25": 1.24,
-        "menosDe25": 4.01,
-        "empate": 10.48
-      },
-      "clima": {
-        "estadio": "Cívitas Metropolitano",
-        "techo": false,
-        "lluvia_mm": 0.1,
-        "viento_kmh": 14,
-        "temp_c": 9
-      },
-      "lesiones": {
-        "cobertura": "sin confirmar",
-        "loc": [],
-        "vis": []
-      }
-    },
-    {
       "id": "fd-555091",
       "dep": "Fútbol",
       "torneo": "Campeonato Brasileiro Série A",
@@ -328,13 +328,13 @@
       "loc": "CA Mineiro",
       "vis": "SC Corinthians Paulista",
       "cuotas": {
-        "loc": 2.29,
-        "vis": 2.9,
+        "loc": 2.49,
+        "vis": 2.7,
         "casa": "Media de mercado (The Odds API)",
-        "actualizado": "2026-11-24T03:06:29.480Z",
-        "masDe25": 1.97,
-        "menosDe25": 1.77,
-        "empate": 3.27
+        "actualizado": "2026-11-25T16:29:40.590Z",
+        "masDe25": 1.99,
+        "menosDe25": 1.76,
+        "empate": 3.23
       },
       "clima": null,
       "lesiones": {
